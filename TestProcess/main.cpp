@@ -12,6 +12,7 @@ public:
 	~StaticClass ()
 	{
 		std::cout << "Static object destructed.\n";
+		_getch ();
 	}
 };
 
@@ -20,6 +21,5 @@ StaticClass sobj;
 int main (int argc, char* argv [])
 {
 	std::cout << "Hello world!\n";
-	_getch ();
 	return 0;
 }

@@ -24,7 +24,19 @@
     <ClCompile Include="..\Core\Test\TestORB\process\TestORB.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="main.cpp">
+    <ClCompile Include="generated\Test_I1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="generated\Test_I1_factory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="generated\Test_I2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="generated\Test_I3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="generated\Test_I3_factory.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

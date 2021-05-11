@@ -183,6 +183,7 @@
       <ForceSymbolReferences>_nirvana_process</ForceSymbolReferences>
       <AdditionalDependencies>libucrtd.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>DebugFull</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">
@@ -203,6 +204,7 @@
       <ForceSymbolReferences>_nirvana_process</ForceSymbolReferences>
       <AdditionalDependencies>libucrtd.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>DebugFull</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -272,6 +274,7 @@
       <ForceSymbolReferences>nirvana_process</ForceSymbolReferences>
       <AdditionalDependencies>libucrtd.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>DebugFull</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">
@@ -292,6 +295,7 @@
       <ForceSymbolReferences>nirvana_process</ForceSymbolReferences>
       <AdditionalDependencies>libucrtd.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>DebugFull</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -370,6 +374,14 @@
     <ClCompile Include="generated\Test_I3_factory.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\Core\Test\TestORB\include\I1_factory_dynamic.h" />
+    <ClInclude Include="..\Core\Test\TestORB\include\I1_factory_portable.h" />
+    <ClInclude Include="..\Core\Test\TestORB\include\I1_factory_tied.h" />
+    <ClInclude Include="..\Core\Test\TestORB\include\I1_static.h" />
+    <ClInclude Include="..\Core\Test\TestORB\include\I3_factory_dynamic.h" />
+    <ClInclude Include="..\Core\Test\TestORB\include\I3_factory_portable.h" />
+    <ClInclude Include="..\Core\Test\TestORB\include\I3_factory_tied.h" />
+    <ClInclude Include="..\Core\Test\TestORB\include\I3_static.h" />
     <ClInclude Include="..\Core\Test\TestORB\include\TestORB.h" />
   </ItemGroup>
   <ItemGroup>

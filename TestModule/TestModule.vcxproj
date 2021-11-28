@@ -454,7 +454,7 @@
       <SubSystem>Windows</SubSystem>
       <EnableUAC>false</EnableUAC>
       <NoEntryPoint>true</NoEntryPoint>
-      <AdditionalDependencies>libucrtd.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
       <OptimizeReferences>true</OptimizeReferences>
       <ForceSymbolReferences>
       </ForceSymbolReferences>
@@ -476,7 +476,7 @@
       <SubSystem>Windows</SubSystem>
       <EnableUAC>false</EnableUAC>
       <NoEntryPoint>true</NoEntryPoint>
-      <AdditionalDependencies>libucrtd.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
       <OptimizeReferences>true</OptimizeReferences>
       <ForceSymbolReferences>
       </ForceSymbolReferences>
@@ -502,7 +502,7 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableUAC>false</EnableUAC>
       <NoEntryPoint>true</NoEntryPoint>
-      <AdditionalDependencies>libucrt.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
       <ForceSymbolReferences>
       </ForceSymbolReferences>
     </Link>
@@ -527,7 +527,7 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableUAC>false</EnableUAC>
       <NoEntryPoint>true</NoEntryPoint>
-      <AdditionalDependencies>libucrt.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
       <ForceSymbolReferences>
       </ForceSymbolReferences>
     </Link>
@@ -548,7 +548,7 @@
       <SubSystem>Windows</SubSystem>
       <EnableUAC>false</EnableUAC>
       <NoEntryPoint>true</NoEntryPoint>
-      <AdditionalDependencies>libucrtd.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
       <OptimizeReferences>true</OptimizeReferences>
       <ForceSymbolReferences>
       </ForceSymbolReferences>
@@ -570,7 +570,7 @@
       <SubSystem>Windows</SubSystem>
       <EnableUAC>false</EnableUAC>
       <NoEntryPoint>true</NoEntryPoint>
-      <AdditionalDependencies>libucrtd.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
       <OptimizeReferences>true</OptimizeReferences>
       <ForceSymbolReferences>
       </ForceSymbolReferences>
@@ -596,7 +596,7 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableUAC>false</EnableUAC>
       <NoEntryPoint>true</NoEntryPoint>
-      <AdditionalDependencies>libucrt.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
       <ForceSymbolReferences>
       </ForceSymbolReferences>
     </Link>
@@ -621,7 +621,7 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableUAC>false</EnableUAC>
       <NoEntryPoint>true</NoEntryPoint>
-      <AdditionalDependencies>libucrt.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
       <ForceSymbolReferences>
       </ForceSymbolReferences>
     </Link>

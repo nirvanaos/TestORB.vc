@@ -182,7 +182,7 @@
       <NoEntryPoint>true</NoEntryPoint>
       <ForceSymbolReferences>
       </ForceSymbolReferences>
-      <AdditionalDependencies>libucrtd.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>DebugFull</GenerateDebugInformation>
     </Link>
@@ -204,7 +204,7 @@
       <NoEntryPoint>true</NoEntryPoint>
       <ForceSymbolReferences>
       </ForceSymbolReferences>
-      <AdditionalDependencies>libucrtd.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>DebugFull</GenerateDebugInformation>
     </Link>
@@ -231,7 +231,7 @@
       <NoEntryPoint>true</NoEntryPoint>
       <ForceSymbolReferences>
       </ForceSymbolReferences>
-      <AdditionalDependencies>libucrt.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">
@@ -256,7 +256,7 @@
       <NoEntryPoint>true</NoEntryPoint>
       <ForceSymbolReferences>
       </ForceSymbolReferences>
-      <AdditionalDependencies>libucrt.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -277,7 +277,7 @@
       <NoEntryPoint>true</NoEntryPoint>
       <ForceSymbolReferences>
       </ForceSymbolReferences>
-      <AdditionalDependencies>libucrtd.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>DebugFull</GenerateDebugInformation>
     </Link>
@@ -299,7 +299,7 @@
       <NoEntryPoint>true</NoEntryPoint>
       <ForceSymbolReferences>
       </ForceSymbolReferences>
-      <AdditionalDependencies>libucrtd.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>DebugFull</GenerateDebugInformation>
     </Link>
@@ -326,7 +326,7 @@
       <NoEntryPoint>true</NoEntryPoint>
       <ForceSymbolReferences>
       </ForceSymbolReferences>
-      <AdditionalDependencies>libucrt.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">
@@ -351,7 +351,7 @@
       <NoEntryPoint>true</NoEntryPoint>
       <ForceSymbolReferences>
       </ForceSymbolReferences>
-      <AdditionalDependencies>libucrt.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>

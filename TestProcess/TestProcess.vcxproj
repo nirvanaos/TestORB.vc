@@ -363,6 +363,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\Core\Test\TestFile\TestFile.cpp" />
     <ClCompile Include="..\Core\Test\TestORB\process\IDL\Test_I1.cpp" />
     <ClCompile Include="..\Core\Test\TestORB\process\IDL\Test_I1_factory.cpp" />
     <ClCompile Include="..\Core\Test\TestORB\process\IDL\Test_I2.cpp" />

@@ -42,6 +42,9 @@
     <ClCompile Include="..\Core\Test\TestSystem\TestSystem.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\Core\Test\TestFile\TestFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\Core\Test\TestORB\include\TestORB.h">

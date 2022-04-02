@@ -98,6 +98,12 @@
     <ClCompile Include="..\Core\Test\TestORB\module\IDL\Test_I3_p.cpp">
       <Filter>Generated</Filter>
     </ClCompile>
+    <ClCompile Include="..\Core\Test\TestORB\module\IDL\Test_V1.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Test\TestORB\module\IDL\Test_V1_p.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\Core\Test\TestORB\module\DynamicI1.h">
@@ -167,6 +173,12 @@
       <Filter>Generated</Filter>
     </ClInclude>
     <ClInclude Include="..\Core\Test\TestORB\module\IDL\Test_I3_s.h">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Test\TestORB\module\IDL\Test_V1.h">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Test\TestORB\module\IDL\Test_V1_s.h">
       <Filter>Generated</Filter>
     </ClInclude>
   </ItemGroup>

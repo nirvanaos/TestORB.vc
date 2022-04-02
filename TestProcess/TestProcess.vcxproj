@@ -372,7 +372,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\Core\Test\TestFile\TestFile.cpp" />
+    <ClCompile Include="..\Core\Test\TestFile\TestFile.cpp">
+      <ShowIncludes Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ShowIncludes>
+      <ShowIncludes Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ShowIncludes>
+    </ClCompile>
     <ClCompile Include="..\Core\Test\TestLegacy\TestLegacy.cpp" />
     <ClCompile Include="..\Core\Test\TestORB\process\IDL\Test_I1.cpp" />
     <ClCompile Include="..\Core\Test\TestORB\process\IDL\Test_I1_factory.cpp" />

@@ -273,6 +273,14 @@
     <ClCompile Include="..\Core\Test\TestORB\module\IDL\Test_I3_factory.cpp" />
     <ClCompile Include="..\Core\Test\TestORB\module\IDL\Test_I3_factory_p.cpp" />
     <ClCompile Include="..\Core\Test\TestORB\module\IDL\Test_I3_p.cpp" />
+    <ClCompile Include="..\Core\Test\TestORB\module\IDL\Test_V1.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\Core\Test\TestORB\module\IDL\Test_V1_p.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="..\Core\Test\TestORB\module\ImplI1.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -296,6 +304,8 @@
     <ClInclude Include="..\Core\Test\TestORB\module\IDL\Test_I3_factory.h" />
     <ClInclude Include="..\Core\Test\TestORB\module\IDL\Test_I3_factory_s.h" />
     <ClInclude Include="..\Core\Test\TestORB\module\IDL\Test_I3_s.h" />
+    <ClInclude Include="..\Core\Test\TestORB\module\IDL\Test_V1.h" />
+    <ClInclude Include="..\Core\Test\TestORB\module\IDL\Test_V1_s.h" />
     <ClInclude Include="..\Core\Test\TestORB\module\ImplI1.h" />
     <ClInclude Include="..\Core\Test\TestORB\module\PortableI1.h" />
     <ClInclude Include="..\Core\Test\TestORB\module\PortableI3.h" />
@@ -342,6 +352,8 @@
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">IDL compilation</Message>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</BuildInParallel>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </CustomBuild>
   </ItemGroup>
   <PropertyGroup Label="Globals">

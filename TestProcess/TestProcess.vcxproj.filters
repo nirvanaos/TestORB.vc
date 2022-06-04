@@ -109,5 +109,8 @@
     <CustomBuild Include="..\Core\Test\TestORB\idl\Test_I3_factory.idl">
       <Filter>IDL</Filter>
     </CustomBuild>
+    <CustomBuild Include="..\Core\Test\TestORB\idl\Test_A1.idl">
+      <Filter>IDL</Filter>
+    </CustomBuild>
   </ItemGroup>
 </Project>

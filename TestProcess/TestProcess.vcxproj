@@ -645,6 +645,42 @@
       <Project>{810a987d-bff4-4112-a59f-b8eae9fccd65}</Project>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\Core\Test\TestORB\idl\Test_A1.idl">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -legacy -client -out "$(ProjectDir)..\Core\Test\TestORB\process\IDL"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -legacy -client -out "$(ProjectDir)..\Core\Test\TestORB\process\IDL"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -legacy -client -out "$(ProjectDir)..\Core\Test\TestORB\process\IDL"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -legacy -client -out "$(ProjectDir)..\Core\Test\TestORB\process\IDL"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -legacy -client -out "$(ProjectDir)..\Core\Test\TestORB\process\IDL"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -legacy -client -out "$(ProjectDir)..\Core\Test\TestORB\process\IDL"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -legacy -client -out "$(ProjectDir)..\Core\Test\TestORB\process\IDL"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -legacy -client -out "$(ProjectDir)..\Core\Test\TestORB\process\IDL"</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">IDL compilation</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">IDL compilation</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">IDL compilation</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">IDL compilation</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">IDL compilation</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">IDL compilation</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">IDL compilation</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">IDL compilation</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(ProjectDir)..\Core\Test\TestORB\process\IDL\%(Filename).h;$(ProjectDir)..\Core\Test\TestORB\process\IDL\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">$(ProjectDir)..\Core\Test\TestORB\process\IDL\%(Filename).h;$(ProjectDir)..\Core\Test\TestORB\process\IDL\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">$(ProjectDir)..\Core\Test\TestORB\process\IDL\%(Filename).h;$(ProjectDir)..\Core\Test\TestORB\process\IDL\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(ProjectDir)..\Core\Test\TestORB\process\IDL\%(Filename).h;$(ProjectDir)..\Core\Test\TestORB\process\IDL\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(ProjectDir)..\Core\Test\TestORB\process\IDL\%(Filename).h;$(ProjectDir)..\Core\Test\TestORB\process\IDL\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">$(ProjectDir)..\Core\Test\TestORB\process\IDL\%(Filename).h;$(ProjectDir)..\Core\Test\TestORB\process\IDL\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">$(ProjectDir)..\Core\Test\TestORB\process\IDL\%(Filename).h;$(ProjectDir)..\Core\Test\TestORB\process\IDL\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(ProjectDir)..\Core\Test\TestORB\process\IDL\%(Filename).h;$(ProjectDir)..\Core\Test\TestORB\process\IDL\%(Filename).cpp</Outputs>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</BuildInParallel>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">true</BuildInParallel>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">true</BuildInParallel>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</BuildInParallel>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">true</BuildInParallel>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">true</BuildInParallel>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</BuildInParallel>
+    </CustomBuild>
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

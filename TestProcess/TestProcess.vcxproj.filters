@@ -48,6 +48,9 @@
     <ClCompile Include="..\Core\Test\TestLegacy\TestLegacy.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\Core\Test\TestORB\process\IDL\Test_A1.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\Core\Test\TestORB\include\TestORB.h">
@@ -90,6 +93,9 @@
       <Filter>Generated</Filter>
     </ClInclude>
     <ClInclude Include="..\Core\Test\TestORB\process\IDL\Test_I3_factory.h">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Test\TestORB\process\IDL\Test_A1.h">
       <Filter>Generated</Filter>
     </ClInclude>
   </ItemGroup>

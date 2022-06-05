@@ -377,6 +377,7 @@
       <ShowIncludes Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ShowIncludes>
     </ClCompile>
     <ClCompile Include="..\Core\Test\TestLegacy\TestLegacy.cpp" />
+    <ClCompile Include="..\Core\Test\TestORB\process\IDL\Test_A1.cpp" />
     <ClCompile Include="..\Core\Test\TestORB\process\IDL\Test_I1.cpp" />
     <ClCompile Include="..\Core\Test\TestORB\process\IDL\Test_I1_factory.cpp" />
     <ClCompile Include="..\Core\Test\TestORB\process\IDL\Test_I2.cpp" />
@@ -408,6 +409,7 @@
     <ClInclude Include="..\Core\Test\TestORB\include\I3_factory_tied.h" />
     <ClInclude Include="..\Core\Test\TestORB\include\I3_static.h" />
     <ClInclude Include="..\Core\Test\TestORB\include\TestORB.h" />
+    <ClInclude Include="..\Core\Test\TestORB\process\IDL\Test_A1.h" />
     <ClInclude Include="..\Core\Test\TestORB\process\IDL\Test_I1.h" />
     <ClInclude Include="..\Core\Test\TestORB\process\IDL\Test_I1_factory.h" />
     <ClInclude Include="..\Core\Test\TestORB\process\IDL\Test_I2.h" />

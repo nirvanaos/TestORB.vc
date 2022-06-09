@@ -368,6 +368,7 @@
     <ClInclude Include="..\Core\Test\TestORB\module\IDL\Test_V1.h" />
     <ClInclude Include="..\Core\Test\TestORB\module\IDL\Test_V1_s.h" />
     <ClInclude Include="..\Core\Test\TestORB\module\ImplI1.h" />
+    <ClInclude Include="..\Core\Test\TestORB\module\ImplI3.h" />
     <ClInclude Include="..\Core\Test\TestORB\module\PortableI1.h" />
     <ClInclude Include="..\Core\Test\TestORB\module\PortableI3.h" />
   </ItemGroup>

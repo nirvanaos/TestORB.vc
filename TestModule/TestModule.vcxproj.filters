@@ -196,5 +196,8 @@
     <ClInclude Include="..\Core\Test\TestORB\module\IDL\Test_A1_s.h">
       <Filter>Generated</Filter>
     </ClInclude>
+    <ClInclude Include="..\Core\Test\TestORB\module\ImplI3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

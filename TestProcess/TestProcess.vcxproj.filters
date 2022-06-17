@@ -54,6 +54,9 @@
     <ClCompile Include="..\Core\Test\TestORB\process\IDL\Test_V1.cpp">
       <Filter>Generated</Filter>
     </ClCompile>
+    <ClCompile Include="..\Core\Test\TestORB\process\IDL\Test_V2.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\Core\Test\TestORB\include\TestORB.h">
@@ -104,6 +107,9 @@
     <ClInclude Include="..\Core\Test\TestORB\process\IDL\Test_V1.h">
       <Filter>Generated</Filter>
     </ClInclude>
+    <ClInclude Include="..\Core\Test\TestORB\process\IDL\Test_V2.h">
+      <Filter>Generated</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="..\Core\Test\TestORB\idl\Test_I1.idl">
@@ -125,6 +131,9 @@
       <Filter>IDL</Filter>
     </CustomBuild>
     <CustomBuild Include="..\Core\Test\TestORB\idl\Test_V1.idl">
+      <Filter>IDL</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\Core\Test\TestORB\idl\Test_V2.idl">
       <Filter>IDL</Filter>
     </CustomBuild>
   </ItemGroup>

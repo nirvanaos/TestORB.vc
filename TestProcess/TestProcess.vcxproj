@@ -385,6 +385,7 @@
     <ClCompile Include="..\Core\Test\TestORB\process\IDL\Test_I3_factory.cpp" />
     <ClCompile Include="..\Core\Test\TestORB\process\IDL\Test_V1.cpp" />
     <ClCompile Include="..\Core\Test\TestORB\process\IDL\Test_V2.cpp" />
+    <ClCompile Include="..\Core\Test\TestORB\process\IDL\Test_V3.cpp" />
     <ClCompile Include="..\Core\Test\TestORB\process\TestORB.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">false</ExcludedFromBuild>
@@ -406,6 +407,7 @@
     <ClInclude Include="..\Core\Test\TestORB\include\I1_factory_portable.h" />
     <ClInclude Include="..\Core\Test\TestORB\include\I1_factory_tied.h" />
     <ClInclude Include="..\Core\Test\TestORB\include\I1_static.h" />
+    <ClInclude Include="..\Core\Test\TestORB\include\I2_factory_impl.h" />
     <ClInclude Include="..\Core\Test\TestORB\include\I3_factory_dynamic.h" />
     <ClInclude Include="..\Core\Test\TestORB\include\I3_factory_portable.h" />
     <ClInclude Include="..\Core\Test\TestORB\include\I3_factory_tied.h" />
@@ -419,6 +421,7 @@
     <ClInclude Include="..\Core\Test\TestORB\process\IDL\Test_I3_factory.h" />
     <ClInclude Include="..\Core\Test\TestORB\process\IDL\Test_V1.h" />
     <ClInclude Include="..\Core\Test\TestORB\process\IDL\Test_V2.h" />
+    <ClInclude Include="..\Core\Test\TestORB\process\IDL\Test_V3.h" />
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="..\Core\Test\TestORB\idl\Test_I1.idl">
@@ -725,6 +728,42 @@
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="..\Core\Test\TestORB\idl\Test_V2.idl">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -legacy -client -out "$(ProjectDir)..\Core\Test\TestORB\process\IDL"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -legacy -client -out "$(ProjectDir)..\Core\Test\TestORB\process\IDL"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -legacy -client -out "$(ProjectDir)..\Core\Test\TestORB\process\IDL"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -legacy -client -out "$(ProjectDir)..\Core\Test\TestORB\process\IDL"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -legacy -client -out "$(ProjectDir)..\Core\Test\TestORB\process\IDL"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -legacy -client -out "$(ProjectDir)..\Core\Test\TestORB\process\IDL"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -legacy -client -out "$(ProjectDir)..\Core\Test\TestORB\process\IDL"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -legacy -client -out "$(ProjectDir)..\Core\Test\TestORB\process\IDL"</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">IDL compilation</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">IDL compilation</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">IDL compilation</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">IDL compilation</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">IDL compilation</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">IDL compilation</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">IDL compilation</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">IDL compilation</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(ProjectDir)..\Core\Test\TestORB\process\IDL\%(Filename).h;$(ProjectDir)..\Core\Test\TestORB\process\IDL\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">$(ProjectDir)..\Core\Test\TestORB\process\IDL\%(Filename).h;$(ProjectDir)..\Core\Test\TestORB\process\IDL\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">$(ProjectDir)..\Core\Test\TestORB\process\IDL\%(Filename).h;$(ProjectDir)..\Core\Test\TestORB\process\IDL\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(ProjectDir)..\Core\Test\TestORB\process\IDL\%(Filename).h;$(ProjectDir)..\Core\Test\TestORB\process\IDL\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(ProjectDir)..\Core\Test\TestORB\process\IDL\%(Filename).h;$(ProjectDir)..\Core\Test\TestORB\process\IDL\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">$(ProjectDir)..\Core\Test\TestORB\process\IDL\%(Filename).h;$(ProjectDir)..\Core\Test\TestORB\process\IDL\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">$(ProjectDir)..\Core\Test\TestORB\process\IDL\%(Filename).h;$(ProjectDir)..\Core\Test\TestORB\process\IDL\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(ProjectDir)..\Core\Test\TestORB\process\IDL\%(Filename).h;$(ProjectDir)..\Core\Test\TestORB\process\IDL\%(Filename).cpp</Outputs>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</BuildInParallel>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">true</BuildInParallel>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">true</BuildInParallel>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</BuildInParallel>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">true</BuildInParallel>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">true</BuildInParallel>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</BuildInParallel>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\Core\Test\TestORB\idl\Test_V3.idl">
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -legacy -client -out "$(ProjectDir)..\Core\Test\TestORB\process\IDL"</Command>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -legacy -client -out "$(ProjectDir)..\Core\Test\TestORB\process\IDL"</Command>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -legacy -client -out "$(ProjectDir)..\Core\Test\TestORB\process\IDL"</Command>

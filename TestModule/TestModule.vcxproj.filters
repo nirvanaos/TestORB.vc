@@ -48,6 +48,9 @@
     <CustomBuild Include="..\Core\Test\TestORB\idl\Test_V3.idl">
       <Filter>IDL</Filter>
     </CustomBuild>
+    <CustomBuild Include="..\Core\Test\TestORB\idl\Test_U.idl">
+      <Filter>IDL</Filter>
+    </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\Core\Test\TestORB\module\I1_factory_dynamic.cpp">
@@ -139,6 +142,12 @@
     </ClCompile>
     <ClCompile Include="..\Core\Test\TestORB\module\ImplV3.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Test\TestORB\module\IDL\Test_U.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Test\TestORB\module\IDL\Test_U_p.cpp">
+      <Filter>Generated</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -240,6 +249,12 @@
     </ClInclude>
     <ClInclude Include="..\Core\Test\TestORB\include\I2_factory_impl.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Test\TestORB\module\IDL\Test_U.h">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Test\TestORB\module\IDL\Test_U_s.h">
+      <Filter>Generated</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

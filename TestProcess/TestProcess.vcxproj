@@ -383,6 +383,7 @@
     <ClCompile Include="..\Core\Test\TestORB\process\IDL\Test_I2.cpp" />
     <ClCompile Include="..\Core\Test\TestORB\process\IDL\Test_I3.cpp" />
     <ClCompile Include="..\Core\Test\TestORB\process\IDL\Test_I3_factory.cpp" />
+    <ClCompile Include="..\Core\Test\TestORB\process\IDL\Test_U.cpp" />
     <ClCompile Include="..\Core\Test\TestORB\process\IDL\Test_V1.cpp" />
     <ClCompile Include="..\Core\Test\TestORB\process\IDL\Test_V2.cpp" />
     <ClCompile Include="..\Core\Test\TestORB\process\IDL\Test_V3.cpp" />
@@ -419,6 +420,7 @@
     <ClInclude Include="..\Core\Test\TestORB\process\IDL\Test_I2.h" />
     <ClInclude Include="..\Core\Test\TestORB\process\IDL\Test_I3.h" />
     <ClInclude Include="..\Core\Test\TestORB\process\IDL\Test_I3_factory.h" />
+    <ClInclude Include="..\Core\Test\TestORB\process\IDL\Test_U.h" />
     <ClInclude Include="..\Core\Test\TestORB\process\IDL\Test_V1.h" />
     <ClInclude Include="..\Core\Test\TestORB\process\IDL\Test_V2.h" />
     <ClInclude Include="..\Core\Test\TestORB\process\IDL\Test_V3.h" />

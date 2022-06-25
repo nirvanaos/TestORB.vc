@@ -60,6 +60,9 @@
     <ClCompile Include="..\Core\Test\TestORB\process\IDL\Test_V3.cpp">
       <Filter>Generated</Filter>
     </ClCompile>
+    <ClCompile Include="..\Core\Test\TestORB\process\IDL\Test_U.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\Core\Test\TestORB\include\TestORB.h">
@@ -118,6 +121,9 @@
     </ClInclude>
     <ClInclude Include="..\Core\Test\TestORB\include\I2_factory_impl.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Test\TestORB\process\IDL\Test_U.h">
+      <Filter>Generated</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

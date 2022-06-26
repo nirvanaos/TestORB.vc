@@ -21,140 +21,131 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\Core\Test\TestORB\process\TestORB.cpp">
+    <ClCompile Include="..\TestORB\process\TestORB.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Core\Test\TestORB\process\IDL\Test_I1.cpp">
+    <ClCompile Include="..\TestORB\process\IDL\Test_I1.cpp">
       <Filter>Generated</Filter>
     </ClCompile>
-    <ClCompile Include="..\Core\Test\TestORB\process\IDL\Test_I1_factory.cpp">
+    <ClCompile Include="..\TestORB\process\IDL\Test_I1_factory.cpp">
       <Filter>Generated</Filter>
     </ClCompile>
-    <ClCompile Include="..\Core\Test\TestORB\process\IDL\Test_I2.cpp">
+    <ClCompile Include="..\TestORB\process\IDL\Test_I2.cpp">
       <Filter>Generated</Filter>
     </ClCompile>
-    <ClCompile Include="..\Core\Test\TestORB\process\IDL\Test_I3.cpp">
+    <ClCompile Include="..\TestORB\process\IDL\Test_I3.cpp">
       <Filter>Generated</Filter>
     </ClCompile>
-    <ClCompile Include="..\Core\Test\TestORB\process\IDL\Test_I3_factory.cpp">
+    <ClCompile Include="..\TestORB\process\IDL\Test_I3_factory.cpp">
       <Filter>Generated</Filter>
     </ClCompile>
-    <ClCompile Include="..\Core\Test\TestSystem\TestSystem.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Core\Test\TestFile\TestFile.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Core\Test\TestLegacy\TestLegacy.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Core\Test\TestORB\process\IDL\Test_A1.cpp">
+    <ClCompile Include="..\TestORB\process\IDL\Test_A1.cpp">
       <Filter>Generated</Filter>
     </ClCompile>
-    <ClCompile Include="..\Core\Test\TestORB\process\IDL\Test_V1.cpp">
+    <ClCompile Include="..\TestORB\process\IDL\Test_V1.cpp">
       <Filter>Generated</Filter>
     </ClCompile>
-    <ClCompile Include="..\Core\Test\TestORB\process\IDL\Test_V2.cpp">
+    <ClCompile Include="..\TestORB\process\IDL\Test_V2.cpp">
       <Filter>Generated</Filter>
     </ClCompile>
-    <ClCompile Include="..\Core\Test\TestORB\process\IDL\Test_V3.cpp">
+    <ClCompile Include="..\TestORB\process\IDL\Test_V3.cpp">
       <Filter>Generated</Filter>
     </ClCompile>
-    <ClCompile Include="..\Core\Test\TestORB\process\IDL\Test_U.cpp">
+    <ClCompile Include="..\TestORB\process\IDL\Test_U.cpp">
       <Filter>Generated</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\Core\Test\TestORB\include\TestORB.h">
+    <ClInclude Include="..\TestORB\include\TestORB.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\Core\Test\TestORB\include\I1_factory_dynamic.h">
+    <ClInclude Include="..\TestORB\include\I1_factory_dynamic.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\Core\Test\TestORB\include\I1_factory_portable.h">
+    <ClInclude Include="..\TestORB\include\I1_factory_portable.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\Core\Test\TestORB\include\I1_factory_tied.h">
+    <ClInclude Include="..\TestORB\include\I1_factory_tied.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\Core\Test\TestORB\include\I1_static.h">
+    <ClInclude Include="..\TestORB\include\I1_static.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\Core\Test\TestORB\include\I3_factory_dynamic.h">
+    <ClInclude Include="..\TestORB\include\I3_factory_dynamic.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\Core\Test\TestORB\include\I3_factory_portable.h">
+    <ClInclude Include="..\TestORB\include\I3_factory_portable.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\Core\Test\TestORB\include\I3_factory_tied.h">
+    <ClInclude Include="..\TestORB\include\I3_factory_tied.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\Core\Test\TestORB\include\I3_static.h">
+    <ClInclude Include="..\TestORB\include\I3_static.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\Core\Test\TestORB\process\IDL\Test_I1.h">
+    <ClInclude Include="..\TestORB\process\IDL\Test_I1.h">
       <Filter>Generated</Filter>
     </ClInclude>
-    <ClInclude Include="..\Core\Test\TestORB\process\IDL\Test_I1_factory.h">
+    <ClInclude Include="..\TestORB\process\IDL\Test_I1_factory.h">
       <Filter>Generated</Filter>
     </ClInclude>
-    <ClInclude Include="..\Core\Test\TestORB\process\IDL\Test_I2.h">
+    <ClInclude Include="..\TestORB\process\IDL\Test_I2.h">
       <Filter>Generated</Filter>
     </ClInclude>
-    <ClInclude Include="..\Core\Test\TestORB\process\IDL\Test_I3.h">
+    <ClInclude Include="..\TestORB\process\IDL\Test_I3.h">
       <Filter>Generated</Filter>
     </ClInclude>
-    <ClInclude Include="..\Core\Test\TestORB\process\IDL\Test_I3_factory.h">
+    <ClInclude Include="..\TestORB\process\IDL\Test_I3_factory.h">
       <Filter>Generated</Filter>
     </ClInclude>
-    <ClInclude Include="..\Core\Test\TestORB\process\IDL\Test_A1.h">
+    <ClInclude Include="..\TestORB\process\IDL\Test_A1.h">
       <Filter>Generated</Filter>
     </ClInclude>
-    <ClInclude Include="..\Core\Test\TestORB\process\IDL\Test_V1.h">
+    <ClInclude Include="..\TestORB\process\IDL\Test_V1.h">
       <Filter>Generated</Filter>
     </ClInclude>
-    <ClInclude Include="..\Core\Test\TestORB\process\IDL\Test_V2.h">
+    <ClInclude Include="..\TestORB\process\IDL\Test_V2.h">
       <Filter>Generated</Filter>
     </ClInclude>
-    <ClInclude Include="..\Core\Test\TestORB\process\IDL\Test_V3.h">
+    <ClInclude Include="..\TestORB\process\IDL\Test_V3.h">
       <Filter>Generated</Filter>
     </ClInclude>
-    <ClInclude Include="..\Core\Test\TestORB\include\I2_factory_impl.h">
+    <ClInclude Include="..\TestORB\include\I2_factory_impl.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\Core\Test\TestORB\process\IDL\Test_U.h">
+    <ClInclude Include="..\TestORB\process\IDL\Test_U.h">
       <Filter>Generated</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="..\Core\Test\TestORB\idl\Test_I1.idl">
+    <CustomBuild Include="..\TestORB\idl\Test_I1.idl">
       <Filter>IDL</Filter>
     </CustomBuild>
-    <CustomBuild Include="..\Core\Test\TestORB\idl\Test_I2.idl">
+    <CustomBuild Include="..\TestORB\idl\Test_I2.idl">
       <Filter>IDL</Filter>
     </CustomBuild>
-    <CustomBuild Include="..\Core\Test\TestORB\idl\Test_I3.idl">
+    <CustomBuild Include="..\TestORB\idl\Test_I3.idl">
       <Filter>IDL</Filter>
     </CustomBuild>
-    <CustomBuild Include="..\Core\Test\TestORB\idl\Test_I1_factory.idl">
+    <CustomBuild Include="..\TestORB\idl\Test_I1_factory.idl">
       <Filter>IDL</Filter>
     </CustomBuild>
-    <CustomBuild Include="..\Core\Test\TestORB\idl\Test_I3_factory.idl">
+    <CustomBuild Include="..\TestORB\idl\Test_I3_factory.idl">
       <Filter>IDL</Filter>
     </CustomBuild>
-    <CustomBuild Include="..\Core\Test\TestORB\idl\Test_A1.idl">
+    <CustomBuild Include="..\TestORB\idl\Test_A1.idl">
       <Filter>IDL</Filter>
     </CustomBuild>
-    <CustomBuild Include="..\Core\Test\TestORB\idl\Test_V1.idl">
+    <CustomBuild Include="..\TestORB\idl\Test_V1.idl">
       <Filter>IDL</Filter>
     </CustomBuild>
-    <CustomBuild Include="..\Core\Test\TestORB\idl\Test_V2.idl">
+    <CustomBuild Include="..\TestORB\idl\Test_V2.idl">
       <Filter>IDL</Filter>
     </CustomBuild>
-    <CustomBuild Include="..\Core\Test\TestORB\idl\Test_V3.idl">
+    <CustomBuild Include="..\TestORB\idl\Test_V3.idl">
       <Filter>IDL</Filter>
     </CustomBuild>
-    <CustomBuild Include="..\Core\Test\TestORB\idl\Test_U.idl">
+    <CustomBuild Include="..\TestORB\idl\Test_U.idl">
       <Filter>IDL</Filter>
     </CustomBuild>
   </ItemGroup>

@@ -378,10 +378,10 @@
     <ClCompile Include="..\TestORB\process\IDL\Test_I2.cpp" />
     <ClCompile Include="..\TestORB\process\IDL\Test_I3.cpp" />
     <ClCompile Include="..\TestORB\process\IDL\Test_I3_factory.cpp" />
-    <ClCompile Include="..\TestORB\process\IDL\Test_U.cpp" />
     <ClCompile Include="..\TestORB\process\IDL\Test_V1.cpp" />
     <ClCompile Include="..\TestORB\process\IDL\Test_V2.cpp" />
     <ClCompile Include="..\TestORB\process\IDL\Test_V3.cpp" />
+    <ClCompile Include="..\TestORB\process\IDL\Union.cpp" />
     <ClCompile Include="..\TestORB\process\TestORB.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">false</ExcludedFromBuild>
@@ -414,10 +414,10 @@
     <ClInclude Include="..\TestORB\process\IDL\Test_I2.h" />
     <ClInclude Include="..\TestORB\process\IDL\Test_I3.h" />
     <ClInclude Include="..\TestORB\process\IDL\Test_I3_factory.h" />
-    <ClInclude Include="..\TestORB\process\IDL\Test_U.h" />
     <ClInclude Include="..\TestORB\process\IDL\Test_V1.h" />
     <ClInclude Include="..\TestORB\process\IDL\Test_V2.h" />
     <ClInclude Include="..\TestORB\process\IDL\Test_V3.h" />
+    <ClInclude Include="..\TestORB\process\IDL\Union.h" />
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="..\TestORB\idl\Test_I1.idl">
@@ -795,7 +795,7 @@
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="..\TestORB\idl\Test_U.idl">
+    <CustomBuild Include="..\TestORB\idl\Union.idl">
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -legacy -client -out "$(ProjectDir)..\TestORB\process\IDL"</Command>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -legacy -client -out "$(ProjectDir)..\TestORB\process\IDL"</Command>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -legacy -client -out "$(ProjectDir)..\TestORB\process\IDL"</Command>

@@ -303,26 +303,8 @@
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">NIRVANA_MODULE;LEGACY_CORBA_CPP;_DEBUG;TESTMODULE_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NIRVANA_MODULE;LEGACY_CORBA_CPP;NDEBUG;TESTMODULE_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
-    <ClCompile Include="..\TestORB\module\IDL\NestedStruct.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">true</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">true</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">true</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">true</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="..\TestORB\module\IDL\NestedStruct_p.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">true</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">true</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">true</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">true</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
-    </ClCompile>
+    <ClCompile Include="..\TestORB\module\IDL\RecursiveStruct.cpp" />
+    <ClCompile Include="..\TestORB\module\IDL\RecursiveStruct_p.cpp" />
     <ClCompile Include="..\TestORB\module\IDL\Test_A1.cpp" />
     <ClCompile Include="..\TestORB\module\IDL\Test_A1_p.cpp" />
     <ClCompile Include="..\TestORB\module\IDL\Test_I1.cpp" />
@@ -392,8 +374,8 @@
     <ClInclude Include="..\TestORB\include\I2_factory_impl.h" />
     <ClInclude Include="..\TestORB\module\DynamicI1.h" />
     <ClInclude Include="..\TestORB\module\DynamicI3.h" />
-    <ClInclude Include="..\TestORB\module\IDL\NestedStruct.h" />
-    <ClInclude Include="..\TestORB\module\IDL\NestedStruct_s.h" />
+    <ClInclude Include="..\TestORB\module\IDL\RecursiveStruct.h" />
+    <ClInclude Include="..\TestORB\module\IDL\RecursiveStruct_s.h" />
     <ClInclude Include="..\TestORB\module\IDL\Test_A1.h" />
     <ClInclude Include="..\TestORB\module\IDL\Test_A1_s.h" />
     <ClInclude Include="..\TestORB\module\IDL\Test_I1.h" />
@@ -616,7 +598,7 @@
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="..\TestORB\idl\NestedStruct.idl">
+    <CustomBuild Include="..\TestORB\idl\RecursiveStruct.idl">
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -legacy -out "$(ProjectDir)..\TestORB\module\IDL"</Command>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -legacy -out "$(ProjectDir)..\TestORB\module\IDL"</Command>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -legacy -out "$(ProjectDir)..\TestORB\module\IDL"</Command>

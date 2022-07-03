@@ -372,6 +372,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\TestORB\process\IDL\RecursiveStruct.cpp" />
     <ClCompile Include="..\TestORB\process\IDL\Test_A1.cpp" />
     <ClCompile Include="..\TestORB\process\IDL\Test_I1.cpp" />
     <ClCompile Include="..\TestORB\process\IDL\Test_I1_factory.cpp" />
@@ -408,6 +409,7 @@
     <ClInclude Include="..\TestORB\include\I3_factory_tied.h" />
     <ClInclude Include="..\TestORB\include\I3_static.h" />
     <ClInclude Include="..\TestORB\include\TestORB.h" />
+    <ClInclude Include="..\TestORB\process\IDL\RecursiveStruct.h" />
     <ClInclude Include="..\TestORB\process\IDL\Test_A1.h" />
     <ClInclude Include="..\TestORB\process\IDL\Test_I1.h" />
     <ClInclude Include="..\TestORB\process\IDL\Test_I1_factory.h" />
@@ -820,6 +822,42 @@
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">$(ProjectDir)..\TestORB\process\IDL\%(Filename).h;$(ProjectDir)..\TestORB\process\IDL\%(Filename).cpp</Outputs>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">$(ProjectDir)..\TestORB\process\IDL\%(Filename).h;$(ProjectDir)..\TestORB\process\IDL\%(Filename).cpp</Outputs>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(ProjectDir)..\TestORB\process\IDL\%(Filename).h;$(ProjectDir)..\TestORB\process\IDL\%(Filename).cpp</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\TestORB\idl\RecursiveStruct.idl">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -legacy -client -out "$(ProjectDir)..\TestORB\process\IDL"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -legacy -client -out "$(ProjectDir)..\TestORB\process\IDL"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -legacy -client -out "$(ProjectDir)..\TestORB\process\IDL"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -legacy -client -out "$(ProjectDir)..\TestORB\process\IDL"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -legacy -client -out "$(ProjectDir)..\TestORB\process\IDL"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -legacy -client -out "$(ProjectDir)..\TestORB\process\IDL"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -legacy -client -out "$(ProjectDir)..\TestORB\process\IDL"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -legacy -client -out "$(ProjectDir)..\TestORB\process\IDL"</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">IDL compilation</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">IDL compilation</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">IDL compilation</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">IDL compilation</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">IDL compilation</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">IDL compilation</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">IDL compilation</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">IDL compilation</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(ProjectDir)..\TestORB\process\IDL\%(Filename).h;$(ProjectDir)..\TestORB\process\IDL\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">$(ProjectDir)..\TestORB\process\IDL\%(Filename).h;$(ProjectDir)..\TestORB\process\IDL\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">$(ProjectDir)..\TestORB\process\IDL\%(Filename).h;$(ProjectDir)..\TestORB\process\IDL\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(ProjectDir)..\TestORB\process\IDL\%(Filename).h;$(ProjectDir)..\TestORB\process\IDL\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(ProjectDir)..\TestORB\process\IDL\%(Filename).h;$(ProjectDir)..\TestORB\process\IDL\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">$(ProjectDir)..\TestORB\process\IDL\%(Filename).h;$(ProjectDir)..\TestORB\process\IDL\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">$(ProjectDir)..\TestORB\process\IDL\%(Filename).h;$(ProjectDir)..\TestORB\process\IDL\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(ProjectDir)..\TestORB\process\IDL\%(Filename).h;$(ProjectDir)..\TestORB\process\IDL\%(Filename).cpp</Outputs>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</BuildInParallel>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">true</BuildInParallel>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">true</BuildInParallel>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</BuildInParallel>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">true</BuildInParallel>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">true</BuildInParallel>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</BuildInParallel>
     </CustomBuild>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

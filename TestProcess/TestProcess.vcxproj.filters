@@ -54,6 +54,9 @@
     <ClCompile Include="..\TestORB\process\IDL\Union.cpp">
       <Filter>Generated</Filter>
     </ClCompile>
+    <ClCompile Include="..\TestORB\process\IDL\RecursiveStruct.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\TestORB\include\TestORB.h">
@@ -116,6 +119,9 @@
     <ClInclude Include="..\TestORB\process\IDL\Union.h">
       <Filter>Generated</Filter>
     </ClInclude>
+    <ClInclude Include="..\TestORB\process\IDL\RecursiveStruct.h">
+      <Filter>Generated</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="..\TestORB\idl\Test_I1.idl">
@@ -146,6 +152,9 @@
       <Filter>IDL</Filter>
     </CustomBuild>
     <CustomBuild Include="..\TestORB\idl\Union.idl">
+      <Filter>IDL</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\TestORB\idl\RecursiveStruct.idl">
       <Filter>IDL</Filter>
     </CustomBuild>
   </ItemGroup>

@@ -57,11 +57,11 @@
     <ClCompile Include="..\TestORB\process\IDL\RecursiveStruct.cpp">
       <Filter>Generated</Filter>
     </ClCompile>
+    <ClCompile Include="..\TestORB\process\TestUnion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\TestORB\include\TestORB.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\TestORB\include\I1_factory_dynamic.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -121,6 +121,9 @@
     </ClInclude>
     <ClInclude Include="..\TestORB\process\IDL\RecursiveStruct.h">
       <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TestORB\process\TestORB.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

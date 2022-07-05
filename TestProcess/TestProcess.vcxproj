@@ -397,6 +397,12 @@
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">LEGACY_CORBA_CPP;NIRVANA_PROCESS;_DEBUG;TESTPROCESS_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">LEGACY_CORBA_CPP;NIRVANA_PROCESS;NDEBUG;TESTPROCESS_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
+    <ClCompile Include="..\TestORB\process\TestUnion.cpp">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">LEGACY_CORBA_CPP;NIRVANA_PROCESS;_DEBUG;TESTPROCESS_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">LEGACY_CORBA_CPP;NIRVANA_PROCESS;NDEBUG;TESTPROCESS_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">LEGACY_CORBA_CPP;NIRVANA_PROCESS;_DEBUG;TESTPROCESS_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">LEGACY_CORBA_CPP;NIRVANA_PROCESS;NDEBUG;TESTPROCESS_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\TestORB\include\I1_factory_dynamic.h" />
@@ -408,7 +414,6 @@
     <ClInclude Include="..\TestORB\include\I3_factory_portable.h" />
     <ClInclude Include="..\TestORB\include\I3_factory_tied.h" />
     <ClInclude Include="..\TestORB\include\I3_static.h" />
-    <ClInclude Include="..\TestORB\include\TestORB.h" />
     <ClInclude Include="..\TestORB\process\IDL\RecursiveStruct.h" />
     <ClInclude Include="..\TestORB\process\IDL\Test_A1.h" />
     <ClInclude Include="..\TestORB\process\IDL\Test_I1.h" />
@@ -420,6 +425,7 @@
     <ClInclude Include="..\TestORB\process\IDL\Test_V2.h" />
     <ClInclude Include="..\TestORB\process\IDL\Test_V3.h" />
     <ClInclude Include="..\TestORB\process\IDL\Union.h" />
+    <ClInclude Include="..\TestORB\process\TestORB.h" />
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="..\TestORB\idl\Test_I1.idl">

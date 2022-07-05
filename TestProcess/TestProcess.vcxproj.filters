@@ -60,6 +60,9 @@
     <ClCompile Include="..\TestORB\process\TestUnion.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\TestORB\process\IDL\ValueBox.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\TestORB\include\I1_factory_dynamic.h">
@@ -125,6 +128,9 @@
     <ClInclude Include="..\TestORB\process\TestORB.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\TestORB\process\IDL\ValueBox.h">
+      <Filter>Generated</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="..\TestORB\idl\Test_I1.idl">
@@ -158,6 +164,9 @@
       <Filter>IDL</Filter>
     </CustomBuild>
     <CustomBuild Include="..\TestORB\idl\RecursiveStruct.idl">
+      <Filter>IDL</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\TestORB\idl\ValueBox.idl">
       <Filter>IDL</Filter>
     </CustomBuild>
   </ItemGroup>

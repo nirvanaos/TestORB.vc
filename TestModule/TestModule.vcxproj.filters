@@ -54,6 +54,9 @@
     <CustomBuild Include="..\TestORB\idl\RecursiveStruct.idl">
       <Filter>IDL</Filter>
     </CustomBuild>
+    <CustomBuild Include="..\TestORB\idl\ValueBox.idl">
+      <Filter>IDL</Filter>
+    </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\TestORB\module\I1_factory_dynamic.cpp">
@@ -156,6 +159,12 @@
       <Filter>Generated</Filter>
     </ClCompile>
     <ClCompile Include="..\TestORB\module\IDL\RecursiveStruct_p.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TestORB\module\IDL\ValueBox.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TestORB\module\IDL\ValueBox_p.cpp">
       <Filter>Generated</Filter>
     </ClCompile>
   </ItemGroup>
@@ -269,6 +278,12 @@
       <Filter>Generated</Filter>
     </ClInclude>
     <ClInclude Include="..\TestORB\module\IDL\RecursiveStruct_s.h">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TestORB\module\IDL\ValueBox.h">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TestORB\module\IDL\ValueBox_s.h">
       <Filter>Generated</Filter>
     </ClInclude>
   </ItemGroup>

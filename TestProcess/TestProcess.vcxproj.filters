@@ -18,11 +18,21 @@
     </Filter>
     <Filter Include="Generated">
       <UniqueIdentifier>{31d99aa7-fbfd-4441-bd48-9adc0e9bfa18}</UniqueIdentifier>
+      <SourceControlFiles>False</SourceControlFiles>
     </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\TestORB\process\TestORB.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TestORB\process\TestUnion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TestORB\process\IDL\RecursiveStruct.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TestORB\process\IDL\Test_A1.cpp">
+      <Filter>Generated</Filter>
     </ClCompile>
     <ClCompile Include="..\TestORB\process\IDL\Test_I1.cpp">
       <Filter>Generated</Filter>
@@ -39,9 +49,6 @@
     <ClCompile Include="..\TestORB\process\IDL\Test_I3_factory.cpp">
       <Filter>Generated</Filter>
     </ClCompile>
-    <ClCompile Include="..\TestORB\process\IDL\Test_A1.cpp">
-      <Filter>Generated</Filter>
-    </ClCompile>
     <ClCompile Include="..\TestORB\process\IDL\Test_V1.cpp">
       <Filter>Generated</Filter>
     </ClCompile>
@@ -53,12 +60,6 @@
     </ClCompile>
     <ClCompile Include="..\TestORB\process\IDL\Union.cpp">
       <Filter>Generated</Filter>
-    </ClCompile>
-    <ClCompile Include="..\TestORB\process\IDL\RecursiveStruct.cpp">
-      <Filter>Generated</Filter>
-    </ClCompile>
-    <ClCompile Include="..\TestORB\process\TestUnion.cpp">
-      <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\TestORB\process\IDL\ValueBox.cpp">
       <Filter>Generated</Filter>
@@ -89,6 +90,18 @@
     <ClInclude Include="..\TestORB\include\I3_static.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\TestORB\include\I2_factory_impl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TestORB\process\TestORB.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TestORB\process\IDL\RecursiveStruct.h">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TestORB\process\IDL\Test_A1.h">
+      <Filter>Generated</Filter>
+    </ClInclude>
     <ClInclude Include="..\TestORB\process\IDL\Test_I1.h">
       <Filter>Generated</Filter>
     </ClInclude>
@@ -104,9 +117,6 @@
     <ClInclude Include="..\TestORB\process\IDL\Test_I3_factory.h">
       <Filter>Generated</Filter>
     </ClInclude>
-    <ClInclude Include="..\TestORB\process\IDL\Test_A1.h">
-      <Filter>Generated</Filter>
-    </ClInclude>
     <ClInclude Include="..\TestORB\process\IDL\Test_V1.h">
       <Filter>Generated</Filter>
     </ClInclude>
@@ -116,17 +126,8 @@
     <ClInclude Include="..\TestORB\process\IDL\Test_V3.h">
       <Filter>Generated</Filter>
     </ClInclude>
-    <ClInclude Include="..\TestORB\include\I2_factory_impl.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\TestORB\process\IDL\Union.h">
       <Filter>Generated</Filter>
-    </ClInclude>
-    <ClInclude Include="..\TestORB\process\IDL\RecursiveStruct.h">
-      <Filter>Generated</Filter>
-    </ClInclude>
-    <ClInclude Include="..\TestORB\process\TestORB.h">
-      <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\TestORB\process\IDL\ValueBox.h">
       <Filter>Generated</Filter>

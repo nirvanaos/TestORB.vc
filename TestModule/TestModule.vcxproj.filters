@@ -18,6 +18,7 @@
     </Filter>
     <Filter Include="Generated">
       <UniqueIdentifier>{f6153b5b-cffa-4c31-b203-8edabd98c5a5}</UniqueIdentifier>
+      <SourceControlFiles>False</SourceControlFiles>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -86,6 +87,27 @@
     <ClCompile Include="..\TestORB\module\ImplI1.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\TestORB\module\ImplV1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TestORB\module\ImplV2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TestORB\module\ImplV3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TestORB\module\IDL\RecursiveStruct.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TestORB\module\IDL\RecursiveStruct_p.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TestORB\module\IDL\Test_A1.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TestORB\module\IDL\Test_A1_p.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
     <ClCompile Include="..\TestORB\module\IDL\Test_I1.cpp">
       <Filter>Generated</Filter>
     </ClCompile>
@@ -122,23 +144,11 @@
     <ClCompile Include="..\TestORB\module\IDL\Test_V1_p.cpp">
       <Filter>Generated</Filter>
     </ClCompile>
-    <ClCompile Include="..\TestORB\module\IDL\Test_A1.cpp">
-      <Filter>Generated</Filter>
-    </ClCompile>
-    <ClCompile Include="..\TestORB\module\IDL\Test_A1_p.cpp">
-      <Filter>Generated</Filter>
-    </ClCompile>
     <ClCompile Include="..\TestORB\module\IDL\Test_V2.cpp">
       <Filter>Generated</Filter>
     </ClCompile>
     <ClCompile Include="..\TestORB\module\IDL\Test_V2_p.cpp">
       <Filter>Generated</Filter>
-    </ClCompile>
-    <ClCompile Include="..\TestORB\module\ImplV1.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\TestORB\module\ImplV2.cpp">
-      <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\TestORB\module\IDL\Test_V3.cpp">
       <Filter>Generated</Filter>
@@ -146,19 +156,10 @@
     <ClCompile Include="..\TestORB\module\IDL\Test_V3_p.cpp">
       <Filter>Generated</Filter>
     </ClCompile>
-    <ClCompile Include="..\TestORB\module\ImplV3.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\TestORB\module\IDL\Union.cpp">
       <Filter>Generated</Filter>
     </ClCompile>
     <ClCompile Include="..\TestORB\module\IDL\Union_p.cpp">
-      <Filter>Generated</Filter>
-    </ClCompile>
-    <ClCompile Include="..\TestORB\module\IDL\RecursiveStruct.cpp">
-      <Filter>Generated</Filter>
-    </ClCompile>
-    <ClCompile Include="..\TestORB\module\IDL\RecursiveStruct_p.cpp">
       <Filter>Generated</Filter>
     </ClCompile>
     <ClCompile Include="..\TestORB\module\IDL\ValueBox.cpp">
@@ -208,6 +209,24 @@
     <ClInclude Include="..\TestORB\include\I3_static.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\TestORB\module\ImplI3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TestORB\include\I2_factory_impl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TestORB\module\IDL\RecursiveStruct.h">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TestORB\module\IDL\RecursiveStruct_s.h">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TestORB\module\IDL\Test_A1.h">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TestORB\module\IDL\Test_A1_s.h">
+      <Filter>Generated</Filter>
+    </ClInclude>
     <ClInclude Include="..\TestORB\module\IDL\Test_I1.h">
       <Filter>Generated</Filter>
     </ClInclude>
@@ -244,15 +263,6 @@
     <ClInclude Include="..\TestORB\module\IDL\Test_V1_s.h">
       <Filter>Generated</Filter>
     </ClInclude>
-    <ClInclude Include="..\TestORB\module\IDL\Test_A1.h">
-      <Filter>Generated</Filter>
-    </ClInclude>
-    <ClInclude Include="..\TestORB\module\IDL\Test_A1_s.h">
-      <Filter>Generated</Filter>
-    </ClInclude>
-    <ClInclude Include="..\TestORB\module\ImplI3.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\TestORB\module\IDL\Test_V2.h">
       <Filter>Generated</Filter>
     </ClInclude>
@@ -265,19 +275,10 @@
     <ClInclude Include="..\TestORB\module\IDL\Test_V3_s.h">
       <Filter>Generated</Filter>
     </ClInclude>
-    <ClInclude Include="..\TestORB\include\I2_factory_impl.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\TestORB\module\IDL\Union.h">
       <Filter>Generated</Filter>
     </ClInclude>
     <ClInclude Include="..\TestORB\module\IDL\Union_s.h">
-      <Filter>Generated</Filter>
-    </ClInclude>
-    <ClInclude Include="..\TestORB\module\IDL\RecursiveStruct.h">
-      <Filter>Generated</Filter>
-    </ClInclude>
-    <ClInclude Include="..\TestORB\module\IDL\RecursiveStruct_s.h">
       <Filter>Generated</Filter>
     </ClInclude>
     <ClInclude Include="..\TestORB\module\IDL\ValueBox.h">

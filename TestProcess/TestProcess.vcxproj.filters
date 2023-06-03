@@ -70,6 +70,9 @@
     <ClCompile Include="..\TestORB\process\TestORB_I3.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\TestORB\process\TestORB_I2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\TestORB\include\I1_factory_dynamic.h">

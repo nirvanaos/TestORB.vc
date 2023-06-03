@@ -595,7 +595,14 @@
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release 2019|x64'">LEGACY_CORBA_CPP;NIRVANA_PROCESS;NDEBUG;TESTPROCESS_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">LEGACY_CORBA_CPP;NIRVANA_PROCESS;NDEBUG;TESTPROCESS_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
-    <ClCompile Include="..\TestORB\process\TestORB_I2.cpp" />
+    <ClCompile Include="..\TestORB\process\TestORB_I2.cpp">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release 2019|x64'">LEGACY_CORBA_CPP;NIRVANA_PROCESS;NDEBUG;TESTPROCESS_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">LEGACY_CORBA_CPP;NIRVANA_PROCESS;NDEBUG;TESTPROCESS_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug 2019|x64'">LEGACY_CORBA_CPP;NIRVANA_PROCESS;_DEBUG;TESTPROCESS_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">LEGACY_CORBA_CPP;NIRVANA_PROCESS;_DEBUG;TESTPROCESS_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">LEGACY_CORBA_CPP;NIRVANA_PROCESS;NDEBUG;TESTPROCESS_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">LEGACY_CORBA_CPP;NIRVANA_PROCESS;_DEBUG;TESTPROCESS_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
     <ClCompile Include="..\TestORB\process\TestORB_I3.cpp">
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug 2019|x64'">LEGACY_CORBA_CPP;NIRVANA_PROCESS;_DEBUG;TESTPROCESS_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">LEGACY_CORBA_CPP;NIRVANA_PROCESS;_DEBUG;TESTPROCESS_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>

@@ -177,6 +177,9 @@
     <ClCompile Include="..\TestORB\module\ImplI2.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\TestORB\module\I2_factory_sysdomain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\TestORB\module\DynamicI1.h">
@@ -309,6 +312,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\TestORB\module\PortableI2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TestORB\include\I2_factory_sysdomain.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

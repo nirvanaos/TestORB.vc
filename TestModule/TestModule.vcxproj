@@ -1165,7 +1165,7 @@
       <SubSystem>NotSet</SubSystem>
       <EnableUAC>false</EnableUAC>
       <NoEntryPoint>true</NoEntryPoint>
-      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>onecore_apiset.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <OptimizeReferences>true</OptimizeReferences>
       <ForceSymbolReferences>
       </ForceSymbolReferences>
@@ -1189,7 +1189,7 @@
       <SubSystem>NotSet</SubSystem>
       <EnableUAC>false</EnableUAC>
       <NoEntryPoint>true</NoEntryPoint>
-      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>onecore_apiset.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <OptimizeReferences>true</OptimizeReferences>
       <ForceSymbolReferences>
       </ForceSymbolReferences>
@@ -1212,7 +1212,7 @@
       <SubSystem>NotSet</SubSystem>
       <EnableUAC>false</EnableUAC>
       <NoEntryPoint>true</NoEntryPoint>
-      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>onecore.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <OptimizeReferences>true</OptimizeReferences>
       <ForceSymbolReferences>
       </ForceSymbolReferences>
@@ -1239,7 +1239,7 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableUAC>false</EnableUAC>
       <NoEntryPoint>true</NoEntryPoint>
-      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>onecore_apiset.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <ForceSymbolReferences>
       </ForceSymbolReferences>
     </Link>
@@ -1265,7 +1265,7 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableUAC>false</EnableUAC>
       <NoEntryPoint>true</NoEntryPoint>
-      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>onecore_apiset.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <ForceSymbolReferences>
       </ForceSymbolReferences>
     </Link>
@@ -1291,7 +1291,7 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableUAC>false</EnableUAC>
       <NoEntryPoint>true</NoEntryPoint>
-      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>onecore.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <ForceSymbolReferences>
       </ForceSymbolReferences>
     </Link>
@@ -1314,7 +1314,7 @@
       <SubSystem>NotSet</SubSystem>
       <EnableUAC>false</EnableUAC>
       <NoEntryPoint>true</NoEntryPoint>
-      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>onecore_apiset.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <OptimizeReferences>true</OptimizeReferences>
       <ForceSymbolReferences>
       </ForceSymbolReferences>
@@ -1338,7 +1338,7 @@
       <SubSystem>NotSet</SubSystem>
       <EnableUAC>false</EnableUAC>
       <NoEntryPoint>true</NoEntryPoint>
-      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>onecore_apiset.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <OptimizeReferences>true</OptimizeReferences>
       <ForceSymbolReferences>
       </ForceSymbolReferences>
@@ -1361,7 +1361,7 @@
       <SubSystem>NotSet</SubSystem>
       <EnableUAC>false</EnableUAC>
       <NoEntryPoint>true</NoEntryPoint>
-      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>onecore.lib;clang_rt.builtins-x86_64.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <OptimizeReferences>true</OptimizeReferences>
       <ForceSymbolReferences>
       </ForceSymbolReferences>
@@ -1388,7 +1388,7 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableUAC>false</EnableUAC>
       <NoEntryPoint>true</NoEntryPoint>
-      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>onecore_apiset.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <ForceSymbolReferences>
       </ForceSymbolReferences>
     </Link>
@@ -1414,7 +1414,7 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableUAC>false</EnableUAC>
       <NoEntryPoint>true</NoEntryPoint>
-      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>onecore_apiset.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <ForceSymbolReferences>
       </ForceSymbolReferences>
     </Link>
@@ -1440,7 +1440,7 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableUAC>false</EnableUAC>
       <NoEntryPoint>true</NoEntryPoint>
-      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>onecore.lib;clang_rt.builtins-x86_64.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <ForceSymbolReferences>
       </ForceSymbolReferences>
     </Link>

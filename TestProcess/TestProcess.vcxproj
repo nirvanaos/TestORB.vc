@@ -270,7 +270,7 @@
       <NoEntryPoint>true</NoEntryPoint>
       <ForceSymbolReferences>
       </ForceSymbolReferences>
-      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>onecore_apiset.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>DebugFull</GenerateDebugInformation>
     </Link>
@@ -295,7 +295,7 @@
       <NoEntryPoint>true</NoEntryPoint>
       <ForceSymbolReferences>
       </ForceSymbolReferences>
-      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>onecore_apiset.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>DebugFull</GenerateDebugInformation>
     </Link>
@@ -318,7 +318,7 @@
       <NoEntryPoint>true</NoEntryPoint>
       <ForceSymbolReferences>
       </ForceSymbolReferences>
-      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>onecore.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>DebugFull</GenerateDebugInformation>
     </Link>
@@ -347,7 +347,7 @@
       <NoEntryPoint>true</NoEntryPoint>
       <ForceSymbolReferences>
       </ForceSymbolReferences>
-      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>onecore_apiset.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">
@@ -374,7 +374,7 @@
       <NoEntryPoint>true</NoEntryPoint>
       <ForceSymbolReferences>
       </ForceSymbolReferences>
-      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>onecore_apiset.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">
@@ -400,7 +400,7 @@
       <NoEntryPoint>true</NoEntryPoint>
       <ForceSymbolReferences>
       </ForceSymbolReferences>
-      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>onecore.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug 2019|x64'">
@@ -423,7 +423,7 @@
       <NoEntryPoint>true</NoEntryPoint>
       <ForceSymbolReferences>
       </ForceSymbolReferences>
-      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>onecore_apiset.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>DebugFull</GenerateDebugInformation>
     </Link>
@@ -448,7 +448,7 @@
       <NoEntryPoint>true</NoEntryPoint>
       <ForceSymbolReferences>
       </ForceSymbolReferences>
-      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>onecore_apiset.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>DebugFull</GenerateDebugInformation>
     </Link>
@@ -471,7 +471,7 @@
       <NoEntryPoint>true</NoEntryPoint>
       <ForceSymbolReferences>
       </ForceSymbolReferences>
-      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>onecore.lib;clang_rt.builtins-x86_64.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>DebugFull</GenerateDebugInformation>
     </Link>
@@ -499,7 +499,7 @@
       <NoEntryPoint>true</NoEntryPoint>
       <ForceSymbolReferences>
       </ForceSymbolReferences>
-      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>onecore_apiset.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">
@@ -525,7 +525,7 @@
       <NoEntryPoint>true</NoEntryPoint>
       <ForceSymbolReferences>
       </ForceSymbolReferences>
-      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>onecore_apiset.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">
@@ -551,7 +551,7 @@
       <NoEntryPoint>true</NoEntryPoint>
       <ForceSymbolReferences>
       </ForceSymbolReferences>
-      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>onecore.lib;clang_rt.builtins-x86_64.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>

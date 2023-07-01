@@ -567,6 +567,7 @@
     <ClCompile Include="..\TestORB\process\IDL\Test_V3.cpp" />
     <ClCompile Include="..\TestORB\process\IDL\Union.cpp" />
     <ClCompile Include="..\TestORB\process\IDL\ValueBox.cpp" />
+    <ClCompile Include="..\TestORB\process\TestNamingService.cpp" />
     <ClCompile Include="..\TestORB\process\TestORB.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug 2019|Win32'">false</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">false</ExcludedFromBuild>

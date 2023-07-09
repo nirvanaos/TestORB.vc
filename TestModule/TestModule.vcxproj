@@ -388,12 +388,12 @@
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">NIRVANA_MODULE;LEGACY_CORBA_CPP;NDEBUG;TESTMODULE_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
     <ClCompile Include="..\TestORB\module\I1_factory_sysdomain.cpp">
-      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release 2019|x64'">NIRVANA_MODULE;LEGACY_CORBA_CPP;NDEBUG;TESTMODULE_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">NIRVANA_MODULE;LEGACY_CORBA_CPP;NDEBUG;TESTMODULE_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug 2019|x64'">NIRVANA_MODULE;LEGACY_CORBA_CPP;_DEBUG;TESTMODULE_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">NIRVANA_MODULE;LEGACY_CORBA_CPP;_DEBUG;TESTMODULE_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">NIRVANA_MODULE;LEGACY_CORBA_CPP;NDEBUG;TESTMODULE_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">NIRVANA_MODULE;LEGACY_CORBA_CPP;_DEBUG;TESTMODULE_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release 2019|x64'">NIRVANA_MODULE;NDEBUG;TESTMODULE_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">NIRVANA_MODULE;NDEBUG;TESTMODULE_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug 2019|x64'">NIRVANA_MODULE;_DEBUG;TESTMODULE_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">NIRVANA_MODULE;_DEBUG;TESTMODULE_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">NIRVANA_MODULE;NDEBUG;TESTMODULE_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">NIRVANA_MODULE;_DEBUG;TESTMODULE_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
     <ClCompile Include="..\TestORB\module\I1_factory_tied.cpp">
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug 2019|x64'">NIRVANA_MODULE;LEGACY_CORBA_CPP;_DEBUG;TESTMODULE_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>

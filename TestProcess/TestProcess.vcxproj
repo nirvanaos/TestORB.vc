@@ -555,7 +555,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\TestORB\TestORB\process\TestNamingService.cpp" />
     <ClCompile Include="..\TestORB\TestORB\process\TestORB.cpp" />
     <ClCompile Include="..\TestORB\TestORB\process\TestORB_I1.cpp" />
     <ClCompile Include="..\TestORB\TestORB\process\TestORB_I2.cpp" />

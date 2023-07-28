@@ -22,9 +22,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\TestORB\TestORB\process\TestNamingService.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\TestORB\TestORB\process\TestORB.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>

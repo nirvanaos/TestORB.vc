@@ -1,4 +1,4 @@
-# Nirvana ORB test
+# Nirvana test suite
 
 ## Content
 
@@ -16,6 +16,14 @@ The project for building the TestModule.olf Nirvana class library.
 
 The project for building the TestProcess.nex Nirvana executable.
 
+### TestFixed
+
+The project for building the TestFixed.nex Nirvana executable.
+
+### TestSystem
+
+The project for building the TestFixed.nex Nirvana executable.
+
 ### TestORB
 
-The submodule contained C++ sources for TestModule.olf and TestProcess.nex.
+The submodule contained C++ sources for all tests.

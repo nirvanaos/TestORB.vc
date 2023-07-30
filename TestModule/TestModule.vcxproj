@@ -51,22 +51,134 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\TestORB\TestORB\module\I1_factory_dynamic.cpp" />
-    <ClCompile Include="..\TestORB\TestORB\module\I1_factory_portable.cpp" />
-    <ClCompile Include="..\TestORB\TestORB\module\I1_factory_sysdomain.cpp" />
-    <ClCompile Include="..\TestORB\TestORB\module\I1_factory_tied.cpp" />
-    <ClCompile Include="..\TestORB\TestORB\module\I1_static.cpp" />
-    <ClCompile Include="..\TestORB\TestORB\module\I2_factory_dynamic.cpp" />
-    <ClCompile Include="..\TestORB\TestORB\module\I2_factory_sysdomain.cpp" />
-    <ClCompile Include="..\TestORB\TestORB\module\I3_factory_dynamic.cpp" />
-    <ClCompile Include="..\TestORB\TestORB\module\I3_factory_portable.cpp" />
-    <ClCompile Include="..\TestORB\TestORB\module\I3_factory_tied.cpp" />
-    <ClCompile Include="..\TestORB\TestORB\module\I3_static.cpp" />
-    <ClCompile Include="..\TestORB\TestORB\module\ImplI1.cpp" />
-    <ClCompile Include="..\TestORB\TestORB\module\ImplI2.cpp" />
-    <ClCompile Include="..\TestORB\TestORB\module\ImplV1.cpp" />
-    <ClCompile Include="..\TestORB\TestORB\module\ImplV2.cpp" />
-    <ClCompile Include="..\TestORB\TestORB\module\ImplV3.cpp" />
+    <ClCompile Include="..\TestORB\TestORB\module\I1_factory_dynamic.cpp">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release 2019|Win32'">LEGACY_CORBA_CPP;NIRVANA_MODULE;WIN32;NDEBUG;TESTMODULE_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">LEGACY_CORBA_CPP;NIRVANA_MODULE;WIN32;NDEBUG;TESTMODULE_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug 2019|Win32'">LEGACY_CORBA_CPP;NIRVANA_MODULE;WIN32;_DEBUG;TESTMODULE_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">LEGACY_CORBA_CPP;NIRVANA_MODULE;WIN32;_DEBUG;TESTMODULE_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">LEGACY_CORBA_CPP;NIRVANA_MODULE;WIN32;NDEBUG;TESTMODULE_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">LEGACY_CORBA_CPP;NIRVANA_MODULE;WIN32;_DEBUG;TESTMODULE_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="..\TestORB\TestORB\module\I1_factory_portable.cpp">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release 2019|Win32'">LEGACY_CORBA_CPP;NIRVANA_MODULE;WIN32;NDEBUG;TESTMODULE_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">LEGACY_CORBA_CPP;NIRVANA_MODULE;WIN32;NDEBUG;TESTMODULE_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug 2019|Win32'">LEGACY_CORBA_CPP;NIRVANA_MODULE;WIN32;_DEBUG;TESTMODULE_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">LEGACY_CORBA_CPP;NIRVANA_MODULE;WIN32;_DEBUG;TESTMODULE_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">LEGACY_CORBA_CPP;NIRVANA_MODULE;WIN32;NDEBUG;TESTMODULE_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">LEGACY_CORBA_CPP;NIRVANA_MODULE;WIN32;_DEBUG;TESTMODULE_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="..\TestORB\TestORB\module\I1_factory_sysdomain.cpp">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release 2019|Win32'">LEGACY_CORBA_CPP;NIRVANA_MODULE;WIN32;NDEBUG;TESTMODULE_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">LEGACY_CORBA_CPP;NIRVANA_MODULE;WIN32;NDEBUG;TESTMODULE_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug 2019|Win32'">LEGACY_CORBA_CPP;NIRVANA_MODULE;WIN32;_DEBUG;TESTMODULE_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">LEGACY_CORBA_CPP;NIRVANA_MODULE;WIN32;_DEBUG;TESTMODULE_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">LEGACY_CORBA_CPP;NIRVANA_MODULE;WIN32;NDEBUG;TESTMODULE_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">LEGACY_CORBA_CPP;NIRVANA_MODULE;WIN32;_DEBUG;TESTMODULE_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="..\TestORB\TestORB\module\I1_factory_tied.cpp">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release 2019|Win32'">LEGACY_CORBA_CPP;NIRVANA_MODULE;WIN32;NDEBUG;TESTMODULE_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">LEGACY_CORBA_CPP;NIRVANA_MODULE;WIN32;NDEBUG;TESTMODULE_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug 2019|Win32'">LEGACY_CORBA_CPP;NIRVANA_MODULE;WIN32;_DEBUG;TESTMODULE_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">LEGACY_CORBA_CPP;NIRVANA_MODULE;WIN32;_DEBUG;TESTMODULE_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">LEGACY_CORBA_CPP;NIRVANA_MODULE;WIN32;NDEBUG;TESTMODULE_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">LEGACY_CORBA_CPP;NIRVANA_MODULE;WIN32;_DEBUG;TESTMODULE_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="..\TestORB\TestORB\module\I1_static.cpp">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release 2019|Win32'">LEGACY_CORBA_CPP;NIRVANA_MODULE;WIN32;NDEBUG;TESTMODULE_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">LEGACY_CORBA_CPP;NIRVANA_MODULE;WIN32;NDEBUG;TESTMODULE_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug 2019|Win32'">LEGACY_CORBA_CPP;NIRVANA_MODULE;WIN32;_DEBUG;TESTMODULE_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">LEGACY_CORBA_CPP;NIRVANA_MODULE;WIN32;_DEBUG;TESTMODULE_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">LEGACY_CORBA_CPP;NIRVANA_MODULE;WIN32;NDEBUG;TESTMODULE_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">LEGACY_CORBA_CPP;NIRVANA_MODULE;WIN32;_DEBUG;TESTMODULE_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="..\TestORB\TestORB\module\I2_factory_dynamic.cpp">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release 2019|Win32'">LEGACY_CORBA_CPP;NIRVANA_MODULE;WIN32;NDEBUG;TESTMODULE_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">LEGACY_CORBA_CPP;NIRVANA_MODULE;WIN32;NDEBUG;TESTMODULE_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug 2019|Win32'">LEGACY_CORBA_CPP;NIRVANA_MODULE;WIN32;_DEBUG;TESTMODULE_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">LEGACY_CORBA_CPP;NIRVANA_MODULE;WIN32;_DEBUG;TESTMODULE_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">LEGACY_CORBA_CPP;NIRVANA_MODULE;WIN32;NDEBUG;TESTMODULE_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">LEGACY_CORBA_CPP;NIRVANA_MODULE;WIN32;_DEBUG;TESTMODULE_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="..\TestORB\TestORB\module\I2_factory_sysdomain.cpp">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release 2019|Win32'">LEGACY_CORBA_CPP;NIRVANA_MODULE;WIN32;NDEBUG;TESTMODULE_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">LEGACY_CORBA_CPP;NIRVANA_MODULE;WIN32;NDEBUG;TESTMODULE_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug 2019|Win32'">LEGACY_CORBA_CPP;NIRVANA_MODULE;WIN32;_DEBUG;TESTMODULE_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">LEGACY_CORBA_CPP;NIRVANA_MODULE;WIN32;_DEBUG;TESTMODULE_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">LEGACY_CORBA_CPP;NIRVANA_MODULE;WIN32;NDEBUG;TESTMODULE_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">LEGACY_CORBA_CPP;NIRVANA_MODULE;WIN32;_DEBUG;TESTMODULE_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="..\TestORB\TestORB\module\I3_factory_dynamic.cpp">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release 2019|Win32'">LEGACY_CORBA_CPP;NIRVANA_MODULE;WIN32;NDEBUG;TESTMODULE_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">LEGACY_CORBA_CPP;NIRVANA_MODULE;WIN32;NDEBUG;TESTMODULE_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug 2019|Win32'">LEGACY_CORBA_CPP;NIRVANA_MODULE;WIN32;_DEBUG;TESTMODULE_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">LEGACY_CORBA_CPP;NIRVANA_MODULE;WIN32;_DEBUG;TESTMODULE_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">LEGACY_CORBA_CPP;NIRVANA_MODULE;WIN32;NDEBUG;TESTMODULE_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">LEGACY_CORBA_CPP;NIRVANA_MODULE;WIN32;_DEBUG;TESTMODULE_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="..\TestORB\TestORB\module\I3_factory_portable.cpp">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release 2019|Win32'">LEGACY_CORBA_CPP;NIRVANA_MODULE;WIN32;NDEBUG;TESTMODULE_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">LEGACY_CORBA_CPP;NIRVANA_MODULE;WIN32;NDEBUG;TESTMODULE_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug 2019|Win32'">LEGACY_CORBA_CPP;NIRVANA_MODULE;WIN32;_DEBUG;TESTMODULE_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">LEGACY_CORBA_CPP;NIRVANA_MODULE;WIN32;_DEBUG;TESTMODULE_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">LEGACY_CORBA_CPP;NIRVANA_MODULE;WIN32;NDEBUG;TESTMODULE_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">LEGACY_CORBA_CPP;NIRVANA_MODULE;WIN32;_DEBUG;TESTMODULE_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="..\TestORB\TestORB\module\I3_factory_tied.cpp">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release 2019|Win32'">LEGACY_CORBA_CPP;NIRVANA_MODULE;WIN32;NDEBUG;TESTMODULE_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">LEGACY_CORBA_CPP;NIRVANA_MODULE;WIN32;NDEBUG;TESTMODULE_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug 2019|Win32'">LEGACY_CORBA_CPP;NIRVANA_MODULE;WIN32;_DEBUG;TESTMODULE_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">LEGACY_CORBA_CPP;NIRVANA_MODULE;WIN32;_DEBUG;TESTMODULE_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">LEGACY_CORBA_CPP;NIRVANA_MODULE;WIN32;NDEBUG;TESTMODULE_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">LEGACY_CORBA_CPP;NIRVANA_MODULE;WIN32;_DEBUG;TESTMODULE_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="..\TestORB\TestORB\module\I3_static.cpp">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release 2019|Win32'">LEGACY_CORBA_CPP;NIRVANA_MODULE;WIN32;NDEBUG;TESTMODULE_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">LEGACY_CORBA_CPP;NIRVANA_MODULE;WIN32;NDEBUG;TESTMODULE_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug 2019|Win32'">LEGACY_CORBA_CPP;NIRVANA_MODULE;WIN32;_DEBUG;TESTMODULE_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">LEGACY_CORBA_CPP;NIRVANA_MODULE;WIN32;_DEBUG;TESTMODULE_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">LEGACY_CORBA_CPP;NIRVANA_MODULE;WIN32;NDEBUG;TESTMODULE_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">LEGACY_CORBA_CPP;NIRVANA_MODULE;WIN32;_DEBUG;TESTMODULE_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="..\TestORB\TestORB\module\ImplI1.cpp">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release 2019|Win32'">LEGACY_CORBA_CPP;NIRVANA_MODULE;WIN32;NDEBUG;TESTMODULE_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">LEGACY_CORBA_CPP;NIRVANA_MODULE;WIN32;NDEBUG;TESTMODULE_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug 2019|Win32'">LEGACY_CORBA_CPP;NIRVANA_MODULE;WIN32;_DEBUG;TESTMODULE_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">LEGACY_CORBA_CPP;NIRVANA_MODULE;WIN32;_DEBUG;TESTMODULE_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">LEGACY_CORBA_CPP;NIRVANA_MODULE;WIN32;NDEBUG;TESTMODULE_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">LEGACY_CORBA_CPP;NIRVANA_MODULE;WIN32;_DEBUG;TESTMODULE_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="..\TestORB\TestORB\module\ImplI2.cpp">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release 2019|Win32'">LEGACY_CORBA_CPP;NIRVANA_MODULE;WIN32;NDEBUG;TESTMODULE_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">LEGACY_CORBA_CPP;NIRVANA_MODULE;WIN32;NDEBUG;TESTMODULE_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug 2019|Win32'">LEGACY_CORBA_CPP;NIRVANA_MODULE;WIN32;_DEBUG;TESTMODULE_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">LEGACY_CORBA_CPP;NIRVANA_MODULE;WIN32;_DEBUG;TESTMODULE_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">LEGACY_CORBA_CPP;NIRVANA_MODULE;WIN32;NDEBUG;TESTMODULE_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">LEGACY_CORBA_CPP;NIRVANA_MODULE;WIN32;_DEBUG;TESTMODULE_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="..\TestORB\TestORB\module\ImplV1.cpp">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release 2019|Win32'">LEGACY_CORBA_CPP;NIRVANA_MODULE;WIN32;NDEBUG;TESTMODULE_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">LEGACY_CORBA_CPP;NIRVANA_MODULE;WIN32;NDEBUG;TESTMODULE_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug 2019|Win32'">LEGACY_CORBA_CPP;NIRVANA_MODULE;WIN32;_DEBUG;TESTMODULE_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">LEGACY_CORBA_CPP;NIRVANA_MODULE;WIN32;_DEBUG;TESTMODULE_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">LEGACY_CORBA_CPP;NIRVANA_MODULE;WIN32;NDEBUG;TESTMODULE_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">LEGACY_CORBA_CPP;NIRVANA_MODULE;WIN32;_DEBUG;TESTMODULE_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="..\TestORB\TestORB\module\ImplV2.cpp">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release 2019|Win32'">LEGACY_CORBA_CPP;NIRVANA_MODULE;WIN32;NDEBUG;TESTMODULE_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">LEGACY_CORBA_CPP;NIRVANA_MODULE;WIN32;NDEBUG;TESTMODULE_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug 2019|Win32'">LEGACY_CORBA_CPP;NIRVANA_MODULE;WIN32;_DEBUG;TESTMODULE_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">LEGACY_CORBA_CPP;NIRVANA_MODULE;WIN32;_DEBUG;TESTMODULE_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">LEGACY_CORBA_CPP;NIRVANA_MODULE;WIN32;NDEBUG;TESTMODULE_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">LEGACY_CORBA_CPP;NIRVANA_MODULE;WIN32;_DEBUG;TESTMODULE_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="..\TestORB\TestORB\module\ImplV3.cpp">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release 2019|Win32'">LEGACY_CORBA_CPP;NIRVANA_MODULE;WIN32;NDEBUG;TESTMODULE_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">LEGACY_CORBA_CPP;NIRVANA_MODULE;WIN32;NDEBUG;TESTMODULE_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug 2019|Win32'">LEGACY_CORBA_CPP;NIRVANA_MODULE;WIN32;_DEBUG;TESTMODULE_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">LEGACY_CORBA_CPP;NIRVANA_MODULE;WIN32;_DEBUG;TESTMODULE_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">LEGACY_CORBA_CPP;NIRVANA_MODULE;WIN32;NDEBUG;TESTMODULE_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">LEGACY_CORBA_CPP;NIRVANA_MODULE;WIN32;_DEBUG;TESTMODULE_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
     <ClCompile Include="IDL\RecursiveStruct.cpp" />
     <ClCompile Include="IDL\RecursiveStruct_p.cpp" />
     <ClCompile Include="IDL\Test_A1.cpp" />

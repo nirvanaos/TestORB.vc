@@ -142,6 +142,9 @@
     <ClCompile Include="IDL\ValueBox_p.cpp">
       <Filter>Generated</Filter>
     </ClCompile>
+    <ClCompile Include="..\TestORB\TestORB\module\pch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\TestORB\TestORB\include\I1_factory_dynamic.h">
@@ -278,6 +281,9 @@
     </ClInclude>
     <ClInclude Include="IDL\ValueBox_s.h">
       <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TestORB\TestORB\module\pch.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

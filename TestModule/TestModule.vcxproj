@@ -1145,6 +1145,7 @@
       <OptimizeReferences>true</OptimizeReferences>
       <ForceSymbolReferences>
       </ForceSymbolReferences>
+      <AdditionalLibraryDirectories>$(LLVMInstallDir)\lib\clang\$(LLVMIncludeVersion)\lib\windows</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release 2019|Win32'">
@@ -1223,6 +1224,7 @@
       <AdditionalDependencies>onecore.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <ForceSymbolReferences>
       </ForceSymbolReferences>
+      <AdditionalLibraryDirectories>$(LLVMInstallDir)\lib\clang\$(LLVMIncludeVersion)\lib\windows</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug 2019|x64'">
@@ -1297,6 +1299,7 @@
       <OptimizeReferences>true</OptimizeReferences>
       <ForceSymbolReferences>
       </ForceSymbolReferences>
+      <AdditionalLibraryDirectories>$(LLVMInstallDir)\lib\clang\$(LLVMIncludeVersion)\lib\windows</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release 2019|x64'">
@@ -1375,6 +1378,7 @@
       <AdditionalDependencies>onecore.lib;clang_rt.builtins-x86_64.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <ForceSymbolReferences>
       </ForceSymbolReferences>
+      <AdditionalLibraryDirectories>$(LLVMInstallDir)\lib\clang\$(LLVMIncludeVersion)\lib\windows</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

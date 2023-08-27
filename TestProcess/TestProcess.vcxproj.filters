@@ -73,6 +73,12 @@
     <ClCompile Include="IDL\ValueBox.cpp">
       <Filter>Generated</Filter>
     </ClCompile>
+    <ClCompile Include="..\TestORB\TestORB\process\TestPingPong.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IDL\PingPong.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\TestORB\TestORB\include\I1_factory_dynamic.h">
@@ -153,6 +159,12 @@
     <ClInclude Include="IDL\ValueBox.h">
       <Filter>Generated</Filter>
     </ClInclude>
+    <ClInclude Include="..\TestORB\TestORB\include\PingPongFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IDL\PingPong.h">
+      <Filter>Generated</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="..\TestORB\TestORB\idl\RecursiveStruct.idl">
@@ -189,6 +201,9 @@
       <Filter>IDL</Filter>
     </CustomBuild>
     <CustomBuild Include="..\TestORB\TestORB\idl\ValueBox.idl">
+      <Filter>IDL</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\TestORB\TestORB\idl\PingPong.idl">
       <Filter>IDL</Filter>
     </CustomBuild>
   </ItemGroup>

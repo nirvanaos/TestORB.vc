@@ -24,6 +24,10 @@ The project for building the TestFixed.nex Nirvana executable.
 
 The project for building the TestFixed.nex Nirvana executable.
 
+### Console
+
+The project for building the Console.nex Nirvana executable.
+
 ### TestORB
 
 The submodule contained C++ sources for all tests.

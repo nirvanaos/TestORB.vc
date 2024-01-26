@@ -162,30 +162,6 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\TestORB\TestORB\include\I1_factory_dynamic.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\TestORB\TestORB\include\I1_factory_portable.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\TestORB\TestORB\include\I1_factory_sysdomain.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\TestORB\TestORB\include\I1_factory_tied.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\TestORB\TestORB\include\I1_static.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\TestORB\TestORB\include\I2_factory_dynamic.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\TestORB\TestORB\include\I2_factory_sysdomain.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\TestORB\TestORB\include\I2_factory_V3.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\TestORB\TestORB\include\I3_factory_dynamic.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -308,6 +284,9 @@
     </ClInclude>
     <ClInclude Include="IDL\Test_AVT_s.h">
       <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TestORB\TestORB\include\I1_static.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

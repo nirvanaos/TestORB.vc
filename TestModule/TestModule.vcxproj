@@ -139,6 +139,7 @@
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">LEGACY_CORBA_CPP;NIRVANA_MODULE;WIN32;NDEBUG;TESTMODULE_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">LEGACY_CORBA_CPP;NIRVANA_MODULE;WIN32;_DEBUG;TESTMODULE_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
+    <ClCompile Include="..\TestORB\TestORB\module\ImplAVT.cpp" />
     <ClCompile Include="..\TestORB\TestORB\module\ImplI1.cpp">
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release 2019|Win32'">LEGACY_CORBA_CPP;NIRVANA_MODULE;WIN32;NDEBUG;TESTMODULE_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">LEGACY_CORBA_CPP;NIRVANA_MODULE;WIN32;NDEBUG;TESTMODULE_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -186,6 +187,8 @@
     <ClCompile Include="IDL\RecursiveStruct_p.cpp" />
     <ClCompile Include="IDL\Test_A1.cpp" />
     <ClCompile Include="IDL\Test_A1_p.cpp" />
+    <ClCompile Include="IDL\Test_AVT.cpp" />
+    <ClCompile Include="IDL\Test_AVT_p.cpp" />
     <ClCompile Include="IDL\Test_I1.cpp" />
     <ClCompile Include="IDL\Test_I1_factory.cpp" />
     <ClCompile Include="IDL\Test_I1_factory_p.cpp" />
@@ -235,6 +238,8 @@
     <ClInclude Include="IDL\RecursiveStruct_s.h" />
     <ClInclude Include="IDL\Test_A1.h" />
     <ClInclude Include="IDL\Test_A1_s.h" />
+    <ClInclude Include="IDL\Test_AVT.h" />
+    <ClInclude Include="IDL\Test_AVT_s.h" />
     <ClInclude Include="IDL\Test_I1.h" />
     <ClInclude Include="IDL\Test_I1_factory.h" />
     <ClInclude Include="IDL\Test_I1_factory_s.h" />
@@ -924,6 +929,58 @@
       <Message Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">IDL compilation</Message>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">IDL compilation</Message>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">true</BuildInParallel>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\TestORB\TestORB\idl\Test_AVT.idl">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2019|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -legacy -out "$(ProjectDir)IDL"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -legacy -out "$(ProjectDir)IDL"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2019|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -legacy -out "$(ProjectDir)IDL"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -legacy -out "$(ProjectDir)IDL"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -legacy -out "$(ProjectDir)IDL"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -legacy -out "$(ProjectDir)IDL"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2019|x64'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -legacy -out "$(ProjectDir)IDL"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -legacy -out "$(ProjectDir)IDL"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2019|x64'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -legacy -out "$(ProjectDir)IDL"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -legacy -out "$(ProjectDir)IDL"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -legacy -out "$(ProjectDir)IDL"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -legacy -out "$(ProjectDir)IDL"</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release 2019|Win32'">$(ProjectDir)IDL\%(Filename).h;$(ProjectDir)IDL\%(Filename).cpp;$(ProjectDir)IDL\%(Filename)_s.h;$(ProjectDir)IDL\%(Filename)_p.cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">$(ProjectDir)IDL\%(Filename).h;$(ProjectDir)IDL\%(Filename).cpp;$(ProjectDir)IDL\%(Filename)_s.h;$(ProjectDir)IDL\%(Filename)_p.cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug 2019|Win32'">$(ProjectDir)IDL\%(Filename).h;$(ProjectDir)IDL\%(Filename).cpp;$(ProjectDir)IDL\%(Filename)_s.h;$(ProjectDir)IDL\%(Filename)_p.cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">$(ProjectDir)IDL\%(Filename).h;$(ProjectDir)IDL\%(Filename).cpp;$(ProjectDir)IDL\%(Filename)_s.h;$(ProjectDir)IDL\%(Filename)_p.cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">$(ProjectDir)IDL\%(Filename).h;$(ProjectDir)IDL\%(Filename).cpp;$(ProjectDir)IDL\%(Filename)_s.h;$(ProjectDir)IDL\%(Filename)_p.cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">$(ProjectDir)IDL\%(Filename).h;$(ProjectDir)IDL\%(Filename).cpp;$(ProjectDir)IDL\%(Filename)_s.h;$(ProjectDir)IDL\%(Filename)_p.cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release 2019|x64'">$(ProjectDir)IDL\%(Filename).h;$(ProjectDir)IDL\%(Filename).cpp;$(ProjectDir)IDL\%(Filename)_s.h;$(ProjectDir)IDL\%(Filename)_p.cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">$(ProjectDir)IDL\%(Filename).h;$(ProjectDir)IDL\%(Filename).cpp;$(ProjectDir)IDL\%(Filename)_s.h;$(ProjectDir)IDL\%(Filename)_p.cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug 2019|x64'">$(ProjectDir)IDL\%(Filename).h;$(ProjectDir)IDL\%(Filename).cpp;$(ProjectDir)IDL\%(Filename)_s.h;$(ProjectDir)IDL\%(Filename)_p.cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">$(ProjectDir)IDL\%(Filename).h;$(ProjectDir)IDL\%(Filename).cpp;$(ProjectDir)IDL\%(Filename)_s.h;$(ProjectDir)IDL\%(Filename)_p.cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">$(ProjectDir)IDL\%(Filename).h;$(ProjectDir)IDL\%(Filename).cpp;$(ProjectDir)IDL\%(Filename)_s.h;$(ProjectDir)IDL\%(Filename)_p.cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">$(ProjectDir)IDL\%(Filename).h;$(ProjectDir)IDL\%(Filename).cpp;$(ProjectDir)IDL\%(Filename)_s.h;$(ProjectDir)IDL\%(Filename)_p.cpp</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release 2019|Win32'">IDL compilation</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">IDL compilation</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug 2019|Win32'">IDL compilation</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">IDL compilation</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">IDL compilation</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">IDL compilation</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release 2019|x64'">IDL compilation</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">IDL compilation</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug 2019|x64'">IDL compilation</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">IDL compilation</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">IDL compilation</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">IDL compilation</Message>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release 2019|Win32'">true</BuildInParallel>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">true</BuildInParallel>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug 2019|Win32'">true</BuildInParallel>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">true</BuildInParallel>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">true</BuildInParallel>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">true</BuildInParallel>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release 2019|x64'">true</BuildInParallel>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">true</BuildInParallel>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug 2019|x64'">true</BuildInParallel>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">true</BuildInParallel>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">true</BuildInParallel>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">true</BuildInParallel>
     </CustomBuild>
   </ItemGroup>

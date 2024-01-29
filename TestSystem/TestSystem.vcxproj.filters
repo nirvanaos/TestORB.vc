@@ -24,9 +24,6 @@
     <ClCompile Include="..\TestORB\TestSystem\TestFile.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\TestORB\TestSystem\TestLegacy.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\TestORB\TestSystem\TestSystem.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>

@@ -67,6 +67,7 @@
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">LEGACY_CORBA_CPP;NIRVANA_MODULE;WIN32;NDEBUG;TESTMODULE_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">LEGACY_CORBA_CPP;NIRVANA_MODULE;WIN32;_DEBUG;TESTMODULE_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
+    <ClCompile Include="..\TestORB\TestORB\module\I1_factory_stateless.cpp" />
     <ClCompile Include="..\TestORB\TestORB\module\I1_factory_sysdomain.cpp">
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release 2019|Win32'">NIRVANA_MODULE;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">NIRVANA_MODULE;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>

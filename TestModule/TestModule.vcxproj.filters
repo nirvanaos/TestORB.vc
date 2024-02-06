@@ -160,6 +160,9 @@
     <ClCompile Include="..\TestORB\TestORB\module\ImplAVT.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\TestORB\TestORB\module\I1_factory_stateless.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\TestORB\TestORB\include\I3_factory_dynamic.h">

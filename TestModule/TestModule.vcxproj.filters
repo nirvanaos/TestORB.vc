@@ -163,20 +163,17 @@
     <ClCompile Include="..\TestORB\TestORB\module\I1_factory_stateless.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="IDL\Test_Comp_p.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TestORB\TestORB\module\comp_factory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IDL\Test_Comp.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\TestORB\TestORB\include\I3_factory_dynamic.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\TestORB\TestORB\include\I3_factory_portable.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\TestORB\TestORB\include\I3_factory_tied.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\TestORB\TestORB\include\I3_static.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\TestORB\TestORB\module\DynamicI1.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -276,9 +273,6 @@
     <ClInclude Include="IDL\ValueBox_s.h">
       <Filter>Generated</Filter>
     </ClInclude>
-    <ClInclude Include="..\TestORB\TestORB\include\PingPongFactory.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="IDL\PingPong.h">
       <Filter>Generated</Filter>
     </ClInclude>
@@ -289,6 +283,15 @@
       <Filter>Generated</Filter>
     </ClInclude>
     <ClInclude Include="..\TestORB\TestORB\include\I1_static.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IDL\Test_Comp.h">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="IDL\Test_Comp_s.h">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TestORB\TestORB\module\ImplComp.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -333,6 +336,9 @@
       <Filter>IDL</Filter>
     </CustomBuild>
     <CustomBuild Include="..\TestORB\TestORB\idl\Test_AVT.idl">
+      <Filter>IDL</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\TestORB\TestORB\idl\Test_Comp.idl">
       <Filter>IDL</Filter>
     </CustomBuild>
   </ItemGroup>

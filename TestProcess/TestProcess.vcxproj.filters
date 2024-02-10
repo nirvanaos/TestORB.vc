@@ -82,6 +82,12 @@
     <ClCompile Include="IDL\Test_AVT.cpp">
       <Filter>Generated</Filter>
     </ClCompile>
+    <ClCompile Include="IDL\Test_Comp.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TestORB\TestORB\process\TestORB_Comp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\TestORB\TestORB\process\TestORB.h">
@@ -135,6 +141,9 @@
     <ClInclude Include="..\TestORB\TestORB\include\I1_static.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="IDL\Test_Comp.h">
+      <Filter>Generated</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="..\TestORB\TestORB\idl\RecursiveStruct.idl">
@@ -177,6 +186,9 @@
       <Filter>IDL</Filter>
     </CustomBuild>
     <CustomBuild Include="..\TestORB\TestORB\idl\Test_AVT.idl">
+      <Filter>IDL</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\TestORB\TestORB\idl\Test_Comp.idl">
       <Filter>IDL</Filter>
     </CustomBuild>
   </ItemGroup>

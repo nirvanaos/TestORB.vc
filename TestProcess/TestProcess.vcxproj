@@ -624,7 +624,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\TestORB\TestORB\process\TestORB_Comp.cpp" />
+    <ClCompile Include="..\TestORB\TestORB\process\TestORB_Comp.cpp">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release 2019|Win32'">LEGACY_CORBA_CPP;NIRVANA_PROCESS;WIN32;NDEBUG;TESTPROCESS_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">LEGACY_CORBA_CPP;NIRVANA_PROCESS;WIN32;NDEBUG;TESTPROCESS_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug 2019|Win32'">LEGACY_CORBA_CPP;NIRVANA_PROCESS;WIN32;_DEBUG;TESTPROCESS_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">LEGACY_CORBA_CPP;NIRVANA_PROCESS;WIN32;_DEBUG;TESTPROCESS_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">LEGACY_CORBA_CPP;NIRVANA_PROCESS;WIN32;NDEBUG;TESTPROCESS_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">LEGACY_CORBA_CPP;NIRVANA_PROCESS;WIN32;_DEBUG;TESTPROCESS_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
     <ClCompile Include="..\TestORB\TestORB\process\TestORB.cpp">
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release 2019|Win32'">LEGACY_CORBA_CPP;NIRVANA_PROCESS;WIN32;NDEBUG;TESTPROCESS_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">LEGACY_CORBA_CPP;NIRVANA_PROCESS;WIN32;NDEBUG;TESTPROCESS_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>

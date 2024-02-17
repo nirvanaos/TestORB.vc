@@ -269,7 +269,7 @@
       <SubSystem>NotSet</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <NoEntryPoint>true</NoEntryPoint>
-      <AdditionalDependencies>onecore_apiset.lib;vcruntimed.lib;msvcrtd.lib</AdditionalDependencies>
+      <AdditionalDependencies>onecore_apiset.lib;ucrtd.lib;vcruntimed.lib;msvcrtd.lib</AdditionalDependencies>
       <IgnoreAllDefaultLibraries>true</IgnoreAllDefaultLibraries>
     </Link>
   </ItemDefinitionGroup>
@@ -289,7 +289,7 @@
       <SubSystem>NotSet</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <NoEntryPoint>true</NoEntryPoint>
-      <AdditionalDependencies>onecore_apiset.lib;vcruntimed.lib;msvcrtd.lib</AdditionalDependencies>
+      <AdditionalDependencies>onecore_apiset.lib;ucrtd.lib;vcruntimed.lib;msvcrtd.lib</AdditionalDependencies>
       <IgnoreAllDefaultLibraries>true</IgnoreAllDefaultLibraries>
     </Link>
   </ItemDefinitionGroup>
@@ -308,7 +308,7 @@
       <SubSystem>NotSet</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <NoEntryPoint>true</NoEntryPoint>
-      <AdditionalDependencies>onecore_apiset.lib;vcruntimed.lib;msvcrtd.lib</AdditionalDependencies>
+      <AdditionalDependencies>onecore_apiset.lib;ucrtd.lib;vcruntimed.lib;msvcrtd.lib</AdditionalDependencies>
       <IgnoreAllDefaultLibraries>true</IgnoreAllDefaultLibraries>
     </Link>
   </ItemDefinitionGroup>
@@ -331,7 +331,7 @@
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <NoEntryPoint>true</NoEntryPoint>
-      <AdditionalDependencies>onecore_apiset.lib;vcruntime.lib;msvcrt.lib</AdditionalDependencies>
+      <AdditionalDependencies>onecore_apiset.lib;ucrt.lib;vcruntime.lib;msvcrt.lib</AdditionalDependencies>
       <IgnoreAllDefaultLibraries>true</IgnoreAllDefaultLibraries>
     </Link>
   </ItemDefinitionGroup>
@@ -354,7 +354,7 @@
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <NoEntryPoint>true</NoEntryPoint>
-      <AdditionalDependencies>onecore_apiset.lib;vcruntime.lib;msvcrt.lib</AdditionalDependencies>
+      <AdditionalDependencies>onecore_apiset.lib;ucrt.lib;vcruntime.lib;msvcrt.lib</AdditionalDependencies>
       <IgnoreAllDefaultLibraries>true</IgnoreAllDefaultLibraries>
     </Link>
   </ItemDefinitionGroup>
@@ -376,7 +376,7 @@
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <NoEntryPoint>true</NoEntryPoint>
-      <AdditionalDependencies>onecore_apiset.lib;vcruntime.lib;msvcrt.lib</AdditionalDependencies>
+      <AdditionalDependencies>onecore_apiset.lib;ucrt.lib;vcruntime.lib;msvcrt.lib</AdditionalDependencies>
       <IgnoreAllDefaultLibraries>true</IgnoreAllDefaultLibraries>
     </Link>
   </ItemDefinitionGroup>

@@ -36,6 +36,9 @@
     <ClCompile Include="..\TestORB\TestSystem\pch.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\TestORB\TestSystem\TestSQLite.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\TestORB\TestSystem\pch.h">

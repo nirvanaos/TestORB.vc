@@ -1801,6 +1801,10 @@
       <IgnoreAllDefaultLibraries>true</IgnoreAllDefaultLibraries>
       <EnableCOMDATFolding>false</EnableCOMDATFolding>
     </Link>
+    <PostBuildEvent>
+      <Command>"$(TargetDir)..\Nirvana.exe" -s -c Nirvana/regmod "$(TargetPath)" TestModule</Command>
+      <Message>Registering...</Message>
+    </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">
     <ClCompile>
@@ -1831,6 +1835,10 @@
       <IgnoreAllDefaultLibraries>true</IgnoreAllDefaultLibraries>
       <EnableCOMDATFolding>false</EnableCOMDATFolding>
     </Link>
+    <PostBuildEvent>
+      <Command>"$(TargetDir)..\Nirvana.exe" -s -c Nirvana/regmod "$(TargetPath)" TestModule</Command>
+      <Message>Registering...</Message>
+    </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">
     <ClCompile>
@@ -1862,6 +1870,10 @@
       <IgnoreAllDefaultLibraries>true</IgnoreAllDefaultLibraries>
       <EnableCOMDATFolding>false</EnableCOMDATFolding>
     </Link>
+    <PostBuildEvent>
+      <Command>"$(TargetDir)..\Nirvana.exe" -s -c Nirvana/regmod "$(TargetPath)" TestModule</Command>
+      <Message>Registering...</Message>
+    </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release 2019|Win32'">
     <ClCompile>
@@ -1890,6 +1902,10 @@
       <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
       <IgnoreAllDefaultLibraries>true</IgnoreAllDefaultLibraries>
     </Link>
+    <PostBuildEvent>
+      <Command>"$(TargetDir)..\Nirvana.exe" -s -c Nirvana/regmod "$(TargetPath)" TestModule</Command>
+      <Message>Registering...</Message>
+    </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">
     <ClCompile>
@@ -1920,6 +1936,10 @@
       <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
       <IgnoreAllDefaultLibraries>true</IgnoreAllDefaultLibraries>
     </Link>
+    <PostBuildEvent>
+      <Command>"$(TargetDir)..\Nirvana.exe" -s -c Nirvana/regmod "$(TargetPath)" TestModule</Command>
+      <Message>Registering...</Message>
+    </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">
     <ClCompile>
@@ -1951,6 +1971,10 @@
       <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
       <IgnoreAllDefaultLibraries>true</IgnoreAllDefaultLibraries>
     </Link>
+    <PostBuildEvent>
+      <Command>"$(TargetDir)..\Nirvana.exe" -s -c Nirvana/regmod "$(TargetPath)" TestModule</Command>
+      <Message>Registering...</Message>
+    </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug 2019|x64'">
     <ClCompile>
@@ -1979,6 +2003,10 @@
       <IgnoreAllDefaultLibraries>true</IgnoreAllDefaultLibraries>
       <EnableCOMDATFolding>false</EnableCOMDATFolding>
     </Link>
+    <PostBuildEvent>
+      <Command>"$(TargetDir)Nirvana.exe" -s -c Nirvana/regmod "$(TargetPath)" TestModule</Command>
+      <Message>Registering...</Message>
+    </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">
     <ClCompile>
@@ -2009,6 +2037,10 @@
       <IgnoreAllDefaultLibraries>true</IgnoreAllDefaultLibraries>
       <EnableCOMDATFolding>false</EnableCOMDATFolding>
     </Link>
+    <PostBuildEvent>
+      <Command>"$(TargetDir)Nirvana.exe" -s -c Nirvana/regmod "$(TargetPath)" TestModule</Command>
+      <Message>Registering...</Message>
+    </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">
     <ClCompile>
@@ -2040,6 +2072,10 @@
       <IgnoreAllDefaultLibraries>true</IgnoreAllDefaultLibraries>
       <EnableCOMDATFolding>false</EnableCOMDATFolding>
     </Link>
+    <PostBuildEvent>
+      <Command>"$(TargetDir)Nirvana.exe" -s -c Nirvana/regmod "$(TargetPath)" TestModule</Command>
+      <Message>Registering...</Message>
+    </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release 2019|x64'">
     <ClCompile>
@@ -2068,6 +2104,10 @@
       <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
       <IgnoreAllDefaultLibraries>true</IgnoreAllDefaultLibraries>
     </Link>
+    <PostBuildEvent>
+      <Command>"$(TargetDir)Nirvana.exe" -s -c Nirvana/regmod "$(TargetPath)" TestModule</Command>
+      <Message>Registering...</Message>
+    </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">
     <ClCompile>
@@ -2098,6 +2138,10 @@
       <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
       <IgnoreAllDefaultLibraries>true</IgnoreAllDefaultLibraries>
     </Link>
+    <PostBuildEvent>
+      <Command>"$(TargetDir)Nirvana.exe" -s -c Nirvana/regmod "$(TargetPath)" TestModule</Command>
+      <Message>Registering...</Message>
+    </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">
     <ClCompile>
@@ -2129,6 +2173,10 @@
       <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
       <IgnoreAllDefaultLibraries>true</IgnoreAllDefaultLibraries>
     </Link>
+    <PostBuildEvent>
+      <Command>"$(TargetDir)Nirvana.exe" -s -c Nirvana/regmod "$(TargetPath)" TestModule</Command>
+      <Message>Registering...</Message>
+    </PostBuildEvent>
   </ItemDefinitionGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

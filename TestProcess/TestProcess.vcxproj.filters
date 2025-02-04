@@ -197,5 +197,8 @@
     <CustomBuild Include="..\TestORB\TestORB\idl\Test_Comp.idl">
       <Filter>IDL</Filter>
     </CustomBuild>
+    <CustomBuild Include="..\TestORB\TestORB\idl\DbConnect.idl">
+      <Filter>IDL</Filter>
+    </CustomBuild>
   </ItemGroup>
 </Project>

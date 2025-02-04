@@ -1828,7 +1828,6 @@
     <ExternalIncludePath>$(SolutionDir)Library.VC\Nirvana\ORB\Include;$(SolutionDir)Library.VC\Nirvana\SRC\Include;$(ExternalIncludePath);$(VC_IncludePath);$(WindowsSDK_IncludePath);</ExternalIncludePath>
     <IgnoreImportLibrary>true</IgnoreImportLibrary>
     <ExecutablePath>$(VC_ExecutablePath_x64);$(CommonExecutablePath);$(SolutionDir)vcpkg_installed\x64-windows\tools\nidl2cpp</ExecutablePath>
-    <PostBuildEventUseInBuild>false</PostBuildEventUseInBuild>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">
     <LinkIncremental>false</LinkIncremental>

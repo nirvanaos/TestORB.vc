@@ -91,6 +91,12 @@
     <ClCompile Include="..\TestORB\TestORB\process\IDL\ValueBox.cpp">
       <Filter>Generated</Filter>
     </ClCompile>
+    <ClCompile Include="..\TestORB\TestORB\process\IDL\DbConnect.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TestORB\TestORB\process\TestDbConnect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\TestORB\TestORB\process\TestORB.h">
@@ -150,6 +156,9 @@
     <ClInclude Include="..\TestORB\TestORB\process\IDL\ValueBox.h">
       <Filter>Generated</Filter>
     </ClInclude>
+    <ClInclude Include="..\TestORB\TestORB\process\IDL\DbConnect.h">
+      <Filter>Generated</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="..\TestORB\TestORB\idl\RecursiveStruct.idl">
@@ -195,6 +204,9 @@
       <Filter>IDL</Filter>
     </CustomBuild>
     <CustomBuild Include="..\TestORB\TestORB\idl\Test_Comp.idl">
+      <Filter>IDL</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\TestORB\TestORB\idl\DbConnect.idl">
       <Filter>IDL</Filter>
     </CustomBuild>
   </ItemGroup>

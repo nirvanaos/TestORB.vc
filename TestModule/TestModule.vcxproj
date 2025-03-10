@@ -2096,7 +2096,7 @@
       <EnableCOMDATFolding>false</EnableCOMDATFolding>
     </Link>
     <PostBuildEvent>
-      <Command>"$(TargetDir)Nirvana.exe" -s -c Nirvana/regmod "$(TargetPath)" TestModule</Command>
+      <Command>"$(TargetDir)Nirvana.exe" -s -c Nirvana/regmod "$(TargetPath)" TestModule.1.0-debug</Command>
       <Message>Registering...</Message>
     </PostBuildEvent>
   </ItemDefinitionGroup>
@@ -2130,7 +2130,7 @@
       <EnableCOMDATFolding>false</EnableCOMDATFolding>
     </Link>
     <PostBuildEvent>
-      <Command>"$(TargetDir)Nirvana.exe" -s -c Nirvana/regmod "$(TargetPath)" TestModule</Command>
+      <Command>"$(TargetDir)Nirvana.exe" -s -c Nirvana/regmod "$(TargetPath)" TestModule.1.0-debug</Command>
       <Message>Registering...</Message>
     </PostBuildEvent>
   </ItemDefinitionGroup>
@@ -2165,7 +2165,7 @@
       <EnableCOMDATFolding>false</EnableCOMDATFolding>
     </Link>
     <PostBuildEvent>
-      <Command>"$(TargetDir)Nirvana.exe" -s -c Nirvana/regmod "$(TargetPath)" TestModule</Command>
+      <Command>"$(TargetDir)Nirvana.exe" -s -c Nirvana/regmod "$(TargetPath)" TestModule.1.0-debug</Command>
       <Message>Registering...</Message>
     </PostBuildEvent>
   </ItemDefinitionGroup>
@@ -2197,7 +2197,7 @@
       <IgnoreAllDefaultLibraries>true</IgnoreAllDefaultLibraries>
     </Link>
     <PostBuildEvent>
-      <Command>"$(TargetDir)Nirvana.exe" -s -c Nirvana/regmod "$(TargetPath)" TestModule</Command>
+      <Command>"$(TargetDir)Nirvana.exe" -s -c Nirvana/regmod "$(TargetPath)" TestModule.1.0-debug</Command>
       <Message>Registering...</Message>
     </PostBuildEvent>
   </ItemDefinitionGroup>
@@ -2231,7 +2231,7 @@
       <IgnoreAllDefaultLibraries>true</IgnoreAllDefaultLibraries>
     </Link>
     <PostBuildEvent>
-      <Command>"$(TargetDir)Nirvana.exe" -s -c Nirvana/regmod "$(TargetPath)" TestModule</Command>
+      <Command>"$(TargetDir)Nirvana.exe" -s -c Nirvana/regmod "$(TargetPath)" TestModule.1.0-debug</Command>
       <Message>Registering...</Message>
     </PostBuildEvent>
   </ItemDefinitionGroup>
@@ -2266,7 +2266,7 @@
       <IgnoreAllDefaultLibraries>true</IgnoreAllDefaultLibraries>
     </Link>
     <PostBuildEvent>
-      <Command>"$(TargetDir)Nirvana.exe" -s -c Nirvana/regmod "$(TargetPath)" TestModule</Command>
+      <Command>"$(TargetDir)Nirvana.exe" -s -c Nirvana/regmod "$(TargetPath)" TestModule.1.0-debug</Command>
       <Message>Registering...</Message>
     </PostBuildEvent>
   </ItemDefinitionGroup>

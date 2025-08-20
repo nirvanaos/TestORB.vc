@@ -17,10 +17,6 @@
       <Configuration>Debug LLVM</Configuration>
       <Platform>x64</Platform>
     </ProjectConfiguration>
-    <ProjectConfiguration Include="Debug 2019|Win32">
-      <Configuration>Debug 2019</Configuration>
-      <Platform>Win32</Platform>
-    </ProjectConfiguration>
     <ProjectConfiguration Include="Release 2022|Win32">
       <Configuration>Release 2022</Configuration>
       <Platform>Win32</Platform>
@@ -37,18 +33,6 @@
       <Configuration>Release LLVM</Configuration>
       <Platform>x64</Platform>
     </ProjectConfiguration>
-    <ProjectConfiguration Include="Release 2019|Win32">
-      <Configuration>Release 2019</Configuration>
-      <Platform>Win32</Platform>
-    </ProjectConfiguration>
-    <ProjectConfiguration Include="Debug 2019|x64">
-      <Configuration>Debug 2019</Configuration>
-      <Platform>x64</Platform>
-    </ProjectConfiguration>
-    <ProjectConfiguration Include="Release 2019|x64">
-      <Configuration>Release 2019</Configuration>
-      <Platform>x64</Platform>
-    </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
@@ -58,13 +42,6 @@
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug 2019|Win32'" Label="Configuration">
-    <ConfigurationType>DynamicLibrary</ConfigurationType>
-    <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v142</PlatformToolset>
-    <CharacterSet>Unicode</CharacterSet>
-    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
-  </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'" Label="Configuration">
     <ConfigurationType>DynamicLibrary</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
@@ -76,14 +53,6 @@
     <ConfigurationType>DynamicLibrary</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
     <PlatformToolset>ClangCL</PlatformToolset>
-    <CharacterSet>Unicode</CharacterSet>
-    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
-  </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release 2019|Win32'" Label="Configuration">
-    <ConfigurationType>DynamicLibrary</ConfigurationType>
-    <UseDebugLibraries>false</UseDebugLibraries>
-    <PlatformToolset>v142</PlatformToolset>
-    <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>Unicode</CharacterSet>
     <PreferredToolArchitecture>x64</PreferredToolArchitecture>
   </PropertyGroup>
@@ -103,13 +72,6 @@
     <CharacterSet>Unicode</CharacterSet>
     <PreferredToolArchitecture>x64</PreferredToolArchitecture>
   </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug 2019|x64'" Label="Configuration">
-    <ConfigurationType>DynamicLibrary</ConfigurationType>
-    <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v142</PlatformToolset>
-    <CharacterSet>Unicode</CharacterSet>
-    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
-  </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'" Label="Configuration">
     <ConfigurationType>DynamicLibrary</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
@@ -121,14 +83,6 @@
     <ConfigurationType>DynamicLibrary</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
     <PlatformToolset>ClangCL</PlatformToolset>
-    <CharacterSet>Unicode</CharacterSet>
-    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
-  </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release 2019|x64'" Label="Configuration">
-    <ConfigurationType>DynamicLibrary</ConfigurationType>
-    <UseDebugLibraries>false</UseDebugLibraries>
-    <PlatformToolset>v142</PlatformToolset>
-    <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>Unicode</CharacterSet>
     <PreferredToolArchitecture>x64</PreferredToolArchitecture>
   </PropertyGroup>
@@ -153,16 +107,10 @@
   </ImportGroup>
   <ImportGroup Label="Shared">
   </ImportGroup>
-  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug 2019|Win32'">
-    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
-  </ImportGroup>
   <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'" Label="PropertySheets">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
   <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'" Label="PropertySheets">
-    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
-  </ImportGroup>
-  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release 2019|Win32'">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
   <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'" Label="PropertySheets">
@@ -171,16 +119,10 @@
   <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'" Label="PropertySheets">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
-  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug 2019|x64'">
-    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
-  </ImportGroup>
   <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'" Label="PropertySheets">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
   <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'" Label="PropertySheets">
-    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
-  </ImportGroup>
-  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release 2019|x64'">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
   <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'" Label="PropertySheets">
@@ -190,14 +132,6 @@
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug 2019|Win32'">
-    <LinkIncremental>false</LinkIncremental>
-    <TargetExt>.nex</TargetExt>
-    <OutDir>$(SolutionDir)x64\$(Configuration)\x86\</OutDir>
-    <IntDir>$(Platform)\$(Configuration)\</IntDir>
-    <ExternalIncludePath>$(SolutionDir)Library.VC\Nirvana\ORB\Include;$(SolutionDir)Library.VC\Nirvana\SRC\Include;$(ExternalIncludePath);$(VC_IncludePath);$(WindowsSDK_IncludePath);</ExternalIncludePath>
-    <IgnoreImportLibrary>true</IgnoreImportLibrary>
-  </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">
     <LinkIncremental>false</LinkIncremental>
     <TargetExt>.nex</TargetExt>
@@ -213,14 +147,6 @@
     <IntDir>$(Platform)\$(Configuration)\</IntDir>
     <ExternalIncludePath>$(SolutionDir)Library.VC\Nirvana\ORB\Include;$(SolutionDir)Library.VC\Nirvana\SRC\Include;$(ExternalIncludePath);$(VC_IncludePath);$(WindowsSDK_IncludePath);</ExternalIncludePath>
     <IncludePath>$(SolutionDir)Library.VC\Nirvana\SRC\Include;$(LLVMInstallDir)\lib\clang\$(LLVMIncludeVersion)\include;$(IncludePath)</IncludePath>
-    <IgnoreImportLibrary>true</IgnoreImportLibrary>
-  </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release 2019|Win32'">
-    <LinkIncremental>false</LinkIncremental>
-    <TargetExt>.nex</TargetExt>
-    <OutDir>$(SolutionDir)x64\$(Configuration)\x86\</OutDir>
-    <IntDir>$(Platform)\$(Configuration)\</IntDir>
-    <ExternalIncludePath>$(SolutionDir)Library.VC\Nirvana\ORB\Include;$(SolutionDir)Library.VC\Nirvana\SRC\Include;$(ExternalIncludePath);$(VC_IncludePath);$(WindowsSDK_IncludePath);</ExternalIncludePath>
     <IgnoreImportLibrary>true</IgnoreImportLibrary>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">
@@ -240,12 +166,6 @@
     <IncludePath>$(SolutionDir)Library.VC\Nirvana\SRC\Include;$(LLVMInstallDir)\lib\clang\$(LLVMIncludeVersion)\include;$(IncludePath)</IncludePath>
     <IgnoreImportLibrary>true</IgnoreImportLibrary>
   </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug 2019|x64'">
-    <LinkIncremental>false</LinkIncremental>
-    <TargetExt>.nex</TargetExt>
-    <ExternalIncludePath>$(SolutionDir)Library.VC\Nirvana\ORB\Include;$(SolutionDir)Library.VC\Nirvana\SRC\Include;$(ExternalIncludePath);$(VC_IncludePath);$(WindowsSDK_IncludePath);</ExternalIncludePath>
-    <IgnoreImportLibrary>true</IgnoreImportLibrary>
-  </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">
     <LinkIncremental>false</LinkIncremental>
     <TargetExt>.nex</TargetExt>
@@ -257,12 +177,6 @@
     <TargetExt>.nex</TargetExt>
     <ExternalIncludePath>$(SolutionDir)Library.VC\Nirvana\ORB\Include;$(SolutionDir)Library.VC\Nirvana\SRC\Include;$(ExternalIncludePath);$(VC_IncludePath);$(WindowsSDK_IncludePath);</ExternalIncludePath>
     <IncludePath>$(SolutionDir)Library.VC\Nirvana\SRC\Include;$(LLVMInstallDir)\lib\clang\$(LLVMIncludeVersion)\include;$(IncludePath)</IncludePath>
-    <IgnoreImportLibrary>true</IgnoreImportLibrary>
-  </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release 2019|x64'">
-    <LinkIncremental>false</LinkIncremental>
-    <TargetExt>.nex</TargetExt>
-    <ExternalIncludePath>$(SolutionDir)Library.VC\Nirvana\ORB\Include;$(SolutionDir)Library.VC\Nirvana\SRC\Include;$(ExternalIncludePath);$(VC_IncludePath);$(WindowsSDK_IncludePath);</ExternalIncludePath>
     <IgnoreImportLibrary>true</IgnoreImportLibrary>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">
@@ -281,31 +195,6 @@
   <PropertyGroup Label="Vcpkg">
     <VcpkgEnabled>false</VcpkgEnabled>
   </PropertyGroup>
-  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug 2019|Win32'">
-    <ClCompile>
-      <WarningLevel>Level3</WarningLevel>
-      <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>NIRVANA_PROCESS;WIN32;_DEBUG;TESTFIXED_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <ConformanceMode>true</ConformanceMode>
-      <PrecompiledHeader>NotUsing</PrecompiledHeader>
-      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
-      <AdditionalIncludeDirectories>..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\..\Library.VC\googletest\googletest\googletest\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <AdditionalOptions>/Zc:sizedDealloc /Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
-      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
-      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
-      <SupportJustMyCode>false</SupportJustMyCode>
-      <FunctionLevelLinking>true</FunctionLevelLinking>
-    </ClCompile>
-    <Link>
-      <SubSystem>NotSet</SubSystem>
-      <GenerateDebugInformation>DebugFull</GenerateDebugInformation>
-      <EnableUAC>false</EnableUAC>
-      <NoEntryPoint>true</NoEntryPoint>
-      <OptimizeReferences>true</OptimizeReferences>
-      <AdditionalDependencies>onecore_apiset.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <EnableCOMDATFolding>false</EnableCOMDATFolding>
-    </Link>
-  </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
@@ -320,7 +209,7 @@
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <SupportJustMyCode>false</SupportJustMyCode>
       <FunctionLevelLinking>true</FunctionLevelLinking>
-      <LanguageStandard>stdcpp20</LanguageStandard>
+      <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>NotSet</SubSystem>
@@ -345,7 +234,7 @@
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <FunctionLevelLinking>true</FunctionLevelLinking>
-      <LanguageStandard>stdcpp20</LanguageStandard>
+      <LanguageStandard>stdcpp17</LanguageStandard>
       <SupportJustMyCode>false</SupportJustMyCode>
     </ClCompile>
     <Link>
@@ -357,30 +246,6 @@
       <AdditionalDependencies>onecore.lib;$(CoreLibraryDependencies);%(AdditionalDependencies)</AdditionalDependencies>
       <AdditionalLibraryDirectories>$(LLVMInstallDir)\lib\clang\$(LLVMIncludeVersion)\lib\windows;$(LLVMInstallDir)\lib\clang\$(LLVMToolsVersion)\lib\windows</AdditionalLibraryDirectories>
       <EnableCOMDATFolding>false</EnableCOMDATFolding>
-    </Link>
-  </ItemDefinitionGroup>
-  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release 2019|Win32'">
-    <ClCompile>
-      <WarningLevel>Level3</WarningLevel>
-      <FunctionLevelLinking>true</FunctionLevelLinking>
-      <IntrinsicFunctions>true</IntrinsicFunctions>
-      <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>NIRVANA_PROCESS;WIN32;NDEBUG;TESTFIXED_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <ConformanceMode>true</ConformanceMode>
-      <PrecompiledHeader>NotUsing</PrecompiledHeader>
-      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
-      <AdditionalIncludeDirectories>..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\..\Library.VC\googletest\googletest\googletest\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <AdditionalOptions>/Zc:sizedDealloc /Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
-      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
-    </ClCompile>
-    <Link>
-      <SubSystem>NotSet</SubSystem>
-      <EnableCOMDATFolding>true</EnableCOMDATFolding>
-      <OptimizeReferences>true</OptimizeReferences>
-      <GenerateDebugInformation>true</GenerateDebugInformation>
-      <EnableUAC>false</EnableUAC>
-      <NoEntryPoint>true</NoEntryPoint>
-      <AdditionalDependencies>onecore_apiset.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">
@@ -396,7 +261,7 @@
       <AdditionalIncludeDirectories>..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\..\Library.VC\googletest\googletest\googletest\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>/Zc:sizedDealloc /Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
-      <LanguageStandard>stdcpp20</LanguageStandard>
+      <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>NotSet</SubSystem>
@@ -421,7 +286,7 @@
       <AdditionalIncludeDirectories>..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\..\Library.VC\googletest\googletest\googletest\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>/Zc:sizedDealloc /showFilenames /Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
-      <LanguageStandard>stdcpp20</LanguageStandard>
+      <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>NotSet</SubSystem>
@@ -432,31 +297,6 @@
       <NoEntryPoint>true</NoEntryPoint>
       <AdditionalDependencies>onecore.lib;$(CoreLibraryDependencies);%(AdditionalDependencies)</AdditionalDependencies>
       <AdditionalLibraryDirectories>$(LLVMInstallDir)\lib\clang\$(LLVMIncludeVersion)\lib\windows;$(LLVMInstallDir)\lib\clang\$(LLVMToolsVersion)\lib\windows</AdditionalLibraryDirectories>
-    </Link>
-  </ItemDefinitionGroup>
-  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug 2019|x64'">
-    <ClCompile>
-      <WarningLevel>Level3</WarningLevel>
-      <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>NIRVANA_PROCESS;_DEBUG;TESTFIXED_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <ConformanceMode>true</ConformanceMode>
-      <PrecompiledHeader>NotUsing</PrecompiledHeader>
-      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
-      <AdditionalIncludeDirectories>..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\..\Library.VC\googletest\googletest\googletest\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <AdditionalOptions>/Zc:sizedDealloc /Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
-      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
-      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
-      <SupportJustMyCode>false</SupportJustMyCode>
-      <FunctionLevelLinking>true</FunctionLevelLinking>
-    </ClCompile>
-    <Link>
-      <SubSystem>NotSet</SubSystem>
-      <GenerateDebugInformation>DebugFull</GenerateDebugInformation>
-      <EnableUAC>false</EnableUAC>
-      <NoEntryPoint>true</NoEntryPoint>
-      <OptimizeReferences>true</OptimizeReferences>
-      <AdditionalDependencies>onecore_apiset.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <EnableCOMDATFolding>false</EnableCOMDATFolding>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">
@@ -473,7 +313,7 @@
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <SupportJustMyCode>false</SupportJustMyCode>
       <FunctionLevelLinking>true</FunctionLevelLinking>
-      <LanguageStandard>stdcpp20</LanguageStandard>
+      <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>NotSet</SubSystem>
@@ -498,7 +338,7 @@
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <FunctionLevelLinking>true</FunctionLevelLinking>
-      <LanguageStandard>stdcpp20</LanguageStandard>
+      <LanguageStandard>stdcpp17</LanguageStandard>
       <SupportJustMyCode>false</SupportJustMyCode>
     </ClCompile>
     <Link>
@@ -510,30 +350,6 @@
       <AdditionalDependencies>onecore.lib;clang_rt.builtins-x86_64.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <AdditionalLibraryDirectories>$(LLVMInstallDir)\lib\clang\$(LLVMIncludeVersion)\lib\windows;$(LLVMInstallDir)\lib\clang\$(LLVMToolsVersion)\lib\windows</AdditionalLibraryDirectories>
       <EnableCOMDATFolding>false</EnableCOMDATFolding>
-    </Link>
-  </ItemDefinitionGroup>
-  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release 2019|x64'">
-    <ClCompile>
-      <WarningLevel>Level3</WarningLevel>
-      <FunctionLevelLinking>true</FunctionLevelLinking>
-      <IntrinsicFunctions>true</IntrinsicFunctions>
-      <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>NIRVANA_PROCESS;NDEBUG;TESTFIXED_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <ConformanceMode>true</ConformanceMode>
-      <PrecompiledHeader>NotUsing</PrecompiledHeader>
-      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
-      <AdditionalIncludeDirectories>..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\..\Library.VC\googletest\googletest\googletest\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <AdditionalOptions>/Zc:sizedDealloc /Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
-      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
-    </ClCompile>
-    <Link>
-      <SubSystem>NotSet</SubSystem>
-      <EnableCOMDATFolding>true</EnableCOMDATFolding>
-      <OptimizeReferences>true</OptimizeReferences>
-      <GenerateDebugInformation>true</GenerateDebugInformation>
-      <EnableUAC>false</EnableUAC>
-      <NoEntryPoint>true</NoEntryPoint>
-      <AdditionalDependencies>onecore_apiset.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">
@@ -549,7 +365,7 @@
       <AdditionalIncludeDirectories>..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\..\Library.VC\googletest\googletest\googletest\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>/Zc:sizedDealloc /Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
-      <LanguageStandard>stdcpp20</LanguageStandard>
+      <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>NotSet</SubSystem>
@@ -574,7 +390,7 @@
       <AdditionalIncludeDirectories>..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\..\Library.VC\googletest\googletest\googletest\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>/Zc:sizedDealloc /showFilenames /Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
-      <LanguageStandard>stdcpp20</LanguageStandard>
+      <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>NotSet</SubSystem>

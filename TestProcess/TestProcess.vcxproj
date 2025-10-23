@@ -217,11 +217,11 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NIRVANA_PROCESS;WIN32;_DEBUG;TESTPROCESS_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
-      <AdditionalIncludeDirectories>..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\..\Library.VC\Nirvana\IDL;..\..\Library.VC\googletest\googletest\googletest\include;..\TestORB\TestORB\include;..\TestORB\TestORB\process;.\IDL</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\..\Library.VC\Nirvana\IDL;..\..\Library.VC\googletest\googletest\googletest\include;..\TestORB\TestORB\include;$(ProjectDir)</AdditionalIncludeDirectories>
       <AdditionalOptions>/Zc:sizedDealloc /Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
       <SupportJustMyCode>false</SupportJustMyCode>
       <FunctionLevelLinking>true</FunctionLevelLinking>
@@ -247,10 +247,10 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NIRVANA_PROCESS;WIN32;_DEBUG;TESTPROCESS_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
-      <AdditionalIncludeDirectories>..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\..\Library.VC\Nirvana\IDL;..\..\Library.VC\googletest\googletest\googletest\include;..\TestORB\TestORB\include;..\TestORB\TestORB\process;.\IDL</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\..\Library.VC\Nirvana\IDL;..\..\Library.VC\googletest\googletest\googletest\include;..\TestORB\TestORB\include;$(ProjectDir)</AdditionalIncludeDirectories>
       <AdditionalOptions>/Zc:sizedDealloc /showFilenames /Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <LanguageStandard>stdcpp20</LanguageStandard>
@@ -279,10 +279,10 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NIRVANA_PROCESS;WIN32;NDEBUG;TESTPROCESS_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
-      <AdditionalIncludeDirectories>..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\..\Library.VC\Nirvana\IDL;..\..\Library.VC\googletest\googletest\googletest\include;..\TestORB\TestORB\include;..\TestORB\TestORB\process;.\IDL</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\..\Library.VC\Nirvana\IDL;..\..\Library.VC\googletest\googletest\googletest\include;..\TestORB\TestORB\include;$(ProjectDir)</AdditionalIncludeDirectories>
       <AdditionalOptions>/Zc:sizedDealloc /Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
       <WholeProgramOptimization>false</WholeProgramOptimization>
       <LanguageStandard>stdcpp20</LanguageStandard>
@@ -309,10 +309,10 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NIRVANA_PROCESS;WIN32;NDEBUG;TESTPROCESS_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
-      <AdditionalIncludeDirectories>..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\..\Library.VC\Nirvana\IDL;..\..\Library.VC\googletest\googletest\googletest\include;..\TestORB\TestORB\include;..\TestORB\TestORB\process;.\IDL</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\..\Library.VC\Nirvana\IDL;..\..\Library.VC\googletest\googletest\googletest\include;..\TestORB\TestORB\include;$(ProjectDir)</AdditionalIncludeDirectories>
       <AdditionalOptions>/Zc:sizedDealloc /showFilenames /Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
       <LanguageStandard>stdcpp20</LanguageStandard>
       <LanguageStandard_C>stdc11</LanguageStandard_C>
@@ -337,11 +337,11 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NIRVANA_PROCESS;_DEBUG;TESTPROCESS_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
-      <AdditionalIncludeDirectories>..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\..\Library.VC\Nirvana\IDL;..\..\Library.VC\googletest\googletest\googletest\include;..\TestORB\TestORB\include;..\TestORB\TestORB\process;.\IDL</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\..\Library.VC\Nirvana\IDL;..\..\Library.VC\googletest\googletest\googletest\include;..\TestORB\TestORB\include;$(ProjectDir)</AdditionalIncludeDirectories>
       <AdditionalOptions>/Zc:sizedDealloc /Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
       <SupportJustMyCode>false</SupportJustMyCode>
       <FunctionLevelLinking>true</FunctionLevelLinking>
@@ -367,10 +367,10 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NIRVANA_PROCESS;_DEBUG;TESTPROCESS_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
-      <AdditionalIncludeDirectories>..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\..\Library.VC\Nirvana\IDL;..\..\Library.VC\googletest\googletest\googletest\include;..\TestORB\TestORB\include;..\TestORB\TestORB\process;.\IDL</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\..\Library.VC\Nirvana\IDL;..\..\Library.VC\googletest\googletest\googletest\include;..\TestORB\TestORB\include;$(ProjectDir)</AdditionalIncludeDirectories>
       <AdditionalOptions>/Zc:sizedDealloc /showFilenames /Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <LanguageStandard>stdcpp20</LanguageStandard>
@@ -399,10 +399,10 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NIRVANA_PROCESS;NDEBUG;TESTPROCESS_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
-      <AdditionalIncludeDirectories>..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\..\Library.VC\Nirvana\IDL;..\..\Library.VC\googletest\googletest\googletest\include;..\TestORB\TestORB\include;..\TestORB\TestORB\process;.\IDL</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\..\Library.VC\Nirvana\IDL;..\..\Library.VC\googletest\googletest\googletest\include;..\TestORB\TestORB\include;$(ProjectDir)</AdditionalIncludeDirectories>
       <AdditionalOptions>/Zc:sizedDealloc /Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
       <LanguageStandard>stdcpp20</LanguageStandard>
       <LanguageStandard_C>stdc11</LanguageStandard_C>
@@ -428,10 +428,10 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NIRVANA_PROCESS;NDEBUG;TESTPROCESS_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
-      <AdditionalIncludeDirectories>..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\..\Library.VC\Nirvana\IDL;..\..\Library.VC\googletest\googletest\googletest\include;..\TestORB\TestORB\include;..\TestORB\TestORB\process;.\IDL</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\Library.VC\Nirvana\SRC\Include;..\..\Library.VC\Nirvana\ORB\Include;..\..\Library.VC\Nirvana\IDL;..\..\Library.VC\googletest\googletest\googletest\include;..\TestORB\TestORB\include;$(ProjectDir)</AdditionalIncludeDirectories>
       <AdditionalOptions>/Zc:sizedDealloc /showFilenames /Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
       <LanguageStandard>stdcpp20</LanguageStandard>
       <LanguageStandard_C>stdc11</LanguageStandard_C>
@@ -451,184 +451,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\TestORB\TestORB\process\IDL\DbConnect.cpp">
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">../pch.h</PrecompiledHeaderFile>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">../pch.h</PrecompiledHeaderFile>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">../pch.h</PrecompiledHeaderFile>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">../pch.h</PrecompiledHeaderFile>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">..\TestORB\TestORB\process\IDL/../pch.h</PrecompiledHeaderFile>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">..\TestORB\TestORB\process\IDL/../pch.h</PrecompiledHeaderFile>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">..\TestORB\TestORB\process\IDL/../pch.h</PrecompiledHeaderFile>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">..\TestORB\TestORB\process\IDL/../pch.h</PrecompiledHeaderFile>
-    </ClCompile>
-    <ClCompile Include="..\TestORB\TestORB\process\IDL\PingPong.cpp">
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">..\TestORB\TestORB\process\IDL/../pch.h</PrecompiledHeaderFile>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">..\TestORB\TestORB\process\IDL/../pch.h</PrecompiledHeaderFile>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">../pch.h</PrecompiledHeaderFile>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">../pch.h</PrecompiledHeaderFile>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">..\TestORB\TestORB\process\IDL/../pch.h</PrecompiledHeaderFile>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">..\TestORB\TestORB\process\IDL/../pch.h</PrecompiledHeaderFile>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">../pch.h</PrecompiledHeaderFile>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">../pch.h</PrecompiledHeaderFile>
-    </ClCompile>
-    <ClCompile Include="..\TestORB\TestORB\process\IDL\RecursiveStruct.cpp">
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">..\TestORB\TestORB\process\IDL/../pch.h</PrecompiledHeaderFile>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">..\TestORB\TestORB\process\IDL/../pch.h</PrecompiledHeaderFile>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">../pch.h</PrecompiledHeaderFile>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">../pch.h</PrecompiledHeaderFile>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">..\TestORB\TestORB\process\IDL/../pch.h</PrecompiledHeaderFile>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">..\TestORB\TestORB\process\IDL/../pch.h</PrecompiledHeaderFile>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">../pch.h</PrecompiledHeaderFile>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">../pch.h</PrecompiledHeaderFile>
-    </ClCompile>
-    <ClCompile Include="..\TestORB\TestORB\process\IDL\Test_A1.cpp">
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">..\TestORB\TestORB\process\IDL/../pch.h</PrecompiledHeaderFile>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">..\TestORB\TestORB\process\IDL/../pch.h</PrecompiledHeaderFile>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">../pch.h</PrecompiledHeaderFile>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">../pch.h</PrecompiledHeaderFile>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">..\TestORB\TestORB\process\IDL/../pch.h</PrecompiledHeaderFile>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">..\TestORB\TestORB\process\IDL/../pch.h</PrecompiledHeaderFile>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">../pch.h</PrecompiledHeaderFile>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">../pch.h</PrecompiledHeaderFile>
-    </ClCompile>
-    <ClCompile Include="..\TestORB\TestORB\process\IDL\Test_AVT.cpp">
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">..\TestORB\TestORB\process\IDL/../pch.h</PrecompiledHeaderFile>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">..\TestORB\TestORB\process\IDL/../pch.h</PrecompiledHeaderFile>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">../pch.h</PrecompiledHeaderFile>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">../pch.h</PrecompiledHeaderFile>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">..\TestORB\TestORB\process\IDL/../pch.h</PrecompiledHeaderFile>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">..\TestORB\TestORB\process\IDL/../pch.h</PrecompiledHeaderFile>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">../pch.h</PrecompiledHeaderFile>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">../pch.h</PrecompiledHeaderFile>
-    </ClCompile>
-    <ClCompile Include="..\TestORB\TestORB\process\IDL\Test_Comp.cpp">
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">..\TestORB\TestORB\process\IDL/../pch.h</PrecompiledHeaderFile>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">..\TestORB\TestORB\process\IDL/../pch.h</PrecompiledHeaderFile>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">../pch.h</PrecompiledHeaderFile>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">../pch.h</PrecompiledHeaderFile>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">..\TestORB\TestORB\process\IDL/../pch.h</PrecompiledHeaderFile>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">..\TestORB\TestORB\process\IDL/../pch.h</PrecompiledHeaderFile>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">../pch.h</PrecompiledHeaderFile>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">../pch.h</PrecompiledHeaderFile>
-    </ClCompile>
-    <ClCompile Include="..\TestORB\TestORB\process\IDL\Test_I1.cpp">
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">..\TestORB\TestORB\process\IDL/../pch.h</PrecompiledHeaderFile>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">..\TestORB\TestORB\process\IDL/../pch.h</PrecompiledHeaderFile>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">../pch.h</PrecompiledHeaderFile>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">../pch.h</PrecompiledHeaderFile>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">..\TestORB\TestORB\process\IDL/../pch.h</PrecompiledHeaderFile>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">..\TestORB\TestORB\process\IDL/../pch.h</PrecompiledHeaderFile>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">../pch.h</PrecompiledHeaderFile>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">../pch.h</PrecompiledHeaderFile>
-    </ClCompile>
-    <ClCompile Include="..\TestORB\TestORB\process\IDL\Test_I1_factory.cpp">
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">..\TestORB\TestORB\process\IDL/../pch.h</PrecompiledHeaderFile>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">..\TestORB\TestORB\process\IDL/../pch.h</PrecompiledHeaderFile>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">../pch.h</PrecompiledHeaderFile>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">../pch.h</PrecompiledHeaderFile>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">..\TestORB\TestORB\process\IDL/../pch.h</PrecompiledHeaderFile>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">..\TestORB\TestORB\process\IDL/../pch.h</PrecompiledHeaderFile>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">../pch.h</PrecompiledHeaderFile>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">../pch.h</PrecompiledHeaderFile>
-    </ClCompile>
-    <ClCompile Include="..\TestORB\TestORB\process\IDL\Test_I2.cpp">
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">..\TestORB\TestORB\process\IDL/../pch.h</PrecompiledHeaderFile>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">..\TestORB\TestORB\process\IDL/../pch.h</PrecompiledHeaderFile>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">../pch.h</PrecompiledHeaderFile>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">../pch.h</PrecompiledHeaderFile>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">..\TestORB\TestORB\process\IDL/../pch.h</PrecompiledHeaderFile>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">..\TestORB\TestORB\process\IDL/../pch.h</PrecompiledHeaderFile>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">../pch.h</PrecompiledHeaderFile>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">../pch.h</PrecompiledHeaderFile>
-    </ClCompile>
-    <ClCompile Include="..\TestORB\TestORB\process\IDL\Test_I3.cpp">
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">..\TestORB\TestORB\process\IDL/../pch.h</PrecompiledHeaderFile>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">..\TestORB\TestORB\process\IDL/../pch.h</PrecompiledHeaderFile>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">../pch.h</PrecompiledHeaderFile>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">../pch.h</PrecompiledHeaderFile>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">..\TestORB\TestORB\process\IDL/../pch.h</PrecompiledHeaderFile>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">..\TestORB\TestORB\process\IDL/../pch.h</PrecompiledHeaderFile>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">../pch.h</PrecompiledHeaderFile>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">../pch.h</PrecompiledHeaderFile>
-    </ClCompile>
-    <ClCompile Include="..\TestORB\TestORB\process\IDL\Test_I3_factory.cpp">
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">..\TestORB\TestORB\process\IDL/../pch.h</PrecompiledHeaderFile>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">..\TestORB\TestORB\process\IDL/../pch.h</PrecompiledHeaderFile>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">../pch.h</PrecompiledHeaderFile>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">../pch.h</PrecompiledHeaderFile>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">..\TestORB\TestORB\process\IDL/../pch.h</PrecompiledHeaderFile>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">..\TestORB\TestORB\process\IDL/../pch.h</PrecompiledHeaderFile>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">../pch.h</PrecompiledHeaderFile>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">../pch.h</PrecompiledHeaderFile>
-    </ClCompile>
-    <ClCompile Include="..\TestORB\TestORB\process\IDL\Test_V1.cpp">
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">..\TestORB\TestORB\process\IDL/../pch.h</PrecompiledHeaderFile>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">..\TestORB\TestORB\process\IDL/../pch.h</PrecompiledHeaderFile>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">../pch.h</PrecompiledHeaderFile>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">../pch.h</PrecompiledHeaderFile>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">..\TestORB\TestORB\process\IDL/../pch.h</PrecompiledHeaderFile>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">..\TestORB\TestORB\process\IDL/../pch.h</PrecompiledHeaderFile>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">../pch.h</PrecompiledHeaderFile>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">../pch.h</PrecompiledHeaderFile>
-    </ClCompile>
-    <ClCompile Include="..\TestORB\TestORB\process\IDL\Test_V2.cpp">
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">..\TestORB\TestORB\process\IDL/../pch.h</PrecompiledHeaderFile>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">..\TestORB\TestORB\process\IDL/../pch.h</PrecompiledHeaderFile>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">../pch.h</PrecompiledHeaderFile>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">../pch.h</PrecompiledHeaderFile>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">..\TestORB\TestORB\process\IDL/../pch.h</PrecompiledHeaderFile>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">..\TestORB\TestORB\process\IDL/../pch.h</PrecompiledHeaderFile>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">../pch.h</PrecompiledHeaderFile>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">../pch.h</PrecompiledHeaderFile>
-    </ClCompile>
-    <ClCompile Include="..\TestORB\TestORB\process\IDL\Test_V3.cpp">
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">..\TestORB\TestORB\process\IDL/../pch.h</PrecompiledHeaderFile>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">..\TestORB\TestORB\process\IDL/../pch.h</PrecompiledHeaderFile>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">../pch.h</PrecompiledHeaderFile>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">../pch.h</PrecompiledHeaderFile>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">..\TestORB\TestORB\process\IDL/../pch.h</PrecompiledHeaderFile>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">..\TestORB\TestORB\process\IDL/../pch.h</PrecompiledHeaderFile>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">../pch.h</PrecompiledHeaderFile>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">../pch.h</PrecompiledHeaderFile>
-    </ClCompile>
-    <ClCompile Include="..\TestORB\TestORB\process\IDL\Union.cpp">
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">..\TestORB\TestORB\process\IDL/../pch.h</PrecompiledHeaderFile>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">..\TestORB\TestORB\process\IDL/../pch.h</PrecompiledHeaderFile>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">../pch.h</PrecompiledHeaderFile>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">../pch.h</PrecompiledHeaderFile>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">..\TestORB\TestORB\process\IDL/../pch.h</PrecompiledHeaderFile>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">..\TestORB\TestORB\process\IDL/../pch.h</PrecompiledHeaderFile>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">../pch.h</PrecompiledHeaderFile>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">../pch.h</PrecompiledHeaderFile>
-    </ClCompile>
-    <ClCompile Include="..\TestORB\TestORB\process\IDL\ValueBox.cpp">
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">..\TestORB\TestORB\process\IDL/../pch.h</PrecompiledHeaderFile>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">..\TestORB\TestORB\process\IDL/../pch.h</PrecompiledHeaderFile>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">../pch.h</PrecompiledHeaderFile>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">../pch.h</PrecompiledHeaderFile>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">..\TestORB\TestORB\process\IDL/../pch.h</PrecompiledHeaderFile>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">..\TestORB\TestORB\process\IDL/../pch.h</PrecompiledHeaderFile>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">../pch.h</PrecompiledHeaderFile>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">../pch.h</PrecompiledHeaderFile>
-    </ClCompile>
-    <ClCompile Include="..\TestORB\TestORB\process\pch.cpp">
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">Create</PrecompiledHeader>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">Create</PrecompiledHeader>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">Create</PrecompiledHeader>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">Create</PrecompiledHeader>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">Create</PrecompiledHeader>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">Create</PrecompiledHeader>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">Create</PrecompiledHeader>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">Create</PrecompiledHeader>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">pch.h</PrecompiledHeaderFile>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">pch.h</PrecompiledHeaderFile>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">pch.h</PrecompiledHeaderFile>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">pch.h</PrecompiledHeaderFile>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">pch.h</PrecompiledHeaderFile>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">pch.h</PrecompiledHeaderFile>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">pch.h</PrecompiledHeaderFile>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">pch.h</PrecompiledHeaderFile>
-    </ClCompile>
     <ClCompile Include="..\TestORB\TestORB\process\TestDbConnect.cpp" />
     <ClCompile Include="..\TestORB\TestORB\process\TestORB_Comp.cpp">
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">LEGACY_CORBA_CPP;NIRVANA_PROCESS;WIN32;NDEBUG;TESTPROCESS_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -691,28 +513,43 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">NotUsing</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">NotUsing</PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="idl\DbConnect.cpp" />
+    <ClCompile Include="idl\PingPong.cpp" />
+    <ClCompile Include="idl\RecursiveStruct.cpp" />
+    <ClCompile Include="idl\Test_A1.cpp" />
+    <ClCompile Include="idl\Test_AVT.cpp" />
+    <ClCompile Include="idl\Test_Comp.cpp" />
+    <ClCompile Include="idl\Test_I1.cpp" />
+    <ClCompile Include="idl\Test_I1_factory.cpp" />
+    <ClCompile Include="idl\Test_I2.cpp" />
+    <ClCompile Include="idl\Test_I3.cpp" />
+    <ClCompile Include="idl\Test_I3_factory.cpp" />
+    <ClCompile Include="idl\Test_V1.cpp" />
+    <ClCompile Include="idl\Test_V2.cpp" />
+    <ClCompile Include="idl\Test_V3.cpp" />
+    <ClCompile Include="idl\Union.cpp" />
+    <ClCompile Include="idl\ValueBox.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\TestORB\TestORB\include\I1_static.h" />
-    <ClInclude Include="..\TestORB\TestORB\process\IDL\DbConnect.h" />
-    <ClInclude Include="..\TestORB\TestORB\process\IDL\PingPong.h" />
-    <ClInclude Include="..\TestORB\TestORB\process\IDL\RecursiveStruct.h" />
-    <ClInclude Include="..\TestORB\TestORB\process\IDL\Test_A1.h" />
-    <ClInclude Include="..\TestORB\TestORB\process\IDL\Test_AVT.h" />
-    <ClInclude Include="..\TestORB\TestORB\process\IDL\Test_Comp.h" />
-    <ClInclude Include="..\TestORB\TestORB\process\IDL\Test_I1.h" />
-    <ClInclude Include="..\TestORB\TestORB\process\IDL\Test_I1_factory.h" />
-    <ClInclude Include="..\TestORB\TestORB\process\IDL\Test_I2.h" />
-    <ClInclude Include="..\TestORB\TestORB\process\IDL\Test_I3.h" />
-    <ClInclude Include="..\TestORB\TestORB\process\IDL\Test_I3_factory.h" />
-    <ClInclude Include="..\TestORB\TestORB\process\IDL\Test_V1.h" />
-    <ClInclude Include="..\TestORB\TestORB\process\IDL\Test_V2.h" />
-    <ClInclude Include="..\TestORB\TestORB\process\IDL\Test_V3.h" />
-    <ClInclude Include="..\TestORB\TestORB\process\IDL\Union.h" />
-    <ClInclude Include="..\TestORB\TestORB\process\IDL\ValueBox.h" />
-    <ClInclude Include="..\TestORB\TestORB\process\pch.h" />
     <ClInclude Include="..\TestORB\TestORB\process\TestORB.h" />
     <ClInclude Include="..\TestORB\TestORB\process\TestORB_I1.h" />
+    <ClInclude Include="idl\DbConnect.h" />
+    <ClInclude Include="idl\PingPong.h" />
+    <ClInclude Include="idl\RecursiveStruct.h" />
+    <ClInclude Include="idl\Test_A1.h" />
+    <ClInclude Include="idl\Test_AVT.h" />
+    <ClInclude Include="idl\Test_Comp.h" />
+    <ClInclude Include="idl\Test_I1.h" />
+    <ClInclude Include="idl\Test_I1_factory.h" />
+    <ClInclude Include="idl\Test_I2.h" />
+    <ClInclude Include="idl\Test_I3.h" />
+    <ClInclude Include="idl\Test_I3_factory.h" />
+    <ClInclude Include="idl\Test_V1.h" />
+    <ClInclude Include="idl\Test_V2.h" />
+    <ClInclude Include="idl\Test_V3.h" />
+    <ClInclude Include="idl\Union.h" />
+    <ClInclude Include="idl\ValueBox.h" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\Library.VC\googletest\googletest.vcxproj">
@@ -727,22 +564,22 @@
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="..\TestORB\TestORB\idl\RecursiveStruct.idl">
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">nidl2cpp.exe -inc_cpp "../pch.h" "%(Identity)" -legacy -client -out "%(RelativeDir)..\process\IDL"</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">nidl2cpp.exe -inc_cpp "../pch.h" "%(Identity)" -legacy -client -out "%(RelativeDir)..\process\IDL"</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">nidl2cpp.exe -inc_cpp "../pch.h" "%(Identity)" -legacy -client -out "%(RelativeDir)..\process\IDL"</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">nidl2cpp.exe -inc_cpp "../pch.h" "%(Identity)" -legacy -client -out "%(RelativeDir)..\process\IDL"</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">nidl2cpp.exe -inc_cpp "../pch.h" "%(Identity)" -legacy -client -out "%(RelativeDir)..\process\IDL"</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">nidl2cpp.exe -inc_cpp "../pch.h" "%(Identity)" -legacy -client -out "%(RelativeDir)..\process\IDL"</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">nidl2cpp.exe -inc_cpp "../pch.h" "%(Identity)" -legacy -client -out "%(RelativeDir)..\process\IDL"</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">nidl2cpp.exe -inc_cpp "../pch.h" "%(Identity)" -legacy -client -out "%(RelativeDir)..\process\IDL"</Command>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">%(RelativeDir)..\process\IDL\%(Filename).h;%(RelativeDir)..\process\IDL\%(Filename).cpp</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">%(RelativeDir)..\process\IDL\%(Filename).h;%(RelativeDir)..\process\IDL\%(Filename).cpp</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">%(RelativeDir)..\process\IDL\%(Filename).h;%(RelativeDir)..\process\IDL\%(Filename).cpp</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">%(RelativeDir)..\process\IDL\%(Filename).h;%(RelativeDir)..\process\IDL\%(Filename).cpp</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">%(RelativeDir)..\process\IDL\%(Filename).h;%(RelativeDir)..\process\IDL\%(Filename).cpp</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">%(RelativeDir)..\process\IDL\%(Filename).h;%(RelativeDir)..\process\IDL\%(Filename).cpp</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">%(RelativeDir)..\process\IDL\%(Filename).h;%(RelativeDir)..\process\IDL\%(Filename).cpp</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">%(RelativeDir)..\process\IDL\%(Filename).h;%(RelativeDir)..\process\IDL\%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">nidl2cpp.exe "%(Identity)" -legacy -client -out "$(ProjectDir)idl"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">nidl2cpp.exe "%(Identity)" -legacy -client -out "$(ProjectDir)idl"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">nidl2cpp.exe "%(Identity)" -legacy -client -out "$(ProjectDir)idl"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">nidl2cpp.exe "%(Identity)" -legacy -client -out "$(ProjectDir)idl"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">nidl2cpp.exe "%(Identity)" -legacy -client -out "$(ProjectDir)idl"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">nidl2cpp.exe "%(Identity)" -legacy -client -out "$(ProjectDir)idl"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">nidl2cpp.exe "%(Identity)" -legacy -client -out "$(ProjectDir)idl"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">nidl2cpp.exe "%(Identity)" -legacy -client -out "$(ProjectDir)idl"</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">$(ProjectDir)idl\%(Filename).h;$(ProjectDir)idl\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">$(ProjectDir)idl\%(Filename).h;$(ProjectDir)idl\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">$(ProjectDir)idl\%(Filename).h;$(ProjectDir)idl\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">$(ProjectDir)idl\%(Filename).h;$(ProjectDir)idl\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">$(ProjectDir)idl\%(Filename).h;$(ProjectDir)idl\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">$(ProjectDir)idl\%(Filename).h;$(ProjectDir)idl\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">$(ProjectDir)idl\%(Filename).h;$(ProjectDir)idl\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">$(ProjectDir)idl\%(Filename).h;$(ProjectDir)idl\%(Filename).cpp</Outputs>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">IDL compilation</Message>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">IDL compilation</Message>
@@ -761,22 +598,22 @@
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">true</BuildInParallel>
     </CustomBuild>
     <CustomBuild Include="..\TestORB\TestORB\idl\Test_A1.idl">
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">nidl2cpp.exe -inc_cpp "../pch.h" "%(Identity)" -legacy -client -out "%(RelativeDir)..\process\IDL"</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">nidl2cpp.exe -inc_cpp "../pch.h" "%(Identity)" -legacy -client -out "%(RelativeDir)..\process\IDL"</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">nidl2cpp.exe -inc_cpp "../pch.h" "%(Identity)" -legacy -client -out "%(RelativeDir)..\process\IDL"</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">nidl2cpp.exe -inc_cpp "../pch.h" "%(Identity)" -legacy -client -out "%(RelativeDir)..\process\IDL"</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">nidl2cpp.exe -inc_cpp "../pch.h" "%(Identity)" -legacy -client -out "%(RelativeDir)..\process\IDL"</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">nidl2cpp.exe -inc_cpp "../pch.h" "%(Identity)" -legacy -client -out "%(RelativeDir)..\process\IDL"</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">nidl2cpp.exe -inc_cpp "../pch.h" "%(Identity)" -legacy -client -out "%(RelativeDir)..\process\IDL"</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">nidl2cpp.exe -inc_cpp "../pch.h" "%(Identity)" -legacy -client -out "%(RelativeDir)..\process\IDL"</Command>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">%(RelativeDir)..\process\IDL\%(Filename).h;%(RelativeDir)..\process\IDL\%(Filename).cpp</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">%(RelativeDir)..\process\IDL\%(Filename).h;%(RelativeDir)..\process\IDL\%(Filename).cpp</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">%(RelativeDir)..\process\IDL\%(Filename).h;%(RelativeDir)..\process\IDL\%(Filename).cpp</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">%(RelativeDir)..\process\IDL\%(Filename).h;%(RelativeDir)..\process\IDL\%(Filename).cpp</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">%(RelativeDir)..\process\IDL\%(Filename).h;%(RelativeDir)..\process\IDL\%(Filename).cpp</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">%(RelativeDir)..\process\IDL\%(Filename).h;%(RelativeDir)..\process\IDL\%(Filename).cpp</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">%(RelativeDir)..\process\IDL\%(Filename).h;%(RelativeDir)..\process\IDL\%(Filename).cpp</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">%(RelativeDir)..\process\IDL\%(Filename).h;%(RelativeDir)..\process\IDL\%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">nidl2cpp.exe "%(Identity)" -legacy -client -out "$(ProjectDir)idl"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">nidl2cpp.exe "%(Identity)" -legacy -client -out "$(ProjectDir)idl"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">nidl2cpp.exe "%(Identity)" -legacy -client -out "$(ProjectDir)idl"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">nidl2cpp.exe "%(Identity)" -legacy -client -out "$(ProjectDir)idl"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">nidl2cpp.exe "%(Identity)" -legacy -client -out "$(ProjectDir)idl"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">nidl2cpp.exe "%(Identity)" -legacy -client -out "$(ProjectDir)idl"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">nidl2cpp.exe "%(Identity)" -legacy -client -out "$(ProjectDir)idl"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">nidl2cpp.exe "%(Identity)" -legacy -client -out "$(ProjectDir)idl"</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">$(ProjectDir)idl\%(Filename).h;$(ProjectDir)idl\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">$(ProjectDir)idl\%(Filename).h;$(ProjectDir)idl\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">$(ProjectDir)idl\%(Filename).h;$(ProjectDir)idl\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">$(ProjectDir)idl\%(Filename).h;$(ProjectDir)idl\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">$(ProjectDir)idl\%(Filename).h;$(ProjectDir)idl\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">$(ProjectDir)idl\%(Filename).h;$(ProjectDir)idl\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">$(ProjectDir)idl\%(Filename).h;$(ProjectDir)idl\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">$(ProjectDir)idl\%(Filename).h;$(ProjectDir)idl\%(Filename).cpp</Outputs>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">IDL compilation</Message>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">IDL compilation</Message>
@@ -795,22 +632,22 @@
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">true</BuildInParallel>
     </CustomBuild>
     <CustomBuild Include="..\TestORB\TestORB\idl\Test_I1.idl">
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">nidl2cpp.exe -inc_cpp "../pch.h" "%(Identity)" -legacy -client -out "%(RelativeDir)..\process\IDL"</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">nidl2cpp.exe -inc_cpp "../pch.h" "%(Identity)" -legacy -client -out "%(RelativeDir)..\process\IDL"</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">nidl2cpp.exe -inc_cpp "../pch.h" "%(Identity)" -legacy -client -out "%(RelativeDir)..\process\IDL"</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">nidl2cpp.exe -inc_cpp "../pch.h" "%(Identity)" -legacy -client -out "%(RelativeDir)..\process\IDL"</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">nidl2cpp.exe -inc_cpp "../pch.h" "%(Identity)" -legacy -client -out "%(RelativeDir)..\process\IDL"</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">nidl2cpp.exe -inc_cpp "../pch.h" "%(Identity)" -legacy -client -out "%(RelativeDir)..\process\IDL"</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">nidl2cpp.exe -inc_cpp "../pch.h" "%(Identity)" -legacy -client -out "%(RelativeDir)..\process\IDL"</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">nidl2cpp.exe -inc_cpp "../pch.h" "%(Identity)" -legacy -client -out "%(RelativeDir)..\process\IDL"</Command>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">%(RelativeDir)..\process\IDL\%(Filename).h;%(RelativeDir)..\process\IDL\%(Filename).cpp</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">%(RelativeDir)..\process\IDL\%(Filename).h;%(RelativeDir)..\process\IDL\%(Filename).cpp</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">%(RelativeDir)..\process\IDL\%(Filename).h;%(RelativeDir)..\process\IDL\%(Filename).cpp</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">%(RelativeDir)..\process\IDL\%(Filename).h;%(RelativeDir)..\process\IDL\%(Filename).cpp</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">%(RelativeDir)..\process\IDL\%(Filename).h;%(RelativeDir)..\process\IDL\%(Filename).cpp</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">%(RelativeDir)..\process\IDL\%(Filename).h;%(RelativeDir)..\process\IDL\%(Filename).cpp</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">%(RelativeDir)..\process\IDL\%(Filename).h;%(RelativeDir)..\process\IDL\%(Filename).cpp</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">%(RelativeDir)..\process\IDL\%(Filename).h;%(RelativeDir)..\process\IDL\%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">nidl2cpp.exe "%(Identity)" -legacy -client -out "$(ProjectDir)idl"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">nidl2cpp.exe "%(Identity)" -legacy -client -out "$(ProjectDir)idl"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">nidl2cpp.exe "%(Identity)" -legacy -client -out "$(ProjectDir)idl"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">nidl2cpp.exe "%(Identity)" -legacy -client -out "$(ProjectDir)idl"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">nidl2cpp.exe "%(Identity)" -legacy -client -out "$(ProjectDir)idl"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">nidl2cpp.exe "%(Identity)" -legacy -client -out "$(ProjectDir)idl"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">nidl2cpp.exe "%(Identity)" -legacy -client -out "$(ProjectDir)idl"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">nidl2cpp.exe "%(Identity)" -legacy -client -out "$(ProjectDir)idl"</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">$(ProjectDir)idl\%(Filename).h;$(ProjectDir)idl\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">$(ProjectDir)idl\%(Filename).h;$(ProjectDir)idl\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">$(ProjectDir)idl\%(Filename).h;$(ProjectDir)idl\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">$(ProjectDir)idl\%(Filename).h;$(ProjectDir)idl\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">$(ProjectDir)idl\%(Filename).h;$(ProjectDir)idl\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">$(ProjectDir)idl\%(Filename).h;$(ProjectDir)idl\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">$(ProjectDir)idl\%(Filename).h;$(ProjectDir)idl\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">$(ProjectDir)idl\%(Filename).h;$(ProjectDir)idl\%(Filename).cpp</Outputs>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">IDL compilation</Message>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">IDL compilation</Message>
@@ -829,22 +666,22 @@
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">true</BuildInParallel>
     </CustomBuild>
     <CustomBuild Include="..\TestORB\TestORB\idl\Test_I1_factory.idl">
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">nidl2cpp.exe -inc_cpp "../pch.h" "%(Identity)" -legacy -client -out "%(RelativeDir)..\process\IDL"</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">nidl2cpp.exe -inc_cpp "../pch.h" "%(Identity)" -legacy -client -out "%(RelativeDir)..\process\IDL"</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">nidl2cpp.exe -inc_cpp "../pch.h" "%(Identity)" -legacy -client -out "%(RelativeDir)..\process\IDL"</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">nidl2cpp.exe -inc_cpp "../pch.h" "%(Identity)" -legacy -client -out "%(RelativeDir)..\process\IDL"</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">nidl2cpp.exe -inc_cpp "../pch.h" "%(Identity)" -legacy -client -out "%(RelativeDir)..\process\IDL"</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">nidl2cpp.exe -inc_cpp "../pch.h" "%(Identity)" -legacy -client -out "%(RelativeDir)..\process\IDL"</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">nidl2cpp.exe -inc_cpp "../pch.h" "%(Identity)" -legacy -client -out "%(RelativeDir)..\process\IDL"</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">nidl2cpp.exe -inc_cpp "../pch.h" "%(Identity)" -legacy -client -out "%(RelativeDir)..\process\IDL"</Command>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">%(RelativeDir)..\process\IDL\%(Filename).h;%(RelativeDir)..\process\IDL\%(Filename).cpp</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">%(RelativeDir)..\process\IDL\%(Filename).h;%(RelativeDir)..\process\IDL\%(Filename).cpp</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">%(RelativeDir)..\process\IDL\%(Filename).h;%(RelativeDir)..\process\IDL\%(Filename).cpp</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">%(RelativeDir)..\process\IDL\%(Filename).h;%(RelativeDir)..\process\IDL\%(Filename).cpp</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">%(RelativeDir)..\process\IDL\%(Filename).h;%(RelativeDir)..\process\IDL\%(Filename).cpp</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">%(RelativeDir)..\process\IDL\%(Filename).h;%(RelativeDir)..\process\IDL\%(Filename).cpp</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">%(RelativeDir)..\process\IDL\%(Filename).h;%(RelativeDir)..\process\IDL\%(Filename).cpp</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">%(RelativeDir)..\process\IDL\%(Filename).h;%(RelativeDir)..\process\IDL\%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">nidl2cpp.exe "%(Identity)" -legacy -client -out "$(ProjectDir)idl"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">nidl2cpp.exe "%(Identity)" -legacy -client -out "$(ProjectDir)idl"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">nidl2cpp.exe "%(Identity)" -legacy -client -out "$(ProjectDir)idl"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">nidl2cpp.exe "%(Identity)" -legacy -client -out "$(ProjectDir)idl"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">nidl2cpp.exe "%(Identity)" -legacy -client -out "$(ProjectDir)idl"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">nidl2cpp.exe "%(Identity)" -legacy -client -out "$(ProjectDir)idl"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">nidl2cpp.exe "%(Identity)" -legacy -client -out "$(ProjectDir)idl"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">nidl2cpp.exe "%(Identity)" -legacy -client -out "$(ProjectDir)idl"</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">$(ProjectDir)idl\%(Filename).h;$(ProjectDir)idl\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">$(ProjectDir)idl\%(Filename).h;$(ProjectDir)idl\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">$(ProjectDir)idl\%(Filename).h;$(ProjectDir)idl\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">$(ProjectDir)idl\%(Filename).h;$(ProjectDir)idl\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">$(ProjectDir)idl\%(Filename).h;$(ProjectDir)idl\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">$(ProjectDir)idl\%(Filename).h;$(ProjectDir)idl\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">$(ProjectDir)idl\%(Filename).h;$(ProjectDir)idl\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">$(ProjectDir)idl\%(Filename).h;$(ProjectDir)idl\%(Filename).cpp</Outputs>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">IDL compilation</Message>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">IDL compilation</Message>
@@ -863,22 +700,22 @@
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">true</BuildInParallel>
     </CustomBuild>
     <CustomBuild Include="..\TestORB\TestORB\idl\Test_I2.idl">
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">nidl2cpp.exe -inc_cpp "../pch.h" "%(Identity)" -legacy -client -out "%(RelativeDir)..\process\IDL"</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">nidl2cpp.exe -inc_cpp "../pch.h" "%(Identity)" -legacy -client -out "%(RelativeDir)..\process\IDL"</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">nidl2cpp.exe -inc_cpp "../pch.h" "%(Identity)" -legacy -client -out "%(RelativeDir)..\process\IDL"</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">nidl2cpp.exe -inc_cpp "../pch.h" "%(Identity)" -legacy -client -out "%(RelativeDir)..\process\IDL"</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">nidl2cpp.exe -inc_cpp "../pch.h" "%(Identity)" -legacy -client -out "%(RelativeDir)..\process\IDL"</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">nidl2cpp.exe -inc_cpp "../pch.h" "%(Identity)" -legacy -client -out "%(RelativeDir)..\process\IDL"</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">nidl2cpp.exe -inc_cpp "../pch.h" "%(Identity)" -legacy -client -out "%(RelativeDir)..\process\IDL"</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">nidl2cpp.exe -inc_cpp "../pch.h" "%(Identity)" -legacy -client -out "%(RelativeDir)..\process\IDL"</Command>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">%(RelativeDir)..\process\IDL\%(Filename).h;%(RelativeDir)..\process\IDL\%(Filename).cpp</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">%(RelativeDir)..\process\IDL\%(Filename).h;%(RelativeDir)..\process\IDL\%(Filename).cpp</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">%(RelativeDir)..\process\IDL\%(Filename).h;%(RelativeDir)..\process\IDL\%(Filename).cpp</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">%(RelativeDir)..\process\IDL\%(Filename).h;%(RelativeDir)..\process\IDL\%(Filename).cpp</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">%(RelativeDir)..\process\IDL\%(Filename).h;%(RelativeDir)..\process\IDL\%(Filename).cpp</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">%(RelativeDir)..\process\IDL\%(Filename).h;%(RelativeDir)..\process\IDL\%(Filename).cpp</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">%(RelativeDir)..\process\IDL\%(Filename).h;%(RelativeDir)..\process\IDL\%(Filename).cpp</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">%(RelativeDir)..\process\IDL\%(Filename).h;%(RelativeDir)..\process\IDL\%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">nidl2cpp.exe "%(Identity)" -legacy -client -out "$(ProjectDir)idl"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">nidl2cpp.exe "%(Identity)" -legacy -client -out "$(ProjectDir)idl"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">nidl2cpp.exe "%(Identity)" -legacy -client -out "$(ProjectDir)idl"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">nidl2cpp.exe "%(Identity)" -legacy -client -out "$(ProjectDir)idl"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">nidl2cpp.exe "%(Identity)" -legacy -client -out "$(ProjectDir)idl"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">nidl2cpp.exe "%(Identity)" -legacy -client -out "$(ProjectDir)idl"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">nidl2cpp.exe "%(Identity)" -legacy -client -out "$(ProjectDir)idl"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">nidl2cpp.exe "%(Identity)" -legacy -client -out "$(ProjectDir)idl"</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">$(ProjectDir)idl\%(Filename).h;$(ProjectDir)idl\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">$(ProjectDir)idl\%(Filename).h;$(ProjectDir)idl\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">$(ProjectDir)idl\%(Filename).h;$(ProjectDir)idl\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">$(ProjectDir)idl\%(Filename).h;$(ProjectDir)idl\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">$(ProjectDir)idl\%(Filename).h;$(ProjectDir)idl\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">$(ProjectDir)idl\%(Filename).h;$(ProjectDir)idl\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">$(ProjectDir)idl\%(Filename).h;$(ProjectDir)idl\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">$(ProjectDir)idl\%(Filename).h;$(ProjectDir)idl\%(Filename).cpp</Outputs>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">IDL compilation</Message>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">IDL compilation</Message>
@@ -897,22 +734,22 @@
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">true</BuildInParallel>
     </CustomBuild>
     <CustomBuild Include="..\TestORB\TestORB\idl\Test_I3.idl">
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">nidl2cpp.exe -inc_cpp "../pch.h" "%(Identity)" -legacy -client -out "%(RelativeDir)..\process\IDL"</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">nidl2cpp.exe -inc_cpp "../pch.h" "%(Identity)" -legacy -client -out "%(RelativeDir)..\process\IDL"</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">nidl2cpp.exe -inc_cpp "../pch.h" "%(Identity)" -legacy -client -out "%(RelativeDir)..\process\IDL"</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">nidl2cpp.exe -inc_cpp "../pch.h" "%(Identity)" -legacy -client -out "%(RelativeDir)..\process\IDL"</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">nidl2cpp.exe -inc_cpp "../pch.h" "%(Identity)" -legacy -client -out "%(RelativeDir)..\process\IDL"</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">nidl2cpp.exe -inc_cpp "../pch.h" "%(Identity)" -legacy -client -out "%(RelativeDir)..\process\IDL"</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">nidl2cpp.exe -inc_cpp "../pch.h" "%(Identity)" -legacy -client -out "%(RelativeDir)..\process\IDL"</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">nidl2cpp.exe -inc_cpp "../pch.h" "%(Identity)" -legacy -client -out "%(RelativeDir)..\process\IDL"</Command>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">%(RelativeDir)..\process\IDL\%(Filename).h;%(RelativeDir)..\process\IDL\%(Filename).cpp</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">%(RelativeDir)..\process\IDL\%(Filename).h;%(RelativeDir)..\process\IDL\%(Filename).cpp</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">%(RelativeDir)..\process\IDL\%(Filename).h;%(RelativeDir)..\process\IDL\%(Filename).cpp</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">%(RelativeDir)..\process\IDL\%(Filename).h;%(RelativeDir)..\process\IDL\%(Filename).cpp</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">%(RelativeDir)..\process\IDL\%(Filename).h;%(RelativeDir)..\process\IDL\%(Filename).cpp</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">%(RelativeDir)..\process\IDL\%(Filename).h;%(RelativeDir)..\process\IDL\%(Filename).cpp</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">%(RelativeDir)..\process\IDL\%(Filename).h;%(RelativeDir)..\process\IDL\%(Filename).cpp</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">%(RelativeDir)..\process\IDL\%(Filename).h;%(RelativeDir)..\process\IDL\%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">nidl2cpp.exe "%(Identity)" -legacy -client -out "$(ProjectDir)idl"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">nidl2cpp.exe "%(Identity)" -legacy -client -out "$(ProjectDir)idl"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">nidl2cpp.exe "%(Identity)" -legacy -client -out "$(ProjectDir)idl"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">nidl2cpp.exe "%(Identity)" -legacy -client -out "$(ProjectDir)idl"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">nidl2cpp.exe "%(Identity)" -legacy -client -out "$(ProjectDir)idl"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">nidl2cpp.exe "%(Identity)" -legacy -client -out "$(ProjectDir)idl"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">nidl2cpp.exe "%(Identity)" -legacy -client -out "$(ProjectDir)idl"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">nidl2cpp.exe "%(Identity)" -legacy -client -out "$(ProjectDir)idl"</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">$(ProjectDir)idl\%(Filename).h;$(ProjectDir)idl\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">$(ProjectDir)idl\%(Filename).h;$(ProjectDir)idl\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">$(ProjectDir)idl\%(Filename).h;$(ProjectDir)idl\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">$(ProjectDir)idl\%(Filename).h;$(ProjectDir)idl\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">$(ProjectDir)idl\%(Filename).h;$(ProjectDir)idl\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">$(ProjectDir)idl\%(Filename).h;$(ProjectDir)idl\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">$(ProjectDir)idl\%(Filename).h;$(ProjectDir)idl\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">$(ProjectDir)idl\%(Filename).h;$(ProjectDir)idl\%(Filename).cpp</Outputs>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">IDL compilation</Message>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">IDL compilation</Message>
@@ -931,22 +768,22 @@
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">true</BuildInParallel>
     </CustomBuild>
     <CustomBuild Include="..\TestORB\TestORB\idl\Test_I3_factory.idl">
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">nidl2cpp.exe -inc_cpp "../pch.h" "%(Identity)" -legacy -client -out "%(RelativeDir)..\process\IDL"</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">nidl2cpp.exe -inc_cpp "../pch.h" "%(Identity)" -legacy -client -out "%(RelativeDir)..\process\IDL"</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">nidl2cpp.exe -inc_cpp "../pch.h" "%(Identity)" -legacy -client -out "%(RelativeDir)..\process\IDL"</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">nidl2cpp.exe -inc_cpp "../pch.h" "%(Identity)" -legacy -client -out "%(RelativeDir)..\process\IDL"</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">nidl2cpp.exe -inc_cpp "../pch.h" "%(Identity)" -legacy -client -out "%(RelativeDir)..\process\IDL"</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">nidl2cpp.exe -inc_cpp "../pch.h" "%(Identity)" -legacy -client -out "%(RelativeDir)..\process\IDL"</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">nidl2cpp.exe -inc_cpp "../pch.h" "%(Identity)" -legacy -client -out "%(RelativeDir)..\process\IDL"</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">nidl2cpp.exe -inc_cpp "../pch.h" "%(Identity)" -legacy -client -out "%(RelativeDir)..\process\IDL"</Command>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">%(RelativeDir)..\process\IDL\%(Filename).h;%(RelativeDir)..\process\IDL\%(Filename).cpp</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">%(RelativeDir)..\process\IDL\%(Filename).h;%(RelativeDir)..\process\IDL\%(Filename).cpp</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">%(RelativeDir)..\process\IDL\%(Filename).h;%(RelativeDir)..\process\IDL\%(Filename).cpp</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">%(RelativeDir)..\process\IDL\%(Filename).h;%(RelativeDir)..\process\IDL\%(Filename).cpp</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">%(RelativeDir)..\process\IDL\%(Filename).h;%(RelativeDir)..\process\IDL\%(Filename).cpp</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">%(RelativeDir)..\process\IDL\%(Filename).h;%(RelativeDir)..\process\IDL\%(Filename).cpp</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">%(RelativeDir)..\process\IDL\%(Filename).h;%(RelativeDir)..\process\IDL\%(Filename).cpp</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">%(RelativeDir)..\process\IDL\%(Filename).h;%(RelativeDir)..\process\IDL\%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">nidl2cpp.exe "%(Identity)" -legacy -client -out "$(ProjectDir)idl"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">nidl2cpp.exe "%(Identity)" -legacy -client -out "$(ProjectDir)idl"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">nidl2cpp.exe "%(Identity)" -legacy -client -out "$(ProjectDir)idl"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">nidl2cpp.exe "%(Identity)" -legacy -client -out "$(ProjectDir)idl"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">nidl2cpp.exe "%(Identity)" -legacy -client -out "$(ProjectDir)idl"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">nidl2cpp.exe "%(Identity)" -legacy -client -out "$(ProjectDir)idl"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">nidl2cpp.exe "%(Identity)" -legacy -client -out "$(ProjectDir)idl"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">nidl2cpp.exe "%(Identity)" -legacy -client -out "$(ProjectDir)idl"</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">$(ProjectDir)idl\%(Filename).h;$(ProjectDir)idl\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">$(ProjectDir)idl\%(Filename).h;$(ProjectDir)idl\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">$(ProjectDir)idl\%(Filename).h;$(ProjectDir)idl\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">$(ProjectDir)idl\%(Filename).h;$(ProjectDir)idl\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">$(ProjectDir)idl\%(Filename).h;$(ProjectDir)idl\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">$(ProjectDir)idl\%(Filename).h;$(ProjectDir)idl\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">$(ProjectDir)idl\%(Filename).h;$(ProjectDir)idl\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">$(ProjectDir)idl\%(Filename).h;$(ProjectDir)idl\%(Filename).cpp</Outputs>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">IDL compilation</Message>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">IDL compilation</Message>
@@ -965,22 +802,22 @@
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">true</BuildInParallel>
     </CustomBuild>
     <CustomBuild Include="..\TestORB\TestORB\idl\Test_V1.idl">
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">nidl2cpp.exe -inc_cpp "../pch.h" "%(Identity)" -legacy -client -out "%(RelativeDir)..\process\IDL"</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">nidl2cpp.exe -inc_cpp "../pch.h" "%(Identity)" -legacy -client -out "%(RelativeDir)..\process\IDL"</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">nidl2cpp.exe -inc_cpp "../pch.h" "%(Identity)" -legacy -client -out "%(RelativeDir)..\process\IDL"</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">nidl2cpp.exe -inc_cpp "../pch.h" "%(Identity)" -legacy -client -out "%(RelativeDir)..\process\IDL"</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">nidl2cpp.exe -inc_cpp "../pch.h" "%(Identity)" -legacy -client -out "%(RelativeDir)..\process\IDL"</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">nidl2cpp.exe -inc_cpp "../pch.h" "%(Identity)" -legacy -client -out "%(RelativeDir)..\process\IDL"</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">nidl2cpp.exe -inc_cpp "../pch.h" "%(Identity)" -legacy -client -out "%(RelativeDir)..\process\IDL"</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">nidl2cpp.exe -inc_cpp "../pch.h" "%(Identity)" -legacy -client -out "%(RelativeDir)..\process\IDL"</Command>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">%(RelativeDir)..\process\IDL\%(Filename).h;%(RelativeDir)..\process\IDL\%(Filename).cpp</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">%(RelativeDir)..\process\IDL\%(Filename).h;%(RelativeDir)..\process\IDL\%(Filename).cpp</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">%(RelativeDir)..\process\IDL\%(Filename).h;%(RelativeDir)..\process\IDL\%(Filename).cpp</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">%(RelativeDir)..\process\IDL\%(Filename).h;%(RelativeDir)..\process\IDL\%(Filename).cpp</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">%(RelativeDir)..\process\IDL\%(Filename).h;%(RelativeDir)..\process\IDL\%(Filename).cpp</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">%(RelativeDir)..\process\IDL\%(Filename).h;%(RelativeDir)..\process\IDL\%(Filename).cpp</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">%(RelativeDir)..\process\IDL\%(Filename).h;%(RelativeDir)..\process\IDL\%(Filename).cpp</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">%(RelativeDir)..\process\IDL\%(Filename).h;%(RelativeDir)..\process\IDL\%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">nidl2cpp.exe "%(Identity)" -legacy -client -out "$(ProjectDir)idl"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">nidl2cpp.exe "%(Identity)" -legacy -client -out "$(ProjectDir)idl"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">nidl2cpp.exe "%(Identity)" -legacy -client -out "$(ProjectDir)idl"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">nidl2cpp.exe "%(Identity)" -legacy -client -out "$(ProjectDir)idl"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">nidl2cpp.exe "%(Identity)" -legacy -client -out "$(ProjectDir)idl"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">nidl2cpp.exe "%(Identity)" -legacy -client -out "$(ProjectDir)idl"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">nidl2cpp.exe "%(Identity)" -legacy -client -out "$(ProjectDir)idl"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">nidl2cpp.exe "%(Identity)" -legacy -client -out "$(ProjectDir)idl"</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">$(ProjectDir)idl\%(Filename).h;$(ProjectDir)idl\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">$(ProjectDir)idl\%(Filename).h;$(ProjectDir)idl\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">$(ProjectDir)idl\%(Filename).h;$(ProjectDir)idl\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">$(ProjectDir)idl\%(Filename).h;$(ProjectDir)idl\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">$(ProjectDir)idl\%(Filename).h;$(ProjectDir)idl\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">$(ProjectDir)idl\%(Filename).h;$(ProjectDir)idl\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">$(ProjectDir)idl\%(Filename).h;$(ProjectDir)idl\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">$(ProjectDir)idl\%(Filename).h;$(ProjectDir)idl\%(Filename).cpp</Outputs>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">IDL compilation</Message>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">IDL compilation</Message>
@@ -999,22 +836,22 @@
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">true</BuildInParallel>
     </CustomBuild>
     <CustomBuild Include="..\TestORB\TestORB\idl\Test_V2.idl">
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">nidl2cpp.exe -inc_cpp "../pch.h" "%(Identity)" -legacy -client -out "%(RelativeDir)..\process\IDL"</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">nidl2cpp.exe -inc_cpp "../pch.h" "%(Identity)" -legacy -client -out "%(RelativeDir)..\process\IDL"</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">nidl2cpp.exe -inc_cpp "../pch.h" "%(Identity)" -legacy -client -out "%(RelativeDir)..\process\IDL"</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">nidl2cpp.exe -inc_cpp "../pch.h" "%(Identity)" -legacy -client -out "%(RelativeDir)..\process\IDL"</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">nidl2cpp.exe -inc_cpp "../pch.h" "%(Identity)" -legacy -client -out "%(RelativeDir)..\process\IDL"</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">nidl2cpp.exe -inc_cpp "../pch.h" "%(Identity)" -legacy -client -out "%(RelativeDir)..\process\IDL"</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">nidl2cpp.exe -inc_cpp "../pch.h" "%(Identity)" -legacy -client -out "%(RelativeDir)..\process\IDL"</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">nidl2cpp.exe -inc_cpp "../pch.h" "%(Identity)" -legacy -client -out "%(RelativeDir)..\process\IDL"</Command>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">%(RelativeDir)..\process\IDL\%(Filename).h;%(RelativeDir)..\process\IDL\%(Filename).cpp</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">%(RelativeDir)..\process\IDL\%(Filename).h;%(RelativeDir)..\process\IDL\%(Filename).cpp</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">%(RelativeDir)..\process\IDL\%(Filename).h;%(RelativeDir)..\process\IDL\%(Filename).cpp</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">%(RelativeDir)..\process\IDL\%(Filename).h;%(RelativeDir)..\process\IDL\%(Filename).cpp</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">%(RelativeDir)..\process\IDL\%(Filename).h;%(RelativeDir)..\process\IDL\%(Filename).cpp</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">%(RelativeDir)..\process\IDL\%(Filename).h;%(RelativeDir)..\process\IDL\%(Filename).cpp</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">%(RelativeDir)..\process\IDL\%(Filename).h;%(RelativeDir)..\process\IDL\%(Filename).cpp</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">%(RelativeDir)..\process\IDL\%(Filename).h;%(RelativeDir)..\process\IDL\%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">nidl2cpp.exe "%(Identity)" -legacy -client -out "$(ProjectDir)idl"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">nidl2cpp.exe "%(Identity)" -legacy -client -out "$(ProjectDir)idl"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">nidl2cpp.exe "%(Identity)" -legacy -client -out "$(ProjectDir)idl"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">nidl2cpp.exe "%(Identity)" -legacy -client -out "$(ProjectDir)idl"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">nidl2cpp.exe "%(Identity)" -legacy -client -out "$(ProjectDir)idl"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">nidl2cpp.exe "%(Identity)" -legacy -client -out "$(ProjectDir)idl"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">nidl2cpp.exe "%(Identity)" -legacy -client -out "$(ProjectDir)idl"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">nidl2cpp.exe "%(Identity)" -legacy -client -out "$(ProjectDir)idl"</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">$(ProjectDir)idl\%(Filename).h;$(ProjectDir)idl\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">$(ProjectDir)idl\%(Filename).h;$(ProjectDir)idl\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">$(ProjectDir)idl\%(Filename).h;$(ProjectDir)idl\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">$(ProjectDir)idl\%(Filename).h;$(ProjectDir)idl\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">$(ProjectDir)idl\%(Filename).h;$(ProjectDir)idl\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">$(ProjectDir)idl\%(Filename).h;$(ProjectDir)idl\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">$(ProjectDir)idl\%(Filename).h;$(ProjectDir)idl\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">$(ProjectDir)idl\%(Filename).h;$(ProjectDir)idl\%(Filename).cpp</Outputs>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">IDL compilation</Message>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">IDL compilation</Message>
@@ -1033,22 +870,22 @@
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">true</BuildInParallel>
     </CustomBuild>
     <CustomBuild Include="..\TestORB\TestORB\idl\Test_V3.idl">
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">nidl2cpp.exe -inc_cpp "../pch.h" "%(Identity)" -legacy -client -out "%(RelativeDir)..\process\IDL"</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">nidl2cpp.exe -inc_cpp "../pch.h" "%(Identity)" -legacy -client -out "%(RelativeDir)..\process\IDL"</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">nidl2cpp.exe -inc_cpp "../pch.h" "%(Identity)" -legacy -client -out "%(RelativeDir)..\process\IDL"</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">nidl2cpp.exe -inc_cpp "../pch.h" "%(Identity)" -legacy -client -out "%(RelativeDir)..\process\IDL"</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">nidl2cpp.exe -inc_cpp "../pch.h" "%(Identity)" -legacy -client -out "%(RelativeDir)..\process\IDL"</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">nidl2cpp.exe -inc_cpp "../pch.h" "%(Identity)" -legacy -client -out "%(RelativeDir)..\process\IDL"</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">nidl2cpp.exe -inc_cpp "../pch.h" "%(Identity)" -legacy -client -out "%(RelativeDir)..\process\IDL"</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">nidl2cpp.exe -inc_cpp "../pch.h" "%(Identity)" -legacy -client -out "%(RelativeDir)..\process\IDL"</Command>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">%(RelativeDir)..\process\IDL\%(Filename).h;%(RelativeDir)..\process\IDL\%(Filename).cpp</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">%(RelativeDir)..\process\IDL\%(Filename).h;%(RelativeDir)..\process\IDL\%(Filename).cpp</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">%(RelativeDir)..\process\IDL\%(Filename).h;%(RelativeDir)..\process\IDL\%(Filename).cpp</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">%(RelativeDir)..\process\IDL\%(Filename).h;%(RelativeDir)..\process\IDL\%(Filename).cpp</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">%(RelativeDir)..\process\IDL\%(Filename).h;%(RelativeDir)..\process\IDL\%(Filename).cpp</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">%(RelativeDir)..\process\IDL\%(Filename).h;%(RelativeDir)..\process\IDL\%(Filename).cpp</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">%(RelativeDir)..\process\IDL\%(Filename).h;%(RelativeDir)..\process\IDL\%(Filename).cpp</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">%(RelativeDir)..\process\IDL\%(Filename).h;%(RelativeDir)..\process\IDL\%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">nidl2cpp.exe "%(Identity)" -legacy -client -out "$(ProjectDir)idl"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">nidl2cpp.exe "%(Identity)" -legacy -client -out "$(ProjectDir)idl"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">nidl2cpp.exe "%(Identity)" -legacy -client -out "$(ProjectDir)idl"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">nidl2cpp.exe "%(Identity)" -legacy -client -out "$(ProjectDir)idl"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">nidl2cpp.exe "%(Identity)" -legacy -client -out "$(ProjectDir)idl"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">nidl2cpp.exe "%(Identity)" -legacy -client -out "$(ProjectDir)idl"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">nidl2cpp.exe "%(Identity)" -legacy -client -out "$(ProjectDir)idl"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">nidl2cpp.exe "%(Identity)" -legacy -client -out "$(ProjectDir)idl"</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">$(ProjectDir)idl\%(Filename).h;$(ProjectDir)idl\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">$(ProjectDir)idl\%(Filename).h;$(ProjectDir)idl\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">$(ProjectDir)idl\%(Filename).h;$(ProjectDir)idl\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">$(ProjectDir)idl\%(Filename).h;$(ProjectDir)idl\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">$(ProjectDir)idl\%(Filename).h;$(ProjectDir)idl\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">$(ProjectDir)idl\%(Filename).h;$(ProjectDir)idl\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">$(ProjectDir)idl\%(Filename).h;$(ProjectDir)idl\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">$(ProjectDir)idl\%(Filename).h;$(ProjectDir)idl\%(Filename).cpp</Outputs>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">IDL compilation</Message>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">IDL compilation</Message>
@@ -1067,22 +904,22 @@
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">true</BuildInParallel>
     </CustomBuild>
     <CustomBuild Include="..\TestORB\TestORB\idl\Union.idl">
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">nidl2cpp.exe -inc_cpp "../pch.h" "%(Identity)" -legacy -client -out "%(RelativeDir)..\process\IDL"</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">nidl2cpp.exe -inc_cpp "../pch.h" "%(Identity)" -legacy -client -out "%(RelativeDir)..\process\IDL"</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">nidl2cpp.exe -inc_cpp "../pch.h" "%(Identity)" -legacy -client -out "%(RelativeDir)..\process\IDL"</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">nidl2cpp.exe -inc_cpp "../pch.h" "%(Identity)" -legacy -client -out "%(RelativeDir)..\process\IDL"</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">nidl2cpp.exe -inc_cpp "../pch.h" "%(Identity)" -legacy -client -out "%(RelativeDir)..\process\IDL"</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">nidl2cpp.exe -inc_cpp "../pch.h" "%(Identity)" -legacy -client -out "%(RelativeDir)..\process\IDL"</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">nidl2cpp.exe -inc_cpp "../pch.h" "%(Identity)" -legacy -client -out "%(RelativeDir)..\process\IDL"</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">nidl2cpp.exe -inc_cpp "../pch.h" "%(Identity)" -legacy -client -out "%(RelativeDir)..\process\IDL"</Command>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">%(RelativeDir)..\process\IDL\%(Filename).h;%(RelativeDir)..\process\IDL\%(Filename).cpp</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">%(RelativeDir)..\process\IDL\%(Filename).h;%(RelativeDir)..\process\IDL\%(Filename).cpp</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">%(RelativeDir)..\process\IDL\%(Filename).h;%(RelativeDir)..\process\IDL\%(Filename).cpp</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">%(RelativeDir)..\process\IDL\%(Filename).h;%(RelativeDir)..\process\IDL\%(Filename).cpp</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">%(RelativeDir)..\process\IDL\%(Filename).h;%(RelativeDir)..\process\IDL\%(Filename).cpp</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">%(RelativeDir)..\process\IDL\%(Filename).h;%(RelativeDir)..\process\IDL\%(Filename).cpp</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">%(RelativeDir)..\process\IDL\%(Filename).h;%(RelativeDir)..\process\IDL\%(Filename).cpp</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">%(RelativeDir)..\process\IDL\%(Filename).h;%(RelativeDir)..\process\IDL\%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">nidl2cpp.exe "%(Identity)" -legacy -client -out "$(ProjectDir)idl"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">nidl2cpp.exe "%(Identity)" -legacy -client -out "$(ProjectDir)idl"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">nidl2cpp.exe "%(Identity)" -legacy -client -out "$(ProjectDir)idl"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">nidl2cpp.exe "%(Identity)" -legacy -client -out "$(ProjectDir)idl"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">nidl2cpp.exe "%(Identity)" -legacy -client -out "$(ProjectDir)idl"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">nidl2cpp.exe "%(Identity)" -legacy -client -out "$(ProjectDir)idl"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">nidl2cpp.exe "%(Identity)" -legacy -client -out "$(ProjectDir)idl"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">nidl2cpp.exe "%(Identity)" -legacy -client -out "$(ProjectDir)idl"</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">$(ProjectDir)idl\%(Filename).h;$(ProjectDir)idl\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">$(ProjectDir)idl\%(Filename).h;$(ProjectDir)idl\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">$(ProjectDir)idl\%(Filename).h;$(ProjectDir)idl\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">$(ProjectDir)idl\%(Filename).h;$(ProjectDir)idl\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">$(ProjectDir)idl\%(Filename).h;$(ProjectDir)idl\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">$(ProjectDir)idl\%(Filename).h;$(ProjectDir)idl\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">$(ProjectDir)idl\%(Filename).h;$(ProjectDir)idl\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">$(ProjectDir)idl\%(Filename).h;$(ProjectDir)idl\%(Filename).cpp</Outputs>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">IDL compilation</Message>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">IDL compilation</Message>
@@ -1101,22 +938,22 @@
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">true</BuildInParallel>
     </CustomBuild>
     <CustomBuild Include="..\TestORB\TestORB\idl\ValueBox.idl">
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">nidl2cpp.exe -inc_cpp "../pch.h" "%(Identity)" -legacy -client -out "%(RelativeDir)..\process\IDL"</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">nidl2cpp.exe -inc_cpp "../pch.h" "%(Identity)" -legacy -client -out "%(RelativeDir)..\process\IDL"</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">nidl2cpp.exe -inc_cpp "../pch.h" "%(Identity)" -legacy -client -out "%(RelativeDir)..\process\IDL"</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">nidl2cpp.exe -inc_cpp "../pch.h" "%(Identity)" -legacy -client -out "%(RelativeDir)..\process\IDL"</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">nidl2cpp.exe -inc_cpp "../pch.h" "%(Identity)" -legacy -client -out "%(RelativeDir)..\process\IDL"</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">nidl2cpp.exe -inc_cpp "../pch.h" "%(Identity)" -legacy -client -out "%(RelativeDir)..\process\IDL"</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">nidl2cpp.exe -inc_cpp "../pch.h" "%(Identity)" -legacy -client -out "%(RelativeDir)..\process\IDL"</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">nidl2cpp.exe -inc_cpp "../pch.h" "%(Identity)" -legacy -client -out "%(RelativeDir)..\process\IDL"</Command>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">%(RelativeDir)..\process\IDL\%(Filename).h;%(RelativeDir)..\process\IDL\%(Filename).cpp</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">%(RelativeDir)..\process\IDL\%(Filename).h;%(RelativeDir)..\process\IDL\%(Filename).cpp</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">%(RelativeDir)..\process\IDL\%(Filename).h;%(RelativeDir)..\process\IDL\%(Filename).cpp</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">%(RelativeDir)..\process\IDL\%(Filename).h;%(RelativeDir)..\process\IDL\%(Filename).cpp</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">%(RelativeDir)..\process\IDL\%(Filename).h;%(RelativeDir)..\process\IDL\%(Filename).cpp</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">%(RelativeDir)..\process\IDL\%(Filename).h;%(RelativeDir)..\process\IDL\%(Filename).cpp</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">%(RelativeDir)..\process\IDL\%(Filename).h;%(RelativeDir)..\process\IDL\%(Filename).cpp</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">%(RelativeDir)..\process\IDL\%(Filename).h;%(RelativeDir)..\process\IDL\%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">nidl2cpp.exe "%(Identity)" -legacy -client -out "$(ProjectDir)idl"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">nidl2cpp.exe "%(Identity)" -legacy -client -out "$(ProjectDir)idl"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">nidl2cpp.exe "%(Identity)" -legacy -client -out "$(ProjectDir)idl"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">nidl2cpp.exe "%(Identity)" -legacy -client -out "$(ProjectDir)idl"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">nidl2cpp.exe "%(Identity)" -legacy -client -out "$(ProjectDir)idl"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">nidl2cpp.exe "%(Identity)" -legacy -client -out "$(ProjectDir)idl"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">nidl2cpp.exe "%(Identity)" -legacy -client -out "$(ProjectDir)idl"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">nidl2cpp.exe "%(Identity)" -legacy -client -out "$(ProjectDir)idl"</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">$(ProjectDir)idl\%(Filename).h;$(ProjectDir)idl\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">$(ProjectDir)idl\%(Filename).h;$(ProjectDir)idl\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">$(ProjectDir)idl\%(Filename).h;$(ProjectDir)idl\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">$(ProjectDir)idl\%(Filename).h;$(ProjectDir)idl\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">$(ProjectDir)idl\%(Filename).h;$(ProjectDir)idl\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">$(ProjectDir)idl\%(Filename).h;$(ProjectDir)idl\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">$(ProjectDir)idl\%(Filename).h;$(ProjectDir)idl\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">$(ProjectDir)idl\%(Filename).h;$(ProjectDir)idl\%(Filename).cpp</Outputs>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">IDL compilation</Message>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">IDL compilation</Message>
@@ -1137,22 +974,22 @@
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="..\TestORB\TestORB\idl\PingPong.idl">
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">nidl2cpp.exe -inc_cpp "../pch.h" "%(Identity)" -legacy -client -out "%(RelativeDir)..\process\IDL"</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">nidl2cpp.exe -inc_cpp "../pch.h" "%(Identity)" -legacy -client -out "%(RelativeDir)..\process\IDL"</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">nidl2cpp.exe -inc_cpp "../pch.h" "%(Identity)" -legacy -client -out "%(RelativeDir)..\process\IDL"</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">nidl2cpp.exe -inc_cpp "../pch.h" "%(Identity)" -legacy -client -out "%(RelativeDir)..\process\IDL"</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">nidl2cpp.exe -inc_cpp "../pch.h" "%(Identity)" -legacy -client -out "%(RelativeDir)..\process\IDL"</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">nidl2cpp.exe -inc_cpp "../pch.h" "%(Identity)" -legacy -client -out "%(RelativeDir)..\process\IDL"</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">nidl2cpp.exe -inc_cpp "../pch.h" "%(Identity)" -legacy -client -out "%(RelativeDir)..\process\IDL"</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">nidl2cpp.exe -inc_cpp "../pch.h" "%(Identity)" -legacy -client -out "%(RelativeDir)..\process\IDL"</Command>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">%(RelativeDir)..\process\IDL\%(Filename).h;%(RelativeDir)..\process\IDL\%(Filename).cpp</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">%(RelativeDir)..\process\IDL\%(Filename).h;%(RelativeDir)..\process\IDL\%(Filename).cpp</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">%(RelativeDir)..\process\IDL\%(Filename).h;%(RelativeDir)..\process\IDL\%(Filename).cpp</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">%(RelativeDir)..\process\IDL\%(Filename).h;%(RelativeDir)..\process\IDL\%(Filename).cpp</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">%(RelativeDir)..\process\IDL\%(Filename).h;%(RelativeDir)..\process\IDL\%(Filename).cpp</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">%(RelativeDir)..\process\IDL\%(Filename).h;%(RelativeDir)..\process\IDL\%(Filename).cpp</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">%(RelativeDir)..\process\IDL\%(Filename).h;%(RelativeDir)..\process\IDL\%(Filename).cpp</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">%(RelativeDir)..\process\IDL\%(Filename).h;%(RelativeDir)..\process\IDL\%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">nidl2cpp.exe "%(Identity)" -legacy -client -out "$(ProjectDir)idl"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">nidl2cpp.exe "%(Identity)" -legacy -client -out "$(ProjectDir)idl"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">nidl2cpp.exe "%(Identity)" -legacy -client -out "$(ProjectDir)idl"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">nidl2cpp.exe "%(Identity)" -legacy -client -out "$(ProjectDir)idl"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">nidl2cpp.exe "%(Identity)" -legacy -client -out "$(ProjectDir)idl"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">nidl2cpp.exe "%(Identity)" -legacy -client -out "$(ProjectDir)idl"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">nidl2cpp.exe "%(Identity)" -legacy -client -out "$(ProjectDir)idl"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">nidl2cpp.exe "%(Identity)" -legacy -client -out "$(ProjectDir)idl"</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">$(ProjectDir)idl\%(Filename).h;$(ProjectDir)idl\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">$(ProjectDir)idl\%(Filename).h;$(ProjectDir)idl\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">$(ProjectDir)idl\%(Filename).h;$(ProjectDir)idl\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">$(ProjectDir)idl\%(Filename).h;$(ProjectDir)idl\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">$(ProjectDir)idl\%(Filename).h;$(ProjectDir)idl\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">$(ProjectDir)idl\%(Filename).h;$(ProjectDir)idl\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">$(ProjectDir)idl\%(Filename).h;$(ProjectDir)idl\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">$(ProjectDir)idl\%(Filename).h;$(ProjectDir)idl\%(Filename).cpp</Outputs>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">IDL compilation</Message>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">IDL compilation</Message>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">IDL compilation</Message>
@@ -1173,22 +1010,22 @@
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="..\TestORB\TestORB\idl\Test_AVT.idl">
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">nidl2cpp.exe -inc_cpp "../pch.h" "%(Identity)" -legacy -client -out "%(RelativeDir)..\process\IDL"</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">nidl2cpp.exe -inc_cpp "../pch.h" "%(Identity)" -legacy -client -out "%(RelativeDir)..\process\IDL"</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">nidl2cpp.exe -inc_cpp "../pch.h" "%(Identity)" -legacy -client -out "%(RelativeDir)..\process\IDL"</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">nidl2cpp.exe -inc_cpp "../pch.h" "%(Identity)" -legacy -client -out "%(RelativeDir)..\process\IDL"</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">nidl2cpp.exe -inc_cpp "../pch.h" "%(Identity)" -legacy -client -out "%(RelativeDir)..\process\IDL"</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">nidl2cpp.exe -inc_cpp "../pch.h" "%(Identity)" -legacy -client -out "%(RelativeDir)..\process\IDL"</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">nidl2cpp.exe -inc_cpp "../pch.h" "%(Identity)" -legacy -client -out "%(RelativeDir)..\process\IDL"</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">nidl2cpp.exe -inc_cpp "../pch.h" "%(Identity)" -legacy -client -out "%(RelativeDir)..\process\IDL"</Command>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">%(RelativeDir)..\process\IDL\%(Filename).h;%(RelativeDir)..\process\IDL\%(Filename).cpp</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">%(RelativeDir)..\process\IDL\%(Filename).h;%(RelativeDir)..\process\IDL\%(Filename).cpp</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">%(RelativeDir)..\process\IDL\%(Filename).h;%(RelativeDir)..\process\IDL\%(Filename).cpp</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">%(RelativeDir)..\process\IDL\%(Filename).h;%(RelativeDir)..\process\IDL\%(Filename).cpp</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">%(RelativeDir)..\process\IDL\%(Filename).h;%(RelativeDir)..\process\IDL\%(Filename).cpp</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">%(RelativeDir)..\process\IDL\%(Filename).h;%(RelativeDir)..\process\IDL\%(Filename).cpp</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">%(RelativeDir)..\process\IDL\%(Filename).h;%(RelativeDir)..\process\IDL\%(Filename).cpp</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">%(RelativeDir)..\process\IDL\%(Filename).h;%(RelativeDir)..\process\IDL\%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">nidl2cpp.exe "%(Identity)" -legacy -client -out "$(ProjectDir)idl"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">nidl2cpp.exe "%(Identity)" -legacy -client -out "$(ProjectDir)idl"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">nidl2cpp.exe "%(Identity)" -legacy -client -out "$(ProjectDir)idl"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">nidl2cpp.exe "%(Identity)" -legacy -client -out "$(ProjectDir)idl"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">nidl2cpp.exe "%(Identity)" -legacy -client -out "$(ProjectDir)idl"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">nidl2cpp.exe "%(Identity)" -legacy -client -out "$(ProjectDir)idl"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">nidl2cpp.exe "%(Identity)" -legacy -client -out "$(ProjectDir)idl"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">nidl2cpp.exe "%(Identity)" -legacy -client -out "$(ProjectDir)idl"</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">$(ProjectDir)idl\%(Filename).h;$(ProjectDir)idl\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">$(ProjectDir)idl\%(Filename).h;$(ProjectDir)idl\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">$(ProjectDir)idl\%(Filename).h;$(ProjectDir)idl\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">$(ProjectDir)idl\%(Filename).h;$(ProjectDir)idl\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">$(ProjectDir)idl\%(Filename).h;$(ProjectDir)idl\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">$(ProjectDir)idl\%(Filename).h;$(ProjectDir)idl\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">$(ProjectDir)idl\%(Filename).h;$(ProjectDir)idl\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">$(ProjectDir)idl\%(Filename).h;$(ProjectDir)idl\%(Filename).cpp</Outputs>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">IDL compilation</Message>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">IDL compilation</Message>
@@ -1209,22 +1046,22 @@
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="..\TestORB\TestORB\idl\Test_Comp.idl">
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">nidl2cpp.exe -inc_cpp "../pch.h" "%(Identity)" -legacy -client -out "%(RelativeDir)..\process\IDL"</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">nidl2cpp.exe -inc_cpp "../pch.h" "%(Identity)" -legacy -client -out "%(RelativeDir)..\process\IDL"</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">nidl2cpp.exe -inc_cpp "../pch.h" "%(Identity)" -legacy -client -out "%(RelativeDir)..\process\IDL"</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">nidl2cpp.exe -inc_cpp "../pch.h" "%(Identity)" -legacy -client -out "%(RelativeDir)..\process\IDL"</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">nidl2cpp.exe -inc_cpp "../pch.h" "%(Identity)" -legacy -client -out "%(RelativeDir)..\process\IDL"</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">nidl2cpp.exe -inc_cpp "../pch.h" "%(Identity)" -legacy -client -out "%(RelativeDir)..\process\IDL"</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">nidl2cpp.exe -inc_cpp "../pch.h" "%(Identity)" -legacy -client -out "%(RelativeDir)..\process\IDL"</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">nidl2cpp.exe -inc_cpp "../pch.h" "%(Identity)" -legacy -client -out "%(RelativeDir)..\process\IDL"</Command>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">%(RelativeDir)..\process\IDL\%(Filename).h;%(RelativeDir)..\process\IDL\%(Filename).cpp</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">%(RelativeDir)..\process\IDL\%(Filename).h;%(RelativeDir)..\process\IDL\%(Filename).cpp</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">%(RelativeDir)..\process\IDL\%(Filename).h;%(RelativeDir)..\process\IDL\%(Filename).cpp</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">%(RelativeDir)..\process\IDL\%(Filename).h;%(RelativeDir)..\process\IDL\%(Filename).cpp</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">%(RelativeDir)..\process\IDL\%(Filename).h;%(RelativeDir)..\process\IDL\%(Filename).cpp</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">%(RelativeDir)..\process\IDL\%(Filename).h;%(RelativeDir)..\process\IDL\%(Filename).cpp</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">%(RelativeDir)..\process\IDL\%(Filename).h;%(RelativeDir)..\process\IDL\%(Filename).cpp</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">%(RelativeDir)..\process\IDL\%(Filename).h;%(RelativeDir)..\process\IDL\%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">nidl2cpp.exe "%(Identity)" -legacy -client -out "$(ProjectDir)idl"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">nidl2cpp.exe "%(Identity)" -legacy -client -out "$(ProjectDir)idl"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">nidl2cpp.exe "%(Identity)" -legacy -client -out "$(ProjectDir)idl"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">nidl2cpp.exe "%(Identity)" -legacy -client -out "$(ProjectDir)idl"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">nidl2cpp.exe "%(Identity)" -legacy -client -out "$(ProjectDir)idl"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">nidl2cpp.exe "%(Identity)" -legacy -client -out "$(ProjectDir)idl"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">nidl2cpp.exe "%(Identity)" -legacy -client -out "$(ProjectDir)idl"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">nidl2cpp.exe "%(Identity)" -legacy -client -out "$(ProjectDir)idl"</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">$(ProjectDir)idl\%(Filename).h;$(ProjectDir)idl\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">$(ProjectDir)idl\%(Filename).h;$(ProjectDir)idl\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">$(ProjectDir)idl\%(Filename).h;$(ProjectDir)idl\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">$(ProjectDir)idl\%(Filename).h;$(ProjectDir)idl\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">$(ProjectDir)idl\%(Filename).h;$(ProjectDir)idl\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">$(ProjectDir)idl\%(Filename).h;$(ProjectDir)idl\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">$(ProjectDir)idl\%(Filename).h;$(ProjectDir)idl\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">$(ProjectDir)idl\%(Filename).h;$(ProjectDir)idl\%(Filename).cpp</Outputs>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">IDL compilation</Message>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">IDL compilation</Message>
@@ -1245,22 +1082,22 @@
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="..\TestORB\TestORB\idl\DbConnect.idl">
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">nidl2cpp.exe -inc_cpp "../pch.h" "%(Identity)" -legacy -client -out "%(RelativeDir)..\process\IDL"</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">nidl2cpp.exe -inc_cpp "../pch.h" "%(Identity)" -legacy -client -out "%(RelativeDir)..\process\IDL"</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">nidl2cpp.exe -inc_cpp "../pch.h" "%(Identity)" -legacy -client -out "%(RelativeDir)..\process\IDL"</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">nidl2cpp.exe -inc_cpp "../pch.h" "%(Identity)" -legacy -client -out "%(RelativeDir)..\process\IDL"</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">nidl2cpp.exe -inc_cpp "../pch.h" "%(Identity)" -legacy -client -out "%(RelativeDir)..\process\IDL"</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">nidl2cpp.exe -inc_cpp "../pch.h" "%(Identity)" -legacy -client -out "%(RelativeDir)..\process\IDL"</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">nidl2cpp.exe -inc_cpp "../pch.h" "%(Identity)" -legacy -client -out "%(RelativeDir)..\process\IDL"</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">nidl2cpp.exe -inc_cpp "../pch.h" "%(Identity)" -legacy -client -out "%(RelativeDir)..\process\IDL"</Command>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">%(RelativeDir)..\process\IDL\%(Filename).h;%(RelativeDir)..\process\IDL\%(Filename).cpp</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">%(RelativeDir)..\process\IDL\%(Filename).h;%(RelativeDir)..\process\IDL\%(Filename).cpp</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">%(RelativeDir)..\process\IDL\%(Filename).h;%(RelativeDir)..\process\IDL\%(Filename).cpp</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">%(RelativeDir)..\process\IDL\%(Filename).h;%(RelativeDir)..\process\IDL\%(Filename).cpp</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">%(RelativeDir)..\process\IDL\%(Filename).h;%(RelativeDir)..\process\IDL\%(Filename).cpp</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">%(RelativeDir)..\process\IDL\%(Filename).h;%(RelativeDir)..\process\IDL\%(Filename).cpp</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">%(RelativeDir)..\process\IDL\%(Filename).h;%(RelativeDir)..\process\IDL\%(Filename).cpp</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">%(RelativeDir)..\process\IDL\%(Filename).h;%(RelativeDir)..\process\IDL\%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">nidl2cpp.exe "%(Identity)" -legacy -client -out "$(ProjectDir)idl"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">nidl2cpp.exe "%(Identity)" -legacy -client -out "$(ProjectDir)idl"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">nidl2cpp.exe "%(Identity)" -legacy -client -out "$(ProjectDir)idl"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">nidl2cpp.exe "%(Identity)" -legacy -client -out "$(ProjectDir)idl"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">nidl2cpp.exe "%(Identity)" -legacy -client -out "$(ProjectDir)idl"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">nidl2cpp.exe "%(Identity)" -legacy -client -out "$(ProjectDir)idl"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">nidl2cpp.exe "%(Identity)" -legacy -client -out "$(ProjectDir)idl"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">nidl2cpp.exe "%(Identity)" -legacy -client -out "$(ProjectDir)idl"</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">$(ProjectDir)idl\%(Filename).h;$(ProjectDir)idl\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">$(ProjectDir)idl\%(Filename).h;$(ProjectDir)idl\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">$(ProjectDir)idl\%(Filename).h;$(ProjectDir)idl\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">$(ProjectDir)idl\%(Filename).h;$(ProjectDir)idl\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">$(ProjectDir)idl\%(Filename).h;$(ProjectDir)idl\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">$(ProjectDir)idl\%(Filename).h;$(ProjectDir)idl\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">$(ProjectDir)idl\%(Filename).h;$(ProjectDir)idl\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">$(ProjectDir)idl\%(Filename).h;$(ProjectDir)idl\%(Filename).cpp</Outputs>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">IDL compilation</Message>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">IDL compilation</Message>

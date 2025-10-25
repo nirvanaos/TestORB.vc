@@ -33,16 +33,11 @@
     <ClCompile Include="..\TestORB\TestSystem\TestDomains.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\TestORB\TestSystem\pch.cpp">
+    <ClCompile Include="..\TestORB\TestSystem\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\TestORB\TestSystem\TestSQLite.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\TestORB\TestSystem\pch.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
   </ItemGroup>
 </Project>

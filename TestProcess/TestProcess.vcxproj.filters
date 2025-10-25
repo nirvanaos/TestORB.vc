@@ -94,6 +94,9 @@
     <ClCompile Include="idl\ValueBox.cpp">
       <Filter>Generated</Filter>
     </ClCompile>
+    <ClCompile Include="..\TestORB\TestORB\process\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\TestORB\TestORB\process\TestORB.h">

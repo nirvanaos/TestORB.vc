@@ -315,7 +315,7 @@
       <SubSystem>NotSet</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <NoEntryPoint>true</NoEntryPoint>
-      <AdditionalDependencies>onecore_apiset.lib;clang_rt.builtins-x86_64.lib;ucrtd.lib;vcruntimed.lib;msvcrtd.lib</AdditionalDependencies>
+      <AdditionalDependencies>onecore_apiset.lib;ucrtd.lib;vcruntimed.lib;msvcrtd.lib;clang_rt.builtins-x86_64.lib</AdditionalDependencies>
       <IgnoreAllDefaultLibraries>true</IgnoreAllDefaultLibraries>
       <EnableCOMDATFolding>false</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
@@ -363,7 +363,7 @@
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <NoEntryPoint>true</NoEntryPoint>
-      <AdditionalDependencies>clang_rt.builtins-x86_64.lib;onecore_apiset.lib;ucrt.lib;vcruntime.lib;msvcrt.lib</AdditionalDependencies>
+      <AdditionalDependencies>onecore_apiset.lib;ucrt.lib;vcruntime.lib;msvcrt.lib;clang_rt.builtins-x86_64.lib</AdditionalDependencies>
       <IgnoreAllDefaultLibraries>true</IgnoreAllDefaultLibraries>
     </Link>
   </ItemDefinitionGroup>

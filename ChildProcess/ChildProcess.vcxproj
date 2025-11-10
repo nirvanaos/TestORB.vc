@@ -29,6 +29,9 @@
     <ProjectReference Include="..\..\Library.VC\Nirvana\Library\Library.vcxproj">
       <Project>{810a987d-bff4-4112-a59f-b8eae9fccd65}</Project>
     </ProjectReference>
+    <ProjectReference Include="..\..\Port\Windows\msvcstl\msvcstl.vcxproj">
+      <Project>{912c31c9-a2f1-475b-929f-1203dae1363b}</Project>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\TestORB\ChildProcess\commands.h" />
@@ -123,6 +126,8 @@
       <EnableUAC>false</EnableUAC>
       <NoEntryPoint>true</NoEntryPoint>
       <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>onecore_apiset.lib;ucrtd.lib;vcruntimed.lib;msvcrtd.lib</AdditionalDependencies>
+      <IgnoreAllDefaultLibraries>true</IgnoreAllDefaultLibraries>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">
@@ -144,6 +149,8 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableUAC>false</EnableUAC>
       <NoEntryPoint>true</NoEntryPoint>
+      <AdditionalDependencies>onecore_apiset.lib;ucrt.lib;vcruntime.lib;msvcrt.lib</AdditionalDependencies>
+      <IgnoreAllDefaultLibraries>true</IgnoreAllDefaultLibraries>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">
@@ -165,6 +172,8 @@
       <EnableUAC>false</EnableUAC>
       <NoEntryPoint>true</NoEntryPoint>
       <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>onecore_apiset.lib;ucrtd.lib;vcruntimed.lib;msvcrtd.lib</AdditionalDependencies>
+      <IgnoreAllDefaultLibraries>true</IgnoreAllDefaultLibraries>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">
@@ -186,6 +195,8 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableUAC>false</EnableUAC>
       <NoEntryPoint>true</NoEntryPoint>
+      <AdditionalDependencies>onecore_apiset.lib;ucrt.lib;vcruntime.lib;msvcrt.lib</AdditionalDependencies>
+      <IgnoreAllDefaultLibraries>true</IgnoreAllDefaultLibraries>
     </Link>
   </ItemDefinitionGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

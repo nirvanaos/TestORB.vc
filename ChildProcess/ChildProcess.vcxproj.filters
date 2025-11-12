@@ -15,15 +15,15 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\TestORB\ChildProcess\ChildProcess.cpp">
+    <ClCompile Include="..\TestORB\TestSystem\ChildProcess\ChildProcess.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\TestORB\ChildProcess\commands.cpp">
+    <ClCompile Include="..\TestORB\TestSystem\ChildProcess\commands.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\TestORB\ChildProcess\commands.h">
+    <ClInclude Include="..\TestORB\TestSystem\ChildProcess\commands.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
